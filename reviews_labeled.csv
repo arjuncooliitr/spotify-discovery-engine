@@ -1,0 +1,1197 @@
+review_id,is_about_discovery,primary_topic,discovery_subtheme,segment_signal,jtbd,verbatim_evidence,topic_sentiment,stratum,label_model
+6,False,performance_bugs,none,unknown,,Bugs and fixes. Crossfade doesn’t work on mobile and pc. And i keep getting ad’s on pc despite only listening to songs on repeat,negative,relevant,8b
+68,False,pricing,none,unknown,listen to music without paying,People shouldn’t have to pay to listen to music,negative,relevant,8b
+88,True,repetition,stale_recs,unknown,,why even have a shuffle option if it doesnt work,negative,relevant,70b
+144,False,catalog,none,unknown,,Great music. Spotify has really good sound quality and good songs,positive,relevant,8b
+159,True,repetition,stale_recs,unknown,,a little bit repetitive,neutral,relevant,70b
+204,True,discovery,discovery_works,power_user,expand music catalog,only way I was able to expand my music catalog,positive,relevant,70b
+212,True,repetition,stale_recs,unknown,,play your ten same songs,negative,relevant,70b
+230,True,ui_ux,none,unknown,more music discovery,better radio feature with random song generation for more discovery,neutral,relevant,70b
+238,True,repetition,stale_recs,power_user,,I hear the same songs all the time,negative,relevant,70b
+277,False,repetition,none,unknown,,It replays the same songs doesn’t shuffle,negative,relevant,70b
+290,False,repetition,none,unknown,,it will play the same songs in the same order sometimes,negative,relevant,70b
+312,False,repetition,none,unknown,,you get the same songs in the same order,negative,relevant,70b
+321,True,discovery,stale_recs,unknown,,"presents playlists based on when you last played them, channeling you into playing the same things over and over again",negative,relevant,70b
+345,False,repetition,none,unknown,hear varied songs,don’t here the same songs on your playlist,negative,relevant,8b
+359,True,discovery,niche_genre_gap,unknown,,a true weekly offering of every new ALBUM not just singles of new music across genres,negative,relevant,70b
+367,True,discovery,discovery_works,unknown,,makes discovering new music feel effortless,positive,relevant,70b
+431,False,ui_ux,none,premium_user,,they removed the heart for whatever reason,negative,relevant,70b
+434,False,ui_ux,none,unknown,easily add songs to playlists,can’t quickly add songs to a playlist,negative,relevant,8b
+436,False,ads,none,unknown,listen to music ad-free,"watch the many ads, which also show up every 5 songs",negative,relevant,8b
+440,False,social,none,unknown,listen to music with friends,love this feature but recently it's been a little buggy,neutral,relevant,8b
+441,False,performance_bugs,none,unknown,use app without crashes,this app has been crashing on everyone,negative,relevant,8b
+442,False,performance_bugs,none,unknown,listen to music without interruptions,the songs will randomly stop playing,negative,relevant,8b
+443,False,ads,none,unknown,listen to music ad-free,two minutes worth of ads after only two songs,negative,relevant,8b
+445,False,ads,none,unknown,listen to music with minimal ads,Calm down with the long commercials,negative,relevant,8b
+449,False,performance_bugs,none,power_user,listen to music without app crashing,"app kept crashing, and then I would use up all six of my skips",negative,relevant,8b
+450,False,pricing,none,free_user,listen to music without restrictions,,negative,relevant,8b
+451,False,ui_ux,none,power_user,use app without frustrating features,"smart shuffle are numerous, but I’ll just name the main ones",negative,relevant,8b
+453,False,performance_bugs,none,power_user,listen to music without bugs,shuffle it has increasingly gotten worse over the years,negative,relevant,8b
+454,False,ui_ux,none,power_user,use app with more customization,more customization with the quick swiping right or left on a song,positive,relevant,8b
+455,False,pricing,none,free_user,listen to music without paying,I wish you could select songs (not have to listen on shuffle every time) and listen offline without paying,negative,relevant,8b
+456,False,ui_ux,none,free_user,listen to music without restrictions,"why do you add songs to the albums? not my playlists, actual albums",negative,relevant,8b
+457,False,pricing,none,free_user,listen to music without restrictions,"If I search for a song and press on it, I won’t be able to listen to that song, only other songs similar to it",negative,relevant,8b
+459,False,ui_ux,none,power_user,use app with more features,a delete button on the playlists tab,neutral,relevant,8b
+465,True,discovery,stale_recs,unknown,,now this new “enhance” has me listening to songs I already listensed too,negative,relevant,70b
+466,False,performance_bugs,none,power_user,listen to music without app exiting,the app will randomly exit out and stop playing music,negative,relevant,8b
+471,False,ads,none,free_user,listen to music without annoying ads,I’ve been listening to the same ads on repeat for weeks,negative,relevant,8b
+939,False,other,none,unknown,,Perfect algorithms really top quality ‼️❤️,positive,relevant,8b
+957,False,performance_bugs,none,free_user,listen to music on repeat,just let me repeat a song for free,negative,relevant,8b
+959,True,discovery,discovery_works,unknown,find new songs,easy ways to find new songs,positive,relevant,70b
+979,False,performance_bugs,none,unknown,,Bugs or issues,negative,relevant,70b
+1049,True,discovery,discovery_works,unknown,discover new artists,introduces new artists,positive,relevant,70b
+1093,True,discovery,stale_recs,unknown,discover new artists,poor discoverability of new artists,negative,relevant,70b
+1115,False,catalog,none,unknown,access international music,Best collection of international music library,positive,relevant,8b
+1159,False,recommendation_quality,none,unknown,,My algorithms are perfect for every mood,positive,relevant,8b
+1167,True,discovery,stale_recs,unknown,discover new content,Trop de redondance,negative,relevant,70b
+1184,False,other,none,unknown,,I love Spotify !,positive,relevant,70b
+1188,False,other,none,unknown,support musicians,musicians received more financial return,neutral,relevant,8b
+1209,True,discovery,discovery_works,unknown,find new songs,Always sharing with me great new songs,positive,relevant,70b
+477,False,performance_bugs,none,premium_user,listen to music without ads,I created this playlist so I can only listen to the songs ON THE PLAYLIST. IF I WANTED GO DISCOVER NEW SONGS THEN I WOULDNT BE LISTENING TO SONGS ON MY PLAYLIST.,negative,relevant,8b
+478,False,repetition,none,free_user,listen to music without ads,In exchange I listen to 3 or so commercials per song. And let me tell you they are the same commercials.,negative,relevant,8b
+479,False,performance_bugs,none,premium_user,listen to specific songs,"it comes up as an album for each song i want that i search for.  i cant just listen to that song, and its not like i can repeat the song like i used to be able 2.",negative,relevant,8b
+480,True,discovery,discovery_works,power_user,discover new music,Great way to discover new music,positive,relevant,70b
+481,False,performance_bugs,none,premium_user,listen to music without smart shuffle issues,Trying to put my playlist on shuffle is super annoying because smart shuffle comes right beforehand.,negative,relevant,8b
+482,False,ads,none,free_user,listen to music without ads,first off im a mobile user and u guys really need to chill on the adds like 2 min adds r u seriously being fr,negative,relevant,8b
+484,False,pricing,none,premium_user,get premium subscription,"I’ve been a loyal customer for over 10 years, and this month they hit a new low by triple-billing me.",negative,relevant,8b
+488,False,performance_bugs,none,premium_user,fix listening history feature,"Sometimes when I’m listening to one of those mixes, something will play that I love, and I’ll listen to that one track for the rest of the day.",neutral,relevant,8b
+489,False,performance_bugs,none,premium_user,listen to specific songs,songs that I’ve played a lot ie the songs I really like just don’t play.,negative,relevant,8b
+490,False,performance_bugs,none,premium_user,listen to music without app issues,,negative,relevant,8b
+492,True,discovery,discovery_works,power_user,discover new music,useful for discovering new music,positive,relevant,70b
+493,True,discovery,stale_recs,free_user,get relevant music suggestions,,negative,relevant,70b
+502,False,performance_bugs,none,premium_user,listen to music without bugs,"It often happens when your phone screen is locked, and sometimes when you open your phone and go to the app it has completely crashed, other times it has just paused it for some reason.",negative,relevant,8b
+503,False,repetition,none,premium_user,listen to new music,The mixes only give you repeat music and so does the DJ… I hate that — if I wanted to listen to all my favorites songs that’s what I would do!,negative,relevant,8b
+504,False,pricing,none,free_user,listen to music without restrictions,I really do like this app and it’s cool music but I have one problem with it. People that don’t have a premium membership (have a free plan) are only able to play songs by shuffle playing.,negative,relevant,8b
+505,False,ui_ux,none,premium_user,use app without frustration,,negative,relevant,8b
+506,False,pricing,none,free_user,listen to music without restrictions,"I feel the fact that you can't purchase premium through the actual app and instead have to go to a whole other website is just complex, and this is just my opinion but I dislike the fact that there is not really much you give to the people who don’t have premium, we can't loop songs, we can't make a playlist without 8 other songs being added to it, etc.",negative,relevant,8b
+507,False,performance_bugs,none,premium_user,listen to music without bugs,"I can’t play the next song in my playlist. I try restarting my phone, PC, anything, and it keeps screwing up.",negative,relevant,8b
+510,False,ads,none,free_user,listen to music without ads,"the ads are insufferably annoying. the ads play way too often, it seems like every three songs  four 30 second ads play, and they're extremely loud too",negative,relevant,8b
+511,False,ui_ux,none,premium_user,use app without frustration,,negative,relevant,8b
+513,False,performance_bugs,none,premium_user,listen to music without bugs,"I have a personal playlist I created that is almost 40 hours long. I drive trucks for a living so I have long periods of time that I can listen to music everyday. Hypothetically, I should be able to listen to this playlist I created for 10 days straight without hearing the same song again but often when I come back to play it again after a break I will hear the same songs often repeated in the shuffle play the next day.",negative,relevant,8b
+517,False,ads,none,free_user,listen to music without ads,"Way to many ads. It gives an ad every after song, but I use the method we all know of by now to just get rid of them, but it’s annoying, and then it gives me the same ads over and over even though I give it a thumbs down and report it for “seen too many times” and “not relevant to me” and “I just don’t like the ad” and it says it’ll be used to improve my ad recommendations, but I still get the same ads.",negative,relevant,8b
+520,False,ui_ux,none,premium_user,use app without frustration,"The number one thing I hate about this update is the fact that anytime I pick a song, shuffle turns off. It's literally a joke that I have to turn it on every time I pick a new song.",negative,relevant,8b
+521,False,ui_ux,none,premium_user,use app without frustration,I do not like this update personally. I know it seems easier to use but it is not because all the stuff I listen to are now in weird places and it recommends podcasts and musicians who I do not listen to.,negative,relevant,8b
+579,False,repetition,none,premium_user,listen to music without distractions,"If I want to find new music I'll go look for it. I don't want to be doing my schoolwork, listening to songs that help me stay focused, and all of a sudden get distracted by wondering what the heck this song is.",negative,relevant,8b
+582,True,performance_bugs,discovery_works,premium_user,get high-quality music,I love the music that I’ve discovered,positive,relevant,70b
+585,False,recommendation_quality,none,premium_user,find new music,Now I struggle to get anything but the same music I already have in several playlists and music I’m not interested in at all.,negative,relevant,8b
+586,False,ui_ux,none,free_user,listen to music without distractions,"Once it’s done with your songs, it plays some recommended songs, aka songs that aren’t in my playlist, aka songs I don’t want to listen to.",negative,relevant,8b
+588,False,ads,none,unknown,listen to music without ads,You get 2-3 songs then it plays the same 5 ads over and over.,negative,relevant,8b
+589,False,ui_ux,none,power_user,organize playlists,You can no longer Organize the playlist,negative,relevant,70b
+590,True,discovery,discovery_works,unknown,discover new music,daily mixes! The app gives you daily playlists,positive,relevant,70b
+591,False,pricing,none,free_user,listen to music without ads,Perfect for listening to music but you do need to pay if you don’t want to have to listen to adds all the time.,neutral,relevant,8b
+593,True,repetition,stale_recs,free_user,control music playback,,negative,relevant,70b
+595,False,ui_ux,none,premium_user,listen to music without distractions,,negative,relevant,8b
+596,False,ui_ux,none,premium_user,listen to music without distractions,Why can I not see radio/recommended songs when I click on “songs recommended”? Literally who in their right mind ASK to try to see the radio and we see the SEARCH BAR?,negative,relevant,8b
+597,False,ui_ux,none,premium_user,listen to music without distractions,"I love my discovery playlist so I need the heart button back because I need to know which songs I love, not only the ones I add to a playlist (which okay it goes automatically to liked songs HOWEVER)",negative,relevant,8b
+604,False,pricing,none,premium_user,listen to music without ads,"If you’re planning on paying the premium fee, then move on",negative,relevant,8b
+616,False,ui_ux,none,power_user,find music quickly,I was at a red light and can find a song within 5 seconds,negative,relevant,8b
+617,False,performance_bugs,none,free_user,play a single song,"If you want to play just one song, chances are, it will play a totally different song that you didn’t want to hear",negative,relevant,8b
+619,False,pricing,none,free_user,listen to specific songs,when you are looking for a specific song because again with out premium you can’t just pick a song to start listening to,negative,relevant,8b
+629,False,pricing,none,premium_user,listen to music without ads,"if you don’t have premium, it’s not As good",positive,relevant,8b
+630,False,performance_bugs,none,free_user,listen to specific songs,I got this app a few days ago and it was fine at first but then it updated into not letting you play the song that you want and only give a preview of it,negative,relevant,8b
+631,False,performance_bugs,none,premium_user,listen to music in order,"Only on two of my playlists, when organized by ARTIST, they don’t play in song order",negative,relevant,8b
+634,False,ads,none,free_user,listen to podcasts without ads,Every single time I listen to a podcast that has ads in it the ads repeat over and over again,negative,relevant,8b
+635,False,ui_ux,none,unknown,improve playlist management,defeats the purpose of different playlists,negative,relevant,70b
+644,False,ads,none,free_user,listen to music without ads,You keep adding more and more ads,negative,relevant,8b
+649,False,ui_ux,none,premium_user,listen to music without ads,"I’m fine that there’s only six skips per hour, but I would like if it said what current skip I was on",neutral,relevant,8b
+650,False,catalog,none,premium_user,,Being allowed to listen to all this wonderful Country Gospel music lifts my heart and makes me realize how truly blessed I am.,positive,relevant,8b
+657,False,ads,none,premium_user,,Four ads every 15 minutes is ridiculous.,negative,relevant,8b
+659,False,ui_ux,none,premium_user,,"One, the app choices certain songs to play instead of actually randomizing it.",negative,relevant,8b
+660,False,performance_bugs,none,premium_user,,"My favorite app but…. I strongly dislike the smart shuffle feature, and how it turns itself on randomly.",negative,relevant,8b
+667,False,ads,none,premium_user,,"They’re making it almost as unusable as possible for people who don’t have premium, like now there is a lyric limit?",negative,relevant,8b
+679,False,repetition,stale_recs,premium_user,,I am really starting to hate this music app.  I have 6 lists.  All with the same songs on each.,negative,relevant,8b
+680,False,ui_ux,none,premium_user,,Any preferences you have will be completely ignored if you connect your device to any other speaker.,negative,relevant,8b
+681,False,podcasts,none,unknown,,"I stumbled upon this podcast a few months ago, and I must say, it has been a game-changer.",positive,relevant,8b
+684,True,repetition,stale_recs,premium_user,get music recommendations that fit my taste,my daily mixes have their music shuffled into my own or are completely their music,negative,relevant,70b
+687,False,performance_bugs,none,premium_user,,I can use up 15 hrs in less than 2 weeks and not always finish the book,negative,relevant,8b
+691,False,ui_ux,none,free_user,,"However, there are quite a few cons. First, you can't listen to a thirty second preview of new songs, which saved lots of time.",neutral,relevant,8b
+692,False,ui_ux,none,premium_user,,"For queues, whenever I press shuffle it does shuffle the songs, but only about once every 2 or 3 weeks.",negative,relevant,8b
+696,False,repetition,none,free_user,listen to music,"I haven't been able to even TRY to listen to a song, looking it up will only prompt a message about needed premium if I want to pick a song...",negative,relevant,8b
+710,False,ads,none,free_user,listen to music,Too many adds. Don’t get me wrong this is a great place to listen to music but there are so many adds.,negative,relevant,8b
+714,False,recommendation_quality,none,premium_user,listen to music,Please remove smart shuffle. This smart recommendation songs shuffle is the worst training model I have ever met.,negative,relevant,8b
+716,True,discovery,discovery_works,premium_user,discover new music,,positive,relevant,70b
+717,False,ads,none,free_user,listen to music,I just feel its rlly unfair to have so many ads piled onto people who cant afford or choose not to use premium and get a low experience as the premium people,negative,relevant,8b
+718,False,ads,none,premium_user,listen to music,,negative,relevant,8b
+721,True,discovery,discovery_works,premium_user,get music recommendations that fit my taste,the algorithm is awesome sauce!,positive,relevant,70b
+729,False,repetition,none,free_user,listen to music,It used to be a fun nice app that i actually enjoyed. I got over the recommended songs pretty quick but it used to be every 30 minutes you would get a 1 minute ad.,negative,relevant,8b
+730,False,performance_bugs,none,free_user,listen to music,The ad that tells us as people “ now u will enjoy 30 minutes of uninterrupted listening” that end ends at 3-4 seconds!! it lasts for 10 seconds altogether.,negative,relevant,8b
+735,False,ui_ux,none,free_user,listen to music,So I can't play whatever I want on an app on my phone without paying premium?? It’d be tight if I can play whatever I want on my phone.,negative,relevant,8b
+736,False,catalog,none,free_user,listen to music,even if you have the shuffle option on you’ll continue to only hear 50-70 songs until it restarts again.,neutral,relevant,8b
+739,False,performance_bugs,none,free_user,listen to music,"Whenever I search up a song that I would like to just simple listen to from the search bar, it plays a completely different one!",negative,relevant,8b
+743,False,ui_ux,none,unknown,"send anonymous feedback, delete songs from playlists, organize playlists, folders, consistent daily mixes","1. You need a place where users can easily send anonymous feedback on the app or at least your website. I hate having to do so in a review, but oh well! 2. PLEASE make songs deletable from play lists by clicking the ellipses menu button on the song (much like you would to add it  to a Playlist in the first place). With no search function in the ""edit"" view of your Playlists, and no great way to organize them pre-edit on the phone app, it is a PAIN to delete songs from long Playlists.",negative,relevant,8b
+746,False,performance_bugs,none,power_user,"add music without errors, smart shuffle works correctly",,negative,relevant,8b
+751,False,catalog,stale_recs,niche_taste,listen to specific artist's music,"When I request an artist that has hundreds of songs released on multiple albums over several decades, I should here that specific artists music for several hours at least.  Not music that your algorithm thinks I might like",negative,relevant,8b
+756,False,pricing,none,free_user,"listen to specific songs, skip songs, choose specific songs",I’m allowed ONLY 6 skips and then I have to wait a whole HOUR to get more. Usually it takes more than 6 skips to get to the song I want.,negative,relevant,8b
+764,False,ads,none,unknown,listen to music without issues,"the overall layout of the app is clunky and it keeps randomly removing songs from my library (which is actually a ‘liked songs’ playlist and not actually a library, which is kind of annoying) and in downloading certain songs at random, forcing me to download them again later.",negative,relevant,8b
+766,False,catalog,stale_recs,unknown,"listen to specific artist's music, find lesser known artists","All songs?. It’s an awesome app to listen to music, but you can’t see all the songs by an artist. Only the most popular and latest release. That makes it almost impossible to find some songs.",negative,relevant,8b
+771,False,ui_ux,none,power_user,"add music to personal playlists quickly, organize playlists","I would absolutely love it if there was a faster option to add music to your own PERSONAL playlist, as I love to create my own personal playlist for family and friends to listen to.",positive,relevant,8b
+772,False,social,none,unknown,share music with people from different countries and backgrounds,This is a great way to get my friends music and my own music in front of people who are not local or in my community and a really cool community to have associated with and share their songs and support each other’s efforts to make it possible to get more listeners.,positive,relevant,8b
+773,False,performance_bugs,none,unknown,shuffle play works correctly,Don’t list your features as shuffle play when you’ve established a set playlist. I tested your forces “shuffle play” mode and when I switched between stations and then switched back it was the same song and not only that but it was the same place in the song.,negative,relevant,8b
+777,False,ui_ux,none,unknown,listen to playlists on repeat without suggested songs,"Yeah the app is nice, I like the fact that it’s not just the originals that they show. But I would deeply appreciate it if they'd stop playing suggested songs. Idc if my playlists is short, maybe I want it that way.",negative,relevant,8b
+783,False,ui_ux,none,unknown,"edit recently played, clear unnecessary playlists",I tend to accidentally hit play on random playlists or even a podcast. If you could bring back the option to edit your recently played on the mobile app that would be highly appreciated.,negative,relevant,8b
+784,False,pricing,none,premium_user,listen to music without issues,"I’ve had premium for over a year, and I’ve loved it. However, it recently came to my attention that I’ve been charged twice a month for my subscription.",negative,relevant,8b
+785,False,catalog,none,unknown,access a list of an artist's songs,"Unless you search up a song in specific, listen to their albums/singles or check their discovery page to see their top 5 songs, (from my knowledge) you just don’t have access to a list of their songs.",negative,relevant,8b
+788,False,performance_bugs,none,power_user,listen to music without repetition,the only thing that would be cool to update a little is how frequently the same songs play when I listen to my play lists.,positive,relevant,8b
+791,False,other,none,unknown,sing along to music with lyrics,,negative,relevant,70b
+792,False,ui_ux,none,new_user,create an account,I downloaded the app but for some reason I can’t make an account.,neutral,relevant,8b
+794,True,discovery,discovery_works,unknown,discover new music,I’m always here for new content and new music,positive,relevant,70b
+795,False,performance_bugs,none,power_user,listen to music without repetition,The way the playlist radio functions is absolute garbage unless you pay for premium.,negative,relevant,8b
+796,True,discovery,discovery_works,unknown,easily add new songs to playlist,I LOVE the enhance feature,positive,relevant,70b
+800,False,pricing,none,free_user,buy premium,"The only problem I really have it buying premium it’s self, you guys acknowledged it’s not ideal that you can’t buy it in the app but only on website.",neutral,relevant,8b
+802,False,ads,none,free_user,listen to music,"Too many ads. I hate it when the app glitches and gives me a ""30 minutes ad free listen"" ad, followed by 3 more regular ads and NO 30 minutes ad free listening.",negative,relevant,8b
+815,False,ads,none,free_user,listen to music,,negative,relevant,8b
+817,False,performance_bugs,none,power_user,listen to music,Recent updates are ruining the app. Smart shuffle is the worst feature I’ve ever had the misfortune of having to deal with.,negative,relevant,8b
+819,False,ui_ux,none,power_user,listen to music,Slowly becoming worse. I used to enjoy using the app way more than I do now.,negative,relevant,8b
+820,False,performance_bugs,none,premium_user,listen to music without bugs,"The app was great up until the update came out. It completely changed the playlist layout, they removed the “queue” button along with the “up next” button, you can’t view and remove the songs added with enhance and there is no longer a button to turn off enhance at all.",negative,relevant,8b
+821,False,performance_bugs,none,premium_user,listen to music without bugs,When downloading with the watch connected to a phone it for some reason just forever shows the downloading circle looping but never downloads the music.,negative,relevant,8b
+826,False,ui_ux,none,premium_user,find music in saved collection,"The newest update changed the path taken from the “Recently Played” icons, which used to send you to your saved collection of that artist’s work.",negative,relevant,8b
+843,False,repetition,none,premium_user,listen to specific playlist without interruptions,"The recommended songs they force into the playlist, for me it honestly ruins the whole vibe of the current playlist I am listening to.",negative,relevant,8b
+849,False,ads,none,free_user,listen to music without ads,"So I do, and it still doesn’t work. Two, the actual app has way too many ads, for example there is one that says “Tap now to get 30 minutes with no ads” so obviously I click it while thing ends, I listen to my song, and boom. Ad. Right there in the middle of my listening.",negative,relevant,8b
+852,False,ui_ux,none,premium_user,find music in saved collection,"By only being able to preview my profile, I can’t easily see which playlists I have made public.",negative,relevant,8b
+863,False,performance_bugs,none,premium_user,listen to music without bugs,"I had a premium account and out of nowhere, although I keep all my apps updated and my iOS system on my XR updated, auto play just decides not to work or work only sometimes.",negative,relevant,8b
+864,False,repetition,none,free_user,listen to music without interruptions,When I play a playlist it sometimes will start playing other songs even before the playlist has played all the songs.,neutral,relevant,8b
+865,True,discovery,discovery_works,premium_user,discover new music,Finding new music is easier than Apple Music,positive,relevant,70b
+867,False,repetition,none,premium_user,listen to specific playlist without interruptions,"I love to listen to my likes songs, but it is hard to enjoy it because at the end of my playlist, it plays suggested tracks which are usually inappropriate or dark.",negative,relevant,8b
+868,False,performance_bugs,none,free_user,listen to music without bugs,"If I put songs into a playlist, it won't let me listen to them until it has played at least 4 other recommended songs.",negative,relevant,8b
+882,False,performance_bugs,none,premium_user,listen to music without bugs,"When reordering songs in the queue by dragging, they will flicker and the page refuses to scroll, making it very hard to reorder them.",negative,relevant,8b
+885,False,performance_bugs,none,premium_user,listen to music without frustration,"The last couple of updates are nothing more than a nuisance! I used to love this app, I didn’t care if it was on a premium account or free but the last few updates made using the app a little unbearable in a few ways.",negative,relevant,8b
+887,False,pricing,none,free_user,listen to music without ads,"The idea and concept of a free app to listen to an extremely large and vast catalog of music is very swell, yet there are just too many advertisements.",negative,relevant,8b
+897,False,performance_bugs,none,power_user,listen to own playlists,"I keep trying to play my playlist, but each time I do it just plays a song that’s not even on it, and just says “Playing recommended song”.",negative,relevant,8b
+899,False,ui_ux,none,premium_user,enjoy music without frustration,For a music app—the usability of this app has actually become worse and a hindrance to the enjoyment of music.,negative,relevant,8b
+903,False,ads,none,free_user,listen to music without ads,I also really hate how if i dislike a ad you keep on playing it over and over again like your trying to get a bad rating.,negative,relevant,8b
+910,False,repetition,none,new_user,listen to music without repetition,"I can’t tell you how much I absolutely love having three different options of shuffle that play the exact same songs not in the same order, but every single morning the same six songs play there’s seven other songs that play.",negative,relevant,8b
+913,False,performance_bugs,none,power_user,enjoy music without frustration,The pure listening experience is shot. The shuffle feature is completely broken.,negative,relevant,8b
+915,False,recommendation_quality,none,premium_user,listen to music without frustration,This app has ALL of my favorite music and it’s easy enough to navigate.,positive,relevant,8b
+923,False,performance_bugs,none,free_user,listen to music without bugs,the songs i tried to play it just stops at 9 seconds no matter what song it is or playlist it just keeps stopping,negative,relevant,8b
+925,False,ui_ux,none,free_user,listen to music without frustration,I wish you could add like a previous track button i don't want to listen to another 69 tracks just to go back to that song.,negative,relevant,8b
+926,False,recommendation_quality,none,free_user,listen to music without frustration,I don’t have Premium and I don’t plan on getting it mainly because it works so much better on my computer.,neutral,relevant,8b
+929,False,recommendation_quality,none,power_user,listen to music without frustration,"The app is typically pretty spot-on with recommendations, but I am now getting tons of “songs” that are really just nature sounds because I have a short sleep playlist I shuffle at night.",negative,relevant,8b
+1271,False,repetition,none,unknown,,"always funnels to the most listened too, and therefore leads you to a bunch of AI top popularity remix music, rather than introducing you to artists that play real instruments that you may have not heard of",negative,relevant,8b
+1278,False,repetition,none,unknown,,Shuffle plays the same songs over and over I like Britney and three days grace but that isn’t all i want to listen too with over 2500+ songs Britney and Three Days Grace aren’t the only ones on my play list and they have more then 3 songs too ,negative,relevant,8b
+1281,False,ads,none,free_user,listen to music ad-free,I get almost NO ADS,positive,relevant,70b
+1317,False,repetition,none,free_user,,"Songs are too repetitive, playlists are too repetitive, and not imaginative",negative,relevant,8b
+1367,True,discovery,discovery_works,unknown,find new music and podcasts,Spotify new music and podcasts,positive,relevant,70b
+1370,False,performance_bugs,none,unknown,,it wouldn’t let me because of smart shuffle,negative,relevant,8b
+1407,True,discovery,discovery_works,unknown,find new songs,great for new songs playlists,positive,relevant,70b
+1413,False,repetition,none,unknown,,"Shuffle and using DJ AI, really just ends up playing all the music in my saved playlists and not really shuffling more / new music",negative,relevant,8b
+1416,False,repetition,none,premium_user,,Always listening to the same 50 songs on loop,negative,relevant,8b
+1420,True,discovery,discovery_works,unknown,discover new music,Nice prediction algorithm,positive,relevant,70b
+1448,True,repetition,stale_recs,unknown,get diverse music recommendations,algorithm pushes for a specific artist,negative,relevant,70b
+1468,False,repetition,none,unknown,,Seems like there’s algorithms for some songs and they play more frequently than other songs,negative,relevant,8b
+1535,False,repetition,none,unknown,,why would you add smart shuffle SPOTIFY GIVE FREE USERS HUMAN RIGHTS BRO,negative,relevant,8b
+1538,False,repetition,none,unknown,,"Stop adding random songs that i might like in my playlist, if i wanted to discover music id put shuffle in a random playlist that ive never heard before.",negative,relevant,8b
+1601,False,performance_bugs,none,unknown,,Your app sucks now u removed the button where i can check new release albums and singles,negative,relevant,8b
+1603,False,ui_ux,none,unknown,,This new algorithm and set up for music/podcasts is horrible and confusing.,negative,relevant,8b
+1629,True,repetition,stale_recs,free_user,listen to music without limits,I HATE the limit of 6 shuffles an hour,negative,relevant,70b
+1661,False,ui_ux,none,unknown,,,negative,relevant,8b
+1663,False,ui_ux,none,premium_user,,The recent change to the discover page is horrible.,negative,relevant,8b
+1671,False,repetition,none,unknown,,Dumb smart shuffle. Just keep the enhance option like it was before on the mobile app.,negative,relevant,8b
+1734,False,performance_bugs,none,unknown,,App closes. I uninstalled and installed the app over and over checked all my settings see if that was the problem but no.,negative,relevant,8b
+1783,False,performance_bugs,none,unknown,,Pretty damn annoying that my songs are buffering when they are downloaded already… you are in offline mode - it’s not that complicated.,negative,relevant,8b
+1786,True,discovery,search_fails,unknown,find new music easily,New music hard to find,negative,relevant,70b
+1791,False,repetition,none,unknown,,stop giving me the same songs in my playlist and stop constantly raising the price of premium bruh.,negative,relevant,8b
+1804,True,discovery,stale_recs,premium_user,find new music,The discover weekly playlist used to be unmatched for me,negative,relevant,70b
+1810,False,pricing,none,unknown,,Good algorithm but the lowest cost option is overpriced and the free version is absolute garbage,negative,relevant,8b
+1845,False,recommendation_quality,none,premium_user,,"Audio quality is trash, algorithm misses the mark for me every single time",negative,relevant,8b
+1861,True,discovery,none,unknown,easily find new releases,"I want an easy, clear list of new songs from the artists I actually listen to",negative,relevant,70b
+1866,False,pricing,none,free_user,,im too broke to afford premium,negative,relevant,8b
+1894,False,ui_ux,none,unknown,,I don’t want to listen to whatever you think i want to. I want to listen to what i know i want to listen to,negative,relevant,8b
+1908,False,social,none,unknown,,I am very disappointed with Spotify’s ethics: it’s complicity in the Palestinian genocide and the very little that gets paid to artists,negative,relevant,8b
+1914,False,performance_bugs,none,premium_user,,The quality of this app has been on a steady downward curve since these new features,negative,relevant,8b
+1926,False,ads,none,unknown,,2-3 AI “artists” garbage making its way into our discover weekly,negative,relevant,8b
+1929,False,performance_bugs,none,premium_user,,There's a bug for when I click on the image to put it on repeat or anything else it doesn't put it like normal,negative,relevant,8b
+1958,False,ui_ux,none,unknown,,You could be little bit more generous. Not allowing people to go backwards in order to listen the same song again is ridiculous,negative,relevant,8b
+1961,False,performance_bugs,none,unknown,,The same songs just play on repeat when I shuffle a playlist.. fix your shuffle feature and make it actually random,negative,relevant,8b
+1965,False,pricing,none,premium_user,get money back,I couldn’t get ahold of anyone to rectify the situation and get my money back.,negative,relevant,8b
+1991,False,catalog,none,unknown,view year in review,Wrapped should ALWAYS have the number of new songs we listened to that year,negative,relevant,8b
+1993,False,ui_ux,none,power_user,filter autoplay,there isn't a setting that lets you filter autoplay to only your followed podcasts,negative,relevant,8b
+2008,False,ads,none,premium_user,stream music,the ads are too frequent (Every 2-3 songs),neutral,relevant,8b
+2011,False,recommendation_quality,none,premium_user,listen to specific music genre,The algorithm that recommends music to you is not great,negative,relevant,8b
+2012,False,performance_bugs,none,unknown,listen to music,The shuffle can just give the same songs over and over again,negative,relevant,8b
+2072,False,performance_bugs,none,unknown,listen to playlist,"When you have a playlist for some reason, the shuffle plays the same songs before you go through the whole playlist",negative,relevant,8b
+2119,True,discovery,no_control,unknown,find new artists without AI,There should be a setting to exclude the AI songs from the suggestions,negative,relevant,70b
+2142,False,performance_bugs,none,premium_user,listen to music on repeat,"Please re-add the repeat button, it’s a pain having to keep adding a song to que just to listen to it on repeat",negative,relevant,8b
+2153,False,catalog,none,unknown,listen to music,More repetitive than radio,negative,relevant,8b
+2177,True,discovery,discovery_works,unknown,discover new music,Spotify just has a better algorithm for discovering new music,positive,relevant,70b
+2179,False,performance_bugs,none,unknown,listen to music,And repeats.  Too expensive. Disliking a song on release radar does nothing,negative,relevant,8b
+2183,False,performance_bugs,none,premium_user,listen to music,There’s two problems with Spotify: it keeps crashing and you need premium for almost everything if your on a phone.,negative,relevant,8b
+2228,False,performance_bugs,none,power_user,listen to music,The bloat and AI slop is getting out of hand.,negative,relevant,8b
+2236,False,pricing,none,premium_user,listen to music,"I can’t use Spotify much anymore, I’m no longer allowed to skip back to a different song (the arrows on the bottom)",negative,relevant,8b
+2296,True,discovery,discovery_works,premium_user,discover new music,"The playlists, Discover Weekly, and Spotify Wrapped never miss - it always knows my vibe",positive,relevant,70b
+2350,True,repetition,stale_recs,unknown,listen to new music,listen to the same thing over and over again,negative,relevant,70b
+2365,True,repetition,stale_recs,unknown,improve music shuffle,repeat songs a lot,negative,relevant,70b
+2403,True,discovery,discovery_works,unknown,discover new music,,positive,relevant,70b
+2406,False,ads,none,free_user,listen to music without ads,too many ads,negative,relevant,70b
+2412,False,ui_ux,none,unknown,organize music playlists,save the new one and remove the old one,neutral,relevant,70b
+2414,True,ui_ux,none,premium_user,pin multiple playlists,PLEASE let us pin MORE then four playlists!,positive,relevant,70b
+2415,False,recommendation_quality,none,power_user,listen to podcasts,I am absolutely frustrated with the way that if I listen to a podcast ONCE it clogs up my home page and appears on my podcast page too.,negative,relevant,8b
+2419,False,podcasts,none,premium_user,listen to news,"This is a good app, I use it everyday and subscribe to premium.",neutral,relevant,8b
+2425,False,repetition,none,premium_user,listen to music,"This app. hadn’t got the variety of content that it used to have and when I do a search, even for the simplest pieces, it spits out completely random results not even by the same artist searched for.",negative,relevant,8b
+2429,False,ui_ux,none,free_user,listen to music with lyrics,lyrics don’t seem to work anymore,neutral,relevant,70b
+2433,False,ui_ux,none,unknown,add songs to playlist easily,try to add new songs to a playlist its been very janky,negative,relevant,70b
+2436,True,discovery,discovery_works,unknown,discover new music,introducing new discoveries to enrich your experience,positive,relevant,70b
+2437,False,ads,none,premium_user,listen to music,"You are unbelievable.. Review? You want a review? Well I’ll give you one! Lemme tell you, you tricked everyone by saying that u added a new feature called smart shuffle but what u didn’t tell them, is that u can’t TURN IT OFF!",negative,relevant,8b
+2438,True,repetition,stale_recs,unknown,listen to consistent music genres,Daily Mix changes genres every. single. day,negative,relevant,70b
+2439,False,performance_bugs,none,premium_user,listen to music,"Keeps crashing. I’ve been having this problem for many months now, but my app keeps crashing!",negative,relevant,8b
+2440,True,discovery,niche_genre_gap,unknown,discover new music,no African country is listed in the Top50 by country,negative,relevant,70b
+2443,False,ui_ux,none,unknown,easily manage playlists,I liked it because it was simple,negative,relevant,70b
+2454,False,pricing,none,free_user,listen to music,"I also don’t appreciate having to shuffle everything, and not being able to repeat songs, or backspace.",negative,relevant,8b
+2455,True,recommendation_quality,discovery_works,premium_user,find new music,the playlist they create for you on premium,positive,relevant,70b
+2461,False,pricing,none,free_user,listen to music,"Alright.. Eh like I like the music but the non premium version just has so many ads and they’re a kinda ripping u off because they are making money off the ads even if u don’t buy premium, then making even more when u pay for no ads.",negative,relevant,8b
+2466,False,recommendation_quality,none,premium_user,making personal playlists,When making personal playlists it would be better to have categories for “like” and then “favourite” or “really like”.,positive,relevant,8b
+2471,False,performance_bugs,none,premium_user,unadding songs,"I can confidently say I put in certain playlists— but when I go and look for that song in the playlist, or in any, because I know it would’ve been in  at least my liked songs— it has a plus icon next to it as if I have never added that song before?",negative,relevant,8b
+2475,False,performance_bugs,none,premium_user,creating a playlist,"I was looking for a song I thought I found it, but it wasn’t the song I was looking for, the song was an anime style song, I thought nothing of it.",negative,relevant,8b
+2484,False,ads,none,premium_user,using the app,You can’t hide genres Classical should be separated from all other music - I listened to it once now my new releases are bloated with classical music.,negative,relevant,8b
+2493,False,ui_ux,none,premium_user,editing a playlist,,negative,relevant,8b
+2501,False,performance_bugs,none,premium_user,using smart shuffle,smart shuffle takes forever to load and crashes my app could you remove the smart shuffle button from the quick shuffle options when listening to a song,negative,relevant,8b
+2523,False,ads,none,free_user,using the app,The free version of the app has the most annoying ads with the worst voice overs and unbelievable scripts,negative,relevant,8b
+2527,False,catalog,none,premium_user,viewing playlists,After each one it says enjoy the next “30 minutes uninterrupted and then proceeds to give me an double add after every song,negative,relevant,8b
+2528,False,ui_ux,none,premium_user,using the app,I can’t put my songs on repeat anymore and i found a song wanna listen to and I wanna put on repeat and don’t have too touch the screen,negative,relevant,8b
+2530,False,catalog,none,premium_user,using Go to radio,"I use this app to listen to songs the most because it’s very accessible and customisable, the recommended songs are really great to find new songs and the ‘Go to radio’ option is where I seek most of the new music I like",positive,relevant,8b
+2538,True,catalog,none,premium_user,access to music,Instant access to more music than you could listen to in a lifetime,positive,relevant,70b
+2561,False,performance_bugs,none,premium_user,using shuffle,many times I hear the same songs and also in the same sequence,negative,relevant,8b
+2563,False,performance_bugs,none,premium_user,listen to music without random songs playing,I can’t listen to my playlist without some random song which I DON’T LIKE playing.,negative,relevant,8b
+2565,False,performance_bugs,none,free_user,listen to music without app crashing,Constantly crashing!,negative,relevant,8b
+2579,False,ui_ux,none,power_user,rearrange songs on playlist,I’ve got a suggestion to add a “completely rearrange” option in edit mode,neutral,relevant,8b
+2580,False,other,none,unknown,listen to music,Any genre can be listened to depending on mood circumstances and life stage,positive,relevant,70b
+2585,False,recommendation_quality,stale_recs,premium_user,listen to new music recommendations,it just continues to recommend the same songs over and over.,negative,relevant,8b
+2590,False,ui_ux,none,premium_user,easily play favorite songs,it plays the ones you play regularly rather than going through the back catalog,neutral,relevant,70b
+2591,True,discovery,stale_recs,unknown,discover new music,every playlist it makes is the exact same as the ones i’ve already made myself,negative,relevant,70b
+2593,False,performance_bugs,none,premium_user,listen to audiobook,Unable to continue play on audiobook half way through,negative,relevant,8b
+2613,False,ui_ux,none,power_user,skip songs or play on repeat,Where as before they were one button away.,negative,relevant,8b
+2619,False,pricing,none,premium_user,listen to music offline,Why do I have to keep re-downloading the same music?,negative,relevant,8b
+2620,True,discovery,none,premium_user,discover new music,dramatically improve ‘discovery’ options,positive,relevant,70b
+2625,False,ads,none,free_user,listen to music without ads,The ads are unbelievably irritating.,negative,relevant,8b
+2626,False,performance_bugs,none,premium_user,reshuffle for the day,As a subscriber there should be an option to reshuffle for the day rather than the same lineup that seems to be generated random each day,negative,relevant,8b
+2628,False,performance_bugs,none,premium_user,reshuffle for the day,sometimes plays the same songs and loops back to already created (and then played in the same order playlists),negative,relevant,8b
+2647,False,ads,none,free_user,skip songs,If you don’t have premium it becomes annoying because there’s a point where you can’t skip songs anymore,negative,relevant,8b
+2648,True,catalog,niche_genre_gap,unknown,listen to Asian music,I wish you guys mention Asian music,negative,relevant,70b
+2657,True,repetition,stale_recs,unknown,find new music,I don’t like how it keeps recommending me the same Christmas songs,negative,relevant,70b
+2660,False,ui_ux,none,premium_user,improved UI & Library,It would be great to have a more improved UI & Library for an artists’ discography,positive,relevant,8b
+2661,False,performance_bugs,none,premium_user,turn off feature,STOP MAKING ME LISTEN TO OTHER STUFF. I made a playlist of a single favourite song to listen to on repeat,negative,relevant,8b
+2671,False,performance_bugs,none,premium_user,fix songs,"The new update mixed up all my songs! Especially kpop songs. English, Korean and Japanese versions of the same songs are all getting mixed up and replaced in my playlist!",negative,relevant,8b
+2672,False,performance_bugs,none,premium_user,fix shuffle,"The shuffle play is not random at all. If I’ve got 350 songs in a playlist I want to listen to them all, not the same 50 over and over",negative,relevant,8b
+2676,True,discovery,no_control,free_user,search for new music,,negative,relevant,70b
+2685,True,repetition,stale_recs,unknown,discover new songs,You constantly recommend the exact same songs in my recommended daily,negative,relevant,70b
+2688,False,performance_bugs,none,premium_user,fix shuffle,"I have 1,000 songs that I have liked and even saved into a separate play list. But if I want to listen to them randomly rather than straight down the order of the list it plays the same 50 songs over and over",negative,relevant,8b
+2696,False,performance_bugs,none,unknown,,"If I’m playing a queue and accidentally click on a song from my Song  Library, it not on.y plays that song and skips the one that was playing, but it continues to play the Song multiple times after the queue especially every time I add a new song to the queue.",negative,relevant,8b
+2697,False,ui_ux,none,power_user,"override phone auto screen lock, multi select option",having a setting to override the phone auto screen lock it’s really annoying having to have my screen lock turned off or having to unlock the phone each time I want to like/unlike or select a new song/playlist also a multi select option would be great so we can add multiple songs to a playlist/queue,negative,relevant,8b
+2703,True,discovery,too_mainstream,unknown,find new albums from favorite bands,I get 8 new albums most of which are not tailored to bands I like but rather “popular” releases,negative,relevant,70b
+2704,False,recommendation_quality,none,premium_user,turn off suggested songs,"It honestly irritates me when I hear a random song that I don’t wanna listen to. Don’t get me wrong, I get the idea, but we should have an option to turn that feature on and off.",negative,relevant,8b
+2720,False,ui_ux,none,premium_user,"preview songs in playlists, infinite new releases, hide remixes",If I want to preview a song in my liked playlist I’d have to scroll through 6 thousand songs literally. Have an infinite list of all new releases from artists you are subscribed to. There is a cap and it’s infuriating on new music Friday when everyone releases music including multiple showings of the same release.,negative,relevant,8b
+2721,False,ui_ux,none,power_user,"turn off smart shuffle, restore preferences",It’s somehow getting worse to use. I want to be able to turn off smart shuffle because I never use it. Now is the first type of shuffle that comes up when you turn on shuffle.,negative,relevant,8b
+2732,False,ads,none,premium_user,timer to prevent ads,Please actually have a timer set in that prevents any adds for 30 mins and doesn’t Interrupt  the song( even the pop up ones when you turn on the phone),negative,relevant,8b
+2739,False,ui_ux,none,premium_user,"hide songs, artists","I don’t understand why you’ll have the option to hide songs or artists you don’t want to listen to, when they’ll play anyway.",negative,relevant,8b
+2746,True,discovery,discovery_works,unknown,listen to new music,Important to keep listening to new stuff,positive,relevant,70b
+2747,False,ui_ux,none,power_user,"shuffle music, search and follow users",please go back to actually shuffling my music. I am also missing the function where you could search and follow other users.,negative,relevant,8b
+2752,False,performance_bugs,none,premium_user,"fix data usage, recommendations",Great app! But recently it’s been using up 41GB of data for 20 min of predownloaded music! Also it’s killing my battery!,negative,relevant,8b
+2757,False,recommendation_quality,none,premium_user,skip suggested songs,Incredibly annoying when you don’t have the ability to skip the songs and don’t want to listen to that song.,negative,relevant,8b
+2780,True,discovery,discovery_works,unknown,find new music,The smart shuffle button is a button you can click on in your playlists to listen to some stuff you might like,positive,relevant,70b
+2794,False,repetition,none,premium_user,add a song to library,"if a suggested song plays, there’s too many taps to add a song to library",negative,relevant,8b
+2801,True,recommendation_quality,stale_recs,premium_user,discover new songs,they just keep recommending the same songs,negative,relevant,70b
+2802,False,ui_ux,none,premium_user,add songs to a playlist,Can you please make the dots next to songs bigger so that you can’t accidentally play the song,negative,relevant,8b
+2815,False,performance_bugs,none,premium_user,quickly switch on/off the endless play,The app is good. But the play queue system is not intuitive.,negative,relevant,8b
+2816,False,pricing,none,premium_user,remove ads,I don’t mind ads if it means it keeps the franchise alive however removing every feature that makes the app worth it,negative,relevant,8b
+2818,True,repetition,stale_recs,unknown,get different songs on shuffle,,negative,relevant,70b
+2828,True,discovery,discovery_works,unknown,find new music,WOW AMAZING MUSIC FROM ALL DIFFERENT ARTISTS,positive,relevant,70b
+2844,False,catalog,none,unknown,play music for patients,I can find it,positive,relevant,70b
+2846,True,ui_ux,none,premium_user,find new music that fit certain atmospheres,I really like finding new music,negative,relevant,70b
+2848,False,repetition,stale_recs,premium_user,listen to different songs,"The “shuffle” setup, I’ll pick a playlist I have made, click shuffle, it will play the songs shuffled but, they “shuffle” in the same order everytime",negative,relevant,8b
+2861,True,discovery,discovery_works,unknown,listen to favourite songs and find new songs,you can find new songs that you’ve never heard before,positive,relevant,70b
+2926,False,pricing,none,premium_user,get a premium service without price increase,"PLEASE work on shuffle algorithm on Apple and Car Play!!!!!! It is becoming embarrassing! Same songs shuffled over and over again, ignoring new additions to the playlist.",negative,relevant,8b
+2935,False,repetition,none,premium_user,get a premium service without repetition,When I turn on shuffle which is all of the time unless I search a specific song I always seem to get the same artists and songs repeatedly.,negative,relevant,8b
+2953,False,performance_bugs,none,premium_user,use the app without freezing,"Always crashes. If I leave music playing from one of my playlists the app is fine but when I’m navigating through the app, looking for new music it always freezes,",negative,relevant,8b
+2958,False,pricing,none,premium_user,get a premium service without restrictions,You only have six skips per hour ( which i can live with ) but i used one and it took all of them.,negative,relevant,8b
+2980,False,pricing,none,free_user,get a premium service without ads and restrictions,You get ads mid song and it changes your mood and makes you irritated.,negative,relevant,8b
+2982,False,pricing,none,free_user,get a premium service without restrictions,it’s gotten so bad that i’ve switched music apps completely.,negative,relevant,8b
+2987,False,repetition,none,premium_user,stop repetition in playlists,"the playlist never ends , it keeps playing the same songs over and over again and its getting annoying.",negative,relevant,8b
+3009,True,recommendation_quality,discovery_works,unknown,find new music,is how I have found many of my favourite songs,positive,relevant,70b
+3014,False,performance_bugs,none,premium_user,use the app without bugs,There seems to be a bug with playlist enhancement feature.,negative,relevant,8b
+3020,True,discovery,discovery_works,unknown,find new music and create playlists,can easily find new music,positive,relevant,70b
+3027,True,discovery,search_fails,unknown,find new music,hard to find new music unless you already know a title,negative,relevant,70b
+3043,False,other,none,unknown,record and play songs,record 10 seconds of any song,positive,relevant,70b
+3051,False,ui_ux,none,premium_user,looking for song lyrics,"if I wanted to know about the song I’d look into it myself. It gets tedious, having to look for song lyrics over and over.",negative,relevant,8b
+3059,True,discovery,discovery_works,unknown,find new music from artists,found a lot gems from this feature,positive,relevant,70b
+3078,False,performance_bugs,none,premium_user,getting music from daily mixes,some features like daily mixes have stopped updating it self,negative,relevant,8b
+3080,True,recommendation_quality,none,unknown,get relevant song suggestions,,negative,relevant,70b
+3083,False,performance_bugs,none,premium_user,playing music from playlists,it wouldn’t play any of the songs on my playlists when I clicked shuffle,negative,relevant,8b
+3086,True,ui_ux,discovery_works,unknown,find new music that suits tastes,constantly find new music that suits you tastes,positive,relevant,70b
+3111,False,ui_ux,none,premium_user,picking songs to listen to,Why can’t we just pick the song we want to listen to without skipping over and over and listening to adds,negative,relevant,8b
+3114,False,performance_bugs,none,premium_user,playing new songs on shuffle,it only plays the old songs thats I already had,negative,relevant,8b
+3132,False,pricing,none,premium_user,getting a premium service,I’m paying for premium and not getting a premium service,negative,relevant,8b
+3163,True,discovery,discovery_works,unknown,discover new music and features,"The recommendations, the albums, the radio feature and new music playlists are all just brilliant",positive,relevant,70b
+3220,False,ui_ux,none,premium_user,playing music without suggested songs,"It’s a great app it’s just it’s so annoying when I’m trying to play music, it has a suggested song first, leave me alone and let me play the song I want first",negative,relevant,8b
+3228,False,performance_bugs,none,premium_user,unlimited skips on daily mix,Bring back unlimited skips on daily mix,negative,relevant,8b
+640,False,recommendation_quality,none,premium_user,get better recommendations,Look. It’s hard to find songs I had recalled and recommend songs are sort of bad.,negative,relevant,8b
+2866,False,performance_bugs,none,premium_user,use the app without crashing,"Consistent crashing, more than likely due to Smart shuffle.",negative,relevant,8b
+2868,False,ads,none,premium_user,listen to music without ads,"The adds man, the adds.",negative,relevant,8b
+2875,False,ui_ux,none,premium_user,improve the app's user interface,"On computer, you can change the cover of a playlist. Why can’t you do this on iOS?",neutral,relevant,8b
+2879,False,performance_bugs,none,premium_user,use the app without bugs,"So many updates, so many bugs still.",negative,relevant,8b
+2885,False,ui_ux,none,premium_user,improve the app's user interface,Nothing is where it should be.,negative,relevant,8b
+2891,False,ads,none,premium_user,listen to music without ads,Multiple unskippable 30-second-long ads every few songs,negative,relevant,8b
+2907,False,performance_bugs,none,premium_user,use the app without bugs,Glitching.,negative,relevant,8b
+2911,False,ads,none,premium_user,listen to music without ads,Ads are too repetitive.,negative,relevant,8b
+2912,False,pricing,none,premium_user,get premium to work,Premium not working.,negative,relevant,8b
+2913,False,pricing,none,premium_user,get premium to work,Only one thing.... This is the best app! Its amazing!,positive,relevant,8b
+2920,False,pricing,none,premium_user,get premium to work,Not worth it if you don't have premium.,negative,relevant,8b
+2921,True,recommendation_quality,none,premium_user,discover new songs and albums,it recommends songs,positive,relevant,70b
+3230,False,repetition,none,unknown,listen to own music,After all my song are done it bring me on to my suggested songs and I have to wait an hour to skip back to my song,negative,relevant,8b
+3235,True,performance_bugs,none,premium_user,play playlists without downloading,Can’t play a playlist with premium without downloading it beforehand,negative,relevant,70b
+3251,False,repetition,none,unknown,listen to own music,it always give suggested songs that I really don’t like,negative,relevant,8b
+3261,True,ui_ux,discovery_works,unknown,listen to specific songs,I want to listen to 1 song but it auto shuffles,negative,relevant,70b
+3263,True,discovery,discovery_works,unknown,discover new music and get updates on artists,Has brand new music and tells u if your artist u follow are coming to your country,positive,relevant,70b
+3270,False,repetition,none,unknown,listen to music,"Everyday same suggestions, same songs",negative,relevant,8b
+3300,True,repetition,stale_recs,unknown,,sometimes just keeps playing the same song,negative,relevant,70b
+3305,False,performance_bugs,none,premium_user,search for music,For a monthly subscription I would expect this app to work flawlessly,negative,relevant,8b
+3375,False,repetition,none,unknown,listen to music,recommends the same 5 songs everytime no matter what I’m playing,negative,relevant,8b
+3382,True,discovery,discovery_works,unknown,,discovering new music,positive,relevant,70b
+3458,False,performance_bugs,none,premium_user,listen to music,It is now regularly stopping playing music,negative,relevant,8b
+3460,True,discovery,discovery_works,unknown,,hear new song and expand my taste,positive,relevant,70b
+3521,False,performance_bugs,none,power_user,use app without slowdown,"so ridiculously slow, I’ve tried turning off extra features like Canvas and Smart Shuffle, removed downloads, cleared cache, dropped audio and visual quality",negative,relevant,8b
+3563,False,recommendation_quality,none,unknown,,What does it always play recommended music instead of my playlist,negative,relevant,8b
+3564,True,repetition,stale_recs,unknown,,The ‘shuffle’ is extremely repetitive,negative,relevant,70b
+3644,True,other,none,unknown,keep family happy,Easy way to keep family happy,positive,relevant,70b
+3666,False,ui_ux,none,unknown,,the shuffle and skip functions have disappeared,negative,relevant,70b
+3672,False,other,none,premium_user,listen to music offline,"I travel a lot in and out of signal areas, and remote locations so I appreciate the offline downloads",positive,relevant,70b
+3676,False,ui_ux,none,premium_user,sign in without issues,"I’ve used spority for years now without any issues, today I was going to add a new song to one of my playlists",negative,relevant,8b
+3680,False,ui_ux,none,premium_user,navigate the app easily,The home page is counter intuitive,neutral,relevant,70b
+3687,False,ads,none,free_user,use app without ads,"Too many ads. I hate the huge restrictions the app has, can’t search a single song and play it straight away it’s already recommended songs before the actual one",negative,relevant,8b
+3692,True,discovery,stale_recs,free_user,listen to my playlist without suggested songs,it plays a song that’s not even on my playlist!,negative,relevant,70b
+3698,True,catalog,none,unknown,play my liked songs,liked songs playlist doesnt work,negative,relevant,70b
+3701,False,ui_ux,none,unknown,select music to listen to,Easy to select the exact music that you want to listen to,positive,relevant,70b
+3717,True,discovery,discovery_works,free_user,discover new music,The mixes are good. It puts me on to old songs I had forgotten and new songs,positive,relevant,70b
+3720,False,performance_bugs,none,premium_user,listen to music,"the music only plays 1 minute of said song, pauses and restarts the song, so i thought it was the playlist so i'd select a song from recently played or liked songs or search a song i haven't listened to and the same thing happens",negative,relevant,8b
+3733,False,ads,none,premium_user,listen to music without ads,"Premium, no adverts, all the music ALL the time",positive,relevant,70b
+3745,True,discovery,discovery_works,unknown,discover new music,I have been introduced to new music (new to me) much of which has joined my all time favourites,positive,relevant,70b
+3778,True,discovery,discovery_works,unknown,discover new music,often discovering great stuff you otherwise might not of heard,positive,relevant,70b
+3780,False,ui_ux,none,premium_user,listen to music,"Whatever you did, don’t touch it ever again.",positive,relevant,8b
+3782,True,discovery,stale_recs,unknown,get music recommendations that fit my taste,"what more do I have to do, to be served music I like!!",negative,relevant,70b
+3784,False,performance_bugs,none,premium_user,listen to music,Recently I have found that it’s been deleting songs I liste to on  a daily basis.,negative,relevant,8b
+3798,False,performance_bugs,none,unknown,listen to music,App Crashing. I have reset my phone and done almost everything which I searched up and compared it to other apps (which all work fine) but your app continues to crash over and over within seconds of opening it,negative,relevant,8b
+3799,True,discovery,discovery_works,unknown,discover new music,Stoked to discover new groups that I have not heard of,positive,relevant,70b
+3809,True,ui_ux,none,unknown,,"Great range, love the discover weekly!",positive,relevant,70b
+3813,False,performance_bugs,none,premium_user,fix playback issues,"the app was always really good apart from too many ads, but recently, it keeps stopping everything between each song.",negative,relevant,8b
+3817,True,discovery,none,unknown,find new songs,Whenever I want to listen to something of my own taste but not my playlist I can’t find any songs that I like,negative,relevant,70b
+3826,False,ads,none,premium_user,reduce ads,Stop spamming my home screen with podcasts I don’t want to listen too.,negative,relevant,8b
+3829,True,discovery,discovery_works,unknown,study music,love the way it’s constantly playing a new song that u like,positive,relevant,70b
+3836,True,ui_ux,none,unknown,,The best app I’ve found to help me find music and discover new songs,positive,relevant,70b
+3858,False,performance_bugs,none,premium_user,fix playback issues,"Whenever I play a playlist on random, there’s always seems to be a problem when two same songs played every time",negative,relevant,8b
+3868,True,discovery,discovery_works,unknown,find new artists,I’ve found so many new artists it’s amazing,positive,relevant,70b
+3870,False,repetition,stale_recs,premium_user,fix playlist issues,the playlist gets to a certain point and then starts duplicating the previous songs even when removed,negative,relevant,8b
+3907,False,ui_ux,none,unknown,,On mobile you can’t select what song you want to play,negative,relevant,70b
+3909,False,ui_ux,none,unknown,,Can you please make it so new songs are put to the top of your playlist,neutral,relevant,70b
+3924,True,performance_bugs,none,unknown,,I enjoy the algorithm for recommendations wholeheartedly,positive,relevant,70b
+3928,False,performance_bugs,none,premium_user,fix playback issues,The app keeps updating the same songs every day,negative,relevant,8b
+3941,False,ui_ux,none,unknown,,"the worst suggestions ever. But really, whoever comes up with the suggestions' algorithm should be fired. They're not even close to anything. Let's forget about AI, not even machine learning: The suggestions don't even have a basic algorithm to search similar genres/artists.",negative,relevant,8b
+3948,True,recommendation_quality,none,unknown,,Love the recommended songs for you,positive,relevant,70b
+3949,True,recommendation_quality,stale_recs,unknown,remove unwanted songs,I keep on getting these F.N.A.F suggestions and I don't like that music,negative,relevant,70b
+3955,False,performance_bugs,none,unknown,,frequent improvements throughout the years,positive,relevant,70b
+3967,True,recommendation_quality,stale_recs,unknown,get recommended music without blocked artists,Recommends me blocked artists,negative,relevant,70b
+4027,False,performance_bugs,none,premium_user,using the app,Unimpressed with the loss of features since UI update. Am probably going to switch back to non-premium/ find a new music streaming service.,negative,relevant,8b
+4031,True,other,discovery_works,niche_taste,find music to support artists,I use this to find music I like,neutral,relevant,70b
+4034,True,recommendation_quality,discovery_works,premium_user,discover new music,algorithm matches your likes and suggests new influences,positive,relevant,70b
+4062,True,recommendation_quality,discovery_works,unknown,find new music,their algorithm finds the best songs,positive,relevant,70b
+4069,False,ui_ux,none,premium_user,,Easy to navigate and plenty of choices,positive,relevant,70b
+4070,False,performance_bugs,none,unknown,shuffling songs,Shuffle. Shuffle repeats the same selection of songs without playing a wider range of songs.,negative,relevant,8b
+4071,False,ui_ux,none,unknown,using the app,Autoplay? Really? On the home page? Please go back to the way it was.,negative,relevant,8b
+4075,True,catalog,discovery_works,free_user,listen to new music,they have new music all the time,positive,relevant,70b
+4078,True,other,discovery_works,unknown,discover new music without explicit lyrics,I have found some great new music via this app,positive,relevant,70b
+4085,False,pricing,none,premium_user,,I pay $15 a month,positive,relevant,70b
+4120,False,performance_bugs,none,premium_user,listen to music,Shuffle issues. Great app for the most part.,neutral,relevant,8b
+4143,False,repetition,stale_recs,premium_user,listen to music,Don’t like the repetition of 10 percent of the downloads,negative,relevant,8b
+4147,False,ui_ux,none,premium_user,create playlists,I don’t like that they add songs when you don’t add enough songs to a new playlist,negative,relevant,8b
+4148,False,recommendation_quality,none,free_user,listen to music,"Worst song suggestions ever, always thought I like most music but I never heard so much music I didn’t like from the first few seconds",negative,relevant,8b
+4218,False,performance_bugs,none,premium_user,listen to music,After subscription suggestions and algorithm stopped working,negative,relevant,8b
+4251,False,ads,none,free_user,listen to music,it only lets to do 6 skips Mtlb kuch bhi bhai and then which songs don’t like the same song it plays for no reason and too much too much of ads,negative,relevant,8b
+4264,False,recommendation_quality,none,unknown,listen to music,Selection of songs very bad especially play lists.the algorithm of selection very bad,negative,relevant,8b
+4330,False,ads,none,unknown,listen to music,"Repetitive ads. Pls stop ai will eat jobs ad by raj shamani, it’s so annoying",negative,relevant,8b
+4336,True,other,none,unknown,,unmatched discovery features,neutral,relevant,70b
+4390,False,recommendation_quality,none,power_user,,"Honestly one of the best apps for music listening, and I am saying this after using this app for more than 8 years.",positive,relevant,8b
+4500,False,performance_bugs,none,free_user,,Playlist sync is so buggy and confusing.,negative,relevant,8b
+4508,False,performance_bugs,none,premium_user,,"the controls stop responding suddenly the music cover doesn't load and if a song was already playing it wont stop or change using the controls neither can i click on any other song, the playlists or albums stop loading",negative,relevant,8b
+4514,False,pricing,none,free_user,,The app is asking subscription if we want to listen any paragraph of the song and I thing this so terrible,negative,relevant,8b
+4519,True,recommendation_quality,none,premium_user,get music suggestions,Love the algorithm to suggest,positive,relevant,70b
+4521,False,ui_ux,none,free_user,,The thing i like the most about this app is its user experience.,positive,relevant,8b
+4522,False,ui_ux,none,unknown,,Admire the thoughtfulness of the app,positive,relevant,70b
+4525,False,ui_ux,none,premium_user,,"the principles would be ease of •use, •realizing my intention, •discovery of useful features",neutral,relevant,8b
+4528,False,pricing,none,free_user,,It has become very inconvenient as the songs cannot be played in an organized sequence and cannot be repeated either,negative,relevant,8b
+4534,True,discovery,discovery_works,power_user,discover new music,ability to just get your tastes and help you go deep into discovery,positive,relevant,70b
+4570,False,ads,none,free_user,,,negative,relevant,8b
+4587,False,repetition,stale_recs,premium_user,,"shuffle options, still lets me hear the same song 10 times in the first 50 tracks of a 2500 track playlist",negative,relevant,8b
+4590,False,performance_bugs,none,unknown,,Today the app is 100% broken. Their support is insane. A different person answers each message and all they do is ask questions on repeat with absolutely no resolution.,negative,relevant,8b
+4594,True,discovery,stale_recs,unknown,improve Discover Weekly,could be a little more proactive in the discover weekly,negative,relevant,70b
+4676,True,recommendation_quality,stale_recs,premium_user,get relevant song suggestions,the Indian songs are mixing into my language songs randomly,negative,relevant,70b
+4720,False,performance_bugs,none,unknown,shuffle songs,"I have grown quite annoyed that the ""shuffle"" feature has turned into a Playlist feature. when I want the songs to shuffle, I want them ALL shuffled. Not just put into a certain order everytime I tap on a new song",negative,relevant,8b
+4728,True,discovery,discovery_works,power_user,discover new music,Discover Weekly is elite,positive,relevant,70b
+4798,True,recommendation_quality,none,premium_user,get music recommendations,it knows the best recommended songs to follow up,positive,relevant,70b
+4825,False,repetition,none,unknown,hear varied songs,you play the same songs on playlist over and over again,negative,relevant,70b
+4856,True,discovery,discovery_works,unknown,discover new artists,helps me discover new artists,positive,relevant,70b
+4875,True,discovery,none,unknown,,produce music you never could dream of,positive,relevant,70b
+4889,False,ui_ux,none,unknown,listen to music,"Update widget on home screen.. okay, now it says is offline and doesn't just autoplay my downloaded music when I start driving. Why do you need internet to run the dumb widget in the first place",negative,relevant,8b
+4898,False,ads,none,unknown,listen to music,"Awful. I don't mind ads, but enough with the recommended songs!",negative,relevant,8b
+4903,False,ui_ux,none,unknown,,,negative,relevant,8b
+4913,False,performance_bugs,none,premium_user,listen to music without bugs,once play queue is done its supposed to continue with recommended songs or my playlist but stops altogether. only 1 song stays in queue even if i added multiple. QUEUE ISSUE STILL THERE.,negative,relevant,8b
+4952,False,performance_bugs,none,premium_user,listen to music without interruptions,"every time I want to play a game, my music stops and Spotify decides to restart my entire song",negative,relevant,8b
+4954,False,ui_ux,none,unknown,,Better UX,neutral,relevant,70b
+4961,False,ads,none,free_user,listen to music without ads,I get 4 ads and once I'm done I switch to a new song and get another stupid ad,negative,relevant,8b
+4976,False,performance_bugs,none,unknown,listen to music without bugs,"The app keeps glitching out. After about 2-3 days it will randomly get stuck on a song, and play ONLY that song on repeat",negative,relevant,8b
+4978,True,repetition,stale_recs,power_user,discover new and indie artists,drive me to new and indie artists,negative,relevant,70b
+4980,False,ui_ux,none,premium_user,listen to music without interruptions,Don't randomly turn it on once a week thinking we're too stupid to notice,negative,relevant,8b
+4992,False,performance_bugs,none,premium_user,listen to music without bugs,Recommendation algorithm not matching my music preferences,negative,relevant,8b
+5039,False,performance_bugs,none,unknown,enjoy music,can't enjoy music because of it,negative,relevant,70b
+5083,False,performance_bugs,none,unknown,listen to music without bugs,The algorithm for searching things up and for shuffle is horrible,negative,relevant,8b
+5124,False,ads,none,unknown,listen to music without ads,repetitive ads after every 2 songs seems kinda underwhelming,negative,relevant,8b
+5133,False,ui_ux,none,unknown,listen to music without bugs,"Shuffle, you get the same pattern over and over",negative,relevant,8b
+5137,True,recommendation_quality,none,power_user,discover new songs,Easy to discover new songs,positive,relevant,70b
+5167,True,discovery,discovery_works,premium_user,get new music,You get new music fast,positive,relevant,70b
+5207,False,repetition,none,premium_user,listen to albums in order,I can't listen to albums in order without paying,negative,relevant,8b
+5251,False,repetition,none,premium_user,listen to eclectic music,All I hear are the same selection of songs,negative,relevant,8b
+5312,False,catalog,none,unknown,,you can get 99.9% of any of your old and new music,positive,relevant,70b
+5348,False,ads,none,free_user,listen to music without ads,too many ads on free tier,negative,relevant,70b
+5376,False,ui_ux,none,unknown,add a song or look at song details,simply just trying to add a song or look at song details is a 40 step process,negative,relevant,8b
+5426,True,discovery,overwhelmed,unknown,discover new songs,it's quite overwhelming to discover new songs,negative,relevant,70b
+5434,False,performance_bugs,none,premium_user,filter out ai produced content,There is no way to filter out ai produced content,negative,relevant,8b
+5465,False,pricing,none,unknown,,not charged,positive,relevant,70b
+5475,True,discovery,discovery_works,premium_user,get new music suggestions,new music suggestions weekly,positive,relevant,70b
+5476,True,discovery,discovery_works,premium_user,hear new songs,best AI playlist shuffle so you can hear new songs,positive,relevant,70b
+5491,True,discovery,discovery_works,premium_user,discover new music,My Daily Mixes and Discovery Weekly are so spot-on,positive,relevant,70b
+5547,False,pricing,none,free_user,listen to music,"With limited skips, you really are just at the mercy of whatever the algorithm wants to serve you.",negative,relevant,8b
+5551,True,discovery,discovery_works,unknown,find new songs,finding new songs to like,positive,relevant,70b
+5573,False,repetition,stale_recs,unknown,listen to music,it keeps playing the same songs on my list after I hear them once and it doesn't always play the whole list at time,negative,relevant,8b
+5585,False,pricing,none,unknown,listen to music,The price keeps going up even though the quality remains the same.,negative,relevant,8b
+5606,False,pricing,none,premium_user,listen to music,"The free version just contains a TON of advertisements and only allows you 6 skips an hour, whilst also recommending you songs, so if you get a random song you dislike, you can't skip it.",negative,relevant,8b
+5641,True,performance_bugs,none,free_user,listen to music without interruptions,a little much adds,neutral,relevant,70b
+5661,False,performance_bugs,none,premium_user,listen to music,"Paying for this app to act a mess on a daily basis. Freezes all the time, I delete artists and tracks from playing, it states it won't refer them again for 30 days and the next song is the same artist and the same song.",negative,relevant,8b
+5676,True,catalog,none,unknown,find music and podcasts,100M+ songs and 5M+ podcasts,positive,relevant,70b
+5714,False,repetition,stale_recs,premium_user,listen to music,I canceled my premium subscription because the app only played the same 10 songs over and over again out of almost 2000 that were in my favorite Playlist.,negative,relevant,8b
+5725,True,discovery,discovery_works,unknown,discover new music,lovely algorithm,positive,relevant,70b
+5739,False,repetition,stale_recs,unknown,listen to music,Spotify is so boring recently playing the same songs over and over especially DJ i can't find any way to fix this,negative,relevant,8b
+5777,False,performance_bugs,none,premium_user,,Spotify will not stop autoplaying on car or other Bluetooth. deleting as this is major annoyance and appears to be no way to disable.,negative,relevant,8b
+5779,False,ads,none,free_user,listen to music without interruptions,all those ads,neutral,relevant,70b
+5781,False,catalog,none,unknown,find old and new songs,old and new songs,positive,relevant,70b
+5805,True,repetition,stale_recs,premium_user,hear a varied playlist,hearing the same songs on loop,negative,relevant,70b
+5806,False,ads,none,free_user,,Stop acting good stop recommending music for people am searching a song I press play it's bring stupidity other songs,negative,relevant,8b
+5813,True,recommendation_quality,none,unknown,get music that I like,bot tunes,negative,relevant,70b
+5833,True,performance_bugs,stale_recs,unknown,listen to varied music,same song playing 3 times in a row,neutral,relevant,70b
+5867,True,discovery,discovery_works,unknown,find new music,finding new music is effortless,positive,relevant,70b
+5871,False,pricing,none,free_user,,if you don't have premium you have absolutely no control over the app you can't even choose the songs you want to listen,negative,relevant,8b
+5940,True,repetition,stale_recs,unknown,listen to music without annoyance,it makes me like to some wrack music rather songs,negative,relevant,70b
+5945,True,discovery,discovery_works,unknown,stream new music,I can stream every new song after it's release,positive,relevant,70b
+5966,False,performance_bugs,none,premium_user,,"half the features dont work, I have playlist with over 5k songs and shuffle will play the exact same order no matter what i do",negative,relevant,8b
+6055,False,ads,none,unknown,none,"In other words, are these Spotify streams converting back into real fans (community and especially ticket-buying fans)?",neutral,relevant,8b
+6058,False,ads,none,premium_user,more streams and fans in USA,Should I put more money into the ad when its performing well even if its Mexico and Brazil?,neutral,relevant,8b
+6061,False,pricing,none,premium_user,get below 0.30 CAD per conversion,"I often sit around 0.20, and strong campaigns can even go down to about 0.10.",positive,relevant,8b
+6064,False,ads,none,premium_user,trigger the algorithm,"would it be worth pumping more into the ad and spending more short term to trigger the algorithm, then cutting it sooner?",neutral,relevant,8b
+6065,True,other,none,unknown,find new music on YouTube,what you think about YouTube music promotion channels for finding new music,neutral,relevant,70b
+6069,True,other,none,premium_user,evaluate music discovery,,neutral,relevant,70b
+6072,True,discovery,discovery_works,unknown,discover new music,Spotify is the largest streaming platform for music,positive,relevant,70b
+6077,False,ads,none,premium_user,trigger the algorithm,"My gut tells me that if it's working, you should scale & spend more now instead of waiting.",neutral,relevant,8b
+6079,True,discovery,discovery_works,unknown,evaluate music discovery,that massive chunk that's Radio from the algorithm is totally discovery,positive,relevant,70b
+6092,True,discovery,discovery_works,unknown,discover new artists,I still discover great artist via Spotify,positive,relevant,70b
+6095,False,other,none,unknown,,7k Views is criminal,negative,relevant,70b
+6098,True,discovery,stale_recs,unknown,get music that matches mood,I need it to match the freaking mood,negative,relevant,70b
+6150,True,discovery,stale_recs,unknown,get good music recommendations,my discovery weekly has been sucking,negative,relevant,70b
+6151,False,performance_bugs,none,power_user,,"I hate spotify's algorithm most of all. It plays the same 100 songs over and over until I start skipping them. It's so terrible that I made a python script to access the spotify API and create a playlist using my very simple algorithm of ""songs that I like but haven't listened to a lot"". I run the script every month and it's perfect now.",negative,relevant,8b
+6155,True,discovery,discovery_works,unknown,discover new music,I prefer it to be shuffled to be surprised,positive,relevant,70b
+6157,False,ui_ux,none,niche_taste,,"I still store mp3s on my phone, and i have a playlist of my favorite band's music organized from softest to heaviest, which is something o don't think an algorithm could do properly.",neutral,relevant,8b
+6158,True,discovery,stale_recs,power_user,get good music recommendations,algorithmically curated playlists because they're full of garbage,negative,relevant,70b
+6189,True,discovery,discovery_works,unknown,find songs I like,The Algorithm is also helping me find songs that i like,positive,relevant,70b
+6200,False,other,none,unknown,,"Isn't that just the distinction between algorithmic generated and THIS algorithmic generated? Like i can imagine a hypothetical future where a Jupiter brain has all of the historical connotations and contextual associations that you would form, including in the format that the art was originally presented in, and is able to account for that in its playlists.",neutral,relevant,8b
+6221,False,ui_ux,none,new_user,,,positive,relevant,8b
+6233,True,discovery,discovery_works,power_user,get personalized music recommendations,"been curating my algorithm for years, its bloody amazing",positive,relevant,70b
+6264,False,pricing,none,unknown,,"The only way I've ever listened to music was just by converting YouTube vids to mp3, putting them into playlists then just uploading those to my phone. I couldn't imagine having some algorithm deciding what music I should listen to based on how much money the artist let Spotify keep",negative,relevant,8b
+6269,False,ui_ux,none,power_user,,"I have one big playlist with just about every song that I like on it. No AI algorithm curated playlists for me. The playlist is just as chaotic as me, and I love it. No need for anything else.",positive,relevant,8b
+6270,True,discovery,stale_recs,unknown,get music that matches my mood,the algorithm picked up the word lonely in the bands name,negative,relevant,70b
+6273,False,ads,none,unknown,,"Your problem isn’t really the algorithm, it’s secretly sponsored artists, which while fair means you aren’t making the criticism clearly",negative,relevant,8b
+6274,True,discovery,discovery_works,unknown,discover new music,It’s to discover music,positive,relevant,70b
+6283,False,other,none,unknown,,I'm always delighted to see your videos on YouTube,positive,relevant,70b
+6295,False,pricing,none,free_user,,"One thing that bugs me about spotify is that is like THE musical app, yet still if you don't have premium you can't to the songs you like????",negative,relevant,8b
+6303,True,discovery,discovery_works,unknown,discover new music with similar vibe,,positive,relevant,70b
+6306,True,discovery,discovery_works,unknown,get new song recommendations,I occasionally get new song recommendations over time,positive,relevant,70b
+6314,False,performance_bugs,none,premium_user,,If its not already in my library is something i dont like 90% of the time,negative,relevant,8b
+6318,True,discovery,none,unknown,discover new artists,to discover new artists from people,positive,relevant,70b
+6320,False,other,none,unknown,,"I've never used Spotify, or TikTok, so i still discover music ""the old way""…",neutral,relevant,8b
+6322,True,discovery,none,unknown,discover new music,discovering new music,neutral,relevant,70b
+6324,True,discovery,discovery_works,unknown,expand musical exposure,expanding their musical exposure,positive,relevant,70b
+6327,True,discovery,none,unknown,discover new music,music discovery,neutral,relevant,70b
+6328,True,discovery,discovery_works,unknown,get accurate suggestions,the algorithms suggestions will be quit accurate and helpfull,positive,relevant,70b
+6330,False,ui_ux,none,unknown,listen to new music,"I usually decide very quickly whether I like something or not, but that judgment isn’t always accurate.",neutral,relevant,8b
+6341,False,performance_bugs,none,unknown,,the Apple Music algorithm is so broken. I play all-day starting on one of my playlists and it gets stuck in this loop where it plays the same song like 3x in an hour.,negative,relevant,8b
+6343,True,discovery,niche_genre_gap,unknown,find new sounds,where you find exactly what we have been missing for so long,positive,relevant,70b
+6346,False,catalog,none,unknown,,Just listen to Intergalactic FM and have an endless source of inspiration.,positive,relevant,8b
+6347,True,discovery,discovery_works,unknown,listen to new music,a feed of daily new music,positive,relevant,70b
+6348,False,other,none,unknown,,"When you put out your absolute first release, set your expectations super low.",neutral,relevant,8b
+6364,False,performance_bugs,none,unknown,,Spotify doesn’t have ANY advantage here. It keeps suggesting the songs you have listened to or searched for again and again with rarely new music.,negative,relevant,8b
+6368,True,discovery,discovery_works,unknown,discover new UK music,try Apple radio in particular Tom Wilkinson who plays all the new UK music,positive,relevant,70b
+6378,False,other,none,unknown,,I know what I like and I replay the music I like.,neutral,relevant,8b
+6401,True,discovery,none,unknown,discover new music and DJ mixes,Discovery of new music and DJ mixes,positive,relevant,70b
+6415,False,ui_ux,none,unknown,,the algorithm SUCKS compared to spotify so i really need to make my own playlist,negative,relevant,8b
+6419,False,catalog,none,unknown,,I use Spotify to find new music and Apple Music to listen to it,neutral,relevant,8b
+6420,False,ui_ux,none,unknown,navigate playlists and search,had better recommendations,negative,relevant,70b
+6425,True,discovery,none,unknown,find new playlists,I want apple music sound quality and spotify way to discover songs,positive,relevant,70b
+6427,True,discovery,none,unknown,find new music,"if i’m looking for new music, YT music is goated",positive,relevant,70b
+6433,True,discovery,none,power_user,find new music,Spotify had the best music discovery feature for me,positive,relevant,70b
+6434,True,discovery,discovery_works,unknown,find new music,Spotify is just so good for finding new music,positive,relevant,70b
+6462,False,ui_ux,none,unknown,,I heard you talk about when you and your wife were both in the car that you found less suggested music and that you and her are confused the algorithm based on your preferences and music my question is there are 5 to 6 of us on the family plan?,neutral,relevant,8b
+6468,False,ads,none,unknown,,Sound quality - Apple Music > YouTube Music > Spotify Algorithm - YouTube Music > Spotify > Apple Music UI - Apple Music > YouTube Music > Spotify Social features - Spotify > YouTube Music ? Apple Music Value for money - YouTube Music > Apple Music > Spotify,neutral,relevant,8b
+6470,False,podcasts,none,unknown,,YouTube music : Hold my algorithm and listen to music video in MP3,neutral,relevant,8b
+6488,True,discovery,stale_recs,power_user,find new music,Youtube Music's algo plays it TOO safe,negative,relevant,70b
+6498,True,discovery,discovery_works,unknown,find new artists,With Apple music the discovery is fantastic,positive,relevant,70b
+6510,True,discovery,stale_recs,niche_taste,find non-AI generated music,,negative,relevant,70b
+6526,False,repetition,none,premium_user,,whatever I did ı could not get rid of them in playlists and discover lists.,negative,relevant,8b
+6532,False,other,none,unknown,listen to music without algorithm,it feels refreshing sometimes to use apple music,positive,relevant,70b
+6573,False,other,none,unknown,listen to music and podcasts,Algorithm is better plus audio books and podcasts in one place,positive,relevant,70b
+6587,True,repetition,stale_recs,unknown,get new music,same songs over and over again,negative,relevant,70b
+6596,False,pricing,none,premium_user,,"I only want to listen to my songs, make a playlist to put them on, control the songs via Apple Watch and that's it.",neutral,relevant,8b
+6599,False,other,none,unknown,,,neutral,relevant,70b
+6604,False,performance_bugs,none,premium_user,,"the horribly bad, shufffle, that repeats the same songs over and over",negative,relevant,8b
+6614,True,recommendation_quality,none,free_user,discover new songs,Spotify algorithm is too good,positive,relevant,70b
+6616,False,performance_bugs,none,premium_user,,Sound quality is big plus.,positive,relevant,8b
+6621,True,recommendation_quality,discovery_works,premium_user,get music recommendations,matches way more accurately to my music taste,positive,relevant,70b
+6637,True,recommendation_quality,niche_genre_gap,niche_taste,find less popular genres,if you will try to go with less popular genres,negative,relevant,70b
+6638,True,recommendation_quality,discovery_works,power_user,find new artists,I actually started listening to new artists,positive,relevant,70b
+6677,False,ui_ux,none,unknown,,I don’t want to watch Spotify’s looped music videos over and over again. I’d rather see the album cover while the music is playing.,negative,relevant,8b
+6688,True,other,search_fails,power_user,find non-mainstream music,Absolute no margin for error in search,negative,relevant,70b
+6689,True,discovery,discovery_works,unknown,discover music,"Music discovery experience is simple, intuitive and again it's fun",positive,relevant,70b
+6706,False,catalog,none,unknown,,Spotify has 10000 playlists they all have the same songs,negative,relevant,8b
+6749,True,recommendation_quality,stale_recs,unknown,get good recommendations,las recomendaciones tan malas,negative,relevant,70b
+6897,False,social,none,unknown,,,neutral,relevant,8b
+6901,False,performance_bugs,none,unknown,,If this is the extent of their 'clever' selection algorithm then they may need some help? Pathetic.,negative,relevant,8b
+6911,True,discovery,discovery_works,unknown,find music that matches my taste,Apple's personal station is a pleasure to listen to,positive,relevant,70b
+6923,False,ui_ux,none,unknown,,"I don't want to see recommended playlist, I just want albums.",negative,relevant,8b
+6928,False,ui_ux,none,unknown,,thats so ghetto my daily mix i remeber why i hate their ui,negative,relevant,8b
+6982,True,discovery,none,unknown,find music that matches my taste,the day the apple decides to put some elbow grease into their playlists,neutral,relevant,70b
+6986,True,discovery,stale_recs,unknown,find music that matches my taste,the shuffle algorithm is absolute dogshit,negative,relevant,70b
+7155,False,ads,none,premium_user,,"To address this, I propose the following solutions: Opt-Out Feature for Specific Content : Implement a feature allowing users to opt out of content from specific languages or regions.",negative,relevant,8b
+7157,True,discovery,niche_genre_gap,unknown,find music that matches my taste,,negative,relevant,70b
+7158,True,discovery,niche_genre_gap,unknown,find music that matches my taste,Discover weekly is flooded with russian music every week,negative,relevant,70b
+7162,True,discovery,stale_recs,unknown,find music that matches my taste,repeating the same type of music that I do not like,negative,relevant,70b
+7163,True,discovery,none,unknown,control music recommendations,go to that playlist's track and on the right site you will see some choices,neutral,relevant,70b
+7164,True,discovery,none,unknown,find music that matches my taste,listen to the music you enjoy litsening to as well as diffrent types of genres,neutral,relevant,70b
+7165,False,other,none,unknown,,,neutral,relevant,70b
+7167,True,discovery,discovery_works,unknown,find music for running,discovery of this feature had kept me motivated,positive,relevant,70b
+7169,False,other,none,unknown,,,neutral,relevant,70b
+7170,True,discovery,discovery_works,unknown,share and discover music,"Have you discovered any great artists, albums, or tracks recently?",positive,relevant,70b
+7174,False,other,none,unknown,,,positive,relevant,70b
+7175,True,discovery,stale_recs,power_user,discover new music,one of my most used features in music discovery,negative,relevant,70b
+7177,True,discovery,discovery_works,unknown,discover new music,This feature allowed me to discover so much great music,negative,relevant,70b
+7185,True,ui_ux,stale_recs,power_user,easily discover new music,New recommendation tile takes whole screen and there is no defined reason for why its being recommended,negative,relevant,70b
+7187,True,discovery,discovery_works,power_user,discover new music,the killer feature for me with Spotify is the discovery aspect,negative,relevant,70b
+7193,True,ui_ux,stale_recs,unknown,easily discover new music,"You have taken what I found most useful about Spotify (the easily navigable sections such as Jump Back In, Discover Something New",negative,relevant,70b
+7195,False,ads,none,free_user,,"For some reason lately, I'm finding more and more religious (mostly christian themed) music in playlists in my ""made for you"" area.",negative,relevant,8b
+7196,False,ads,none,unknown,,"After serious consideration, we’ve decided not to offer blocking/ hiding/ or blacklisting artists or tracks on Spotify at this time.",neutral,relevant,8b
+7197,True,recommendation_quality,none,power_user,get relevant music recommendations,I fear that would prevent me to possibly listen to other songs I might like from the same artist,neutral,relevant,70b
+7198,True,discovery,too_mainstream,niche_taste,discover new music that fits my taste,"my musical taste is varried, and almost never dips into any of those piedgon holes",negative,relevant,70b
+7199,True,catalog,stale_recs,premium_user,,"I loved Spotify for ""Discover"" thing when it used to say ""Oh if you like Digital Leather you should try This!"". Now its gone, and it's replaced with ""One Direction"", ""Katy Perry"", ""Bob Marley"".",negative,relevant,8b
+7200,True,repetition,stale_recs,premium_user,,,negative,relevant,8b
+7202,True,performance_bugs,none,free_user,,This repetitive pattern is affecting the diversity and novelty of my listening experience.,negative,relevant,8b
+7205,True,ui_ux,none,premium_user,,"If we could add a parameter that finds similar songs based on these factors—like frequency, tempo, and other musical elements—it would be really beneficial for users to find songs that match the vibe they're looking for.",positive,relevant,8b
+7207,False,repetition,none,premium_user,get different music recommendations,"I'm so sick of these recs. Also ""top recommendations for you"" is giving me the same thing. I'm tired of the entire genre of slow, repetitive music.",negative,relevant,8b
+7208,False,performance_bugs,none,unknown,none,,neutral,relevant,8b
+7209,False,ads,none,unknown,none,The radio recommendation that I get is very bad and out of my genre and taste.,negative,relevant,8b
+7212,False,ui_ux,none,unknown,listen to different playlists,The 'made for you' feature being an automatic feature on so many playlists is just meaning every single playlist sounds the same and has the same songs in it!,negative,relevant,8b
+7213,False,ui_ux,none,unknown,listen to different playlists,"In this case, it's expected for the app to suggest similar songs to the ones you usually listen to.",neutral,relevant,8b
+7215,False,repetition,none,premium_user,discover new music,"Made For You has turned every genre into a creepy echo chamber of songs I've already heard, to the point I can't escape it.",negative,relevant,8b
+7216,False,ui_ux,none,premium_user,listen to different playlists,"I used to be able to select and artist I liked and listen to their radio station to find more artists like them, now, half of them are artists I already know/are hardly similar.",negative,relevant,8b
+7217,False,performance_bugs,none,unknown,none,The Algorithm is going to go with the artist that has a lot of play and traction regardless of genre;,neutral,relevant,8b
+7218,True,discovery,niche_genre_gap,unknown,find more artists like Sleigh Bells,"I want spotify to show me something of the same genre of that particular artist, without considering what I listen to.",negative,relevant,8b
+7219,True,discovery,stale_recs,unknown,get new music recommendations,"Over time, descovery weekly tends to recycle very similar tracks and artist.",negative,relevant,8b
+7220,False,ui_ux,none,unknown,none,"Instead of these three it could be new artist recommendations or something useful that at least looks decent and useful, instead of seeing the same thing three times.",negative,relevant,8b
+7221,False,performance_bugs,none,premium_user,none,"When I click the hide button on recommended songs for you, I get the onscreen notification that the song is hidden, but that doesn't actually happen.",negative,relevant,8b
+7246,False,repetition,stale_recs,premium_user,get back to getting all the new releases,"I only got 30. It seems it's the 'default' number when you don't follow lots of artists (which is not my case, I follow almost 2000 artists)",negative,relevant,8b
+7247,False,repetition,none,unknown,,Release Radar is supposed to be 30 tracks and that is its usual intended length,neutral,relevant,8b
+7248,True,discovery,discovery_works,premium_user,find new music,I follow 2000+ Artists and there aren't enough hours in the day to go searching for their new music when Spotify have a supercomputer to do it,negative,relevant,8b
+7249,False,repetition,none,premium_user,get back to normal Release Radar,"Release radar has reduced from 200 songs to just 30 songs in the App, but 200 show in Web Player as normal",negative,relevant,8b
+7250,False,ui_ux,none,premium_user,fix desktop app,the missing search option and minus sign to remove unwanted tracks from Release Radar,negative,relevant,8b
+7252,True,discovery,discovery_works,premium_user,hear new music from followed artists,I follow nearly 4000 atrists. Many of those I follow have smaller monthly listenerships and don't appear in New Music Friday Playlists,positive,relevant,8b
+7254,False,repetition,none,premium_user,,"my Release Radar on desktop is currently sitting at close to 200 songs, while the Release Radar on the phone app has exactly 30 songs",negative,relevant,8b
+7255,True,discovery,stale_recs,premium_user,get full Release Radar,I'm following more than 1500 artists and used to get around 8 hours of music in Release Radar weekly,negative,relevant,8b
+7256,True,discovery,stale_recs,premium_user,get full Release Radar,the playlist I look forward to most all week. Now it’s less than 2hrs,negative,relevant,8b
+7257,True,discovery,none,power_user,find new music,My theory is that they don't want us following artists via release radar because that stops us from interacting with their algorithms,negative,relevant,8b
+7258,True,discovery,stale_recs,premium_user,get releases from followed artists,"Today there were only two songs by bands I follow, and the rest is either awful remixes, bands copying the names of more famous bands, or bands I've never heard of",negative,relevant,8b
+7259,True,discovery,stale_recs,premium_user,verify artist,I used to listen to the entire release radar playlist every week. Now I need to selectively go through and investigate each song to see if it's actually from the artist who it says it's from,negative,relevant,8b
+7261,True,repetition,stale_recs,premium_user,find new music,"Only 8 out of the 30 tracks in my Release Radar this week were from artists I've listened to before, the rest were completely off the mark.",negative,relevant,8b
+7262,True,performance_bugs,none,premium_user,listen to Release Radar without changes,"After the intial update on Friday, my Release Radar will often get another update on Saturday or maybe even Friday night.",negative,relevant,8b
+7263,False,ui_ux,none,unknown,help user with issue,"We suggest logging out, restarting your device, and logging back.",neutral,relevant,8b
+7264,True,performance_bugs,none,premium_user,listen to Release Radar without changes,"What I mean is that when I get an unexpected update, I always see the same updated playlist on all my devices, and I never have a situation where I get different playlists on different devices.",negative,relevant,8b
+7265,True,repetition,none,premium_user,listen to Release Radar without changes,"For at least the last several months and maybe over a year, I’ve noticed that my Release Radar list changes on days other than Fridays, and it is driving me crazy.",negative,relevant,8b
+7266,True,performance_bugs,none,premium_user,listen to Release Radar without changes,"Starting sometime last week, I've noticed my Release Radar shuffling the playlist order, making it difficult for me to give everything a listen at least once.",negative,relevant,8b
+7268,True,repetition,none,premium_user,listen to Release Radar without changes,Please fix this thing. Release radar is changing during the week.,negative,relevant,8b
+7269,True,catalog,niche_genre_gap,premium_user,find new music,"All from artists with just one or two tracks in their library, with no listeners and no followers or no related artists.",negative,relevant,8b
+7270,True,catalog,niche_genre_gap,premium_user,find new music,"Currently almost all of my Release Radar tracks are AI generated trash by 'artists' with a handful of plays, followers and releases.",negative,relevant,8b
+7272,False,ads,none,premium_user,listen to music without interruptions,Spotify needs to add a feature in the settings to prevent censored versions of songs from appearing in your Discover Weekly and Release Radar playlists.,negative,relevant,8b
+7274,True,performance_bugs,none,premium_user,listen to Release Radar without changes,Every week on Thursday night my Release Radar comes out with the whole playlist in one order and then sometime in the middle of the week it refreshes anew and the entire order of the playlist changes!,negative,relevant,8b
+7275,True,repetition,none,premium_user,listen to Release Radar without changes,Today is Monday. My Release Radar today is not the playlist that appeared last Friday.,neutral,relevant,8b
+7277,False,performance_bugs,none,premium_user,fix Release Radar playlist issue,"The tracklist filter is always set to ""Custom Order"". Can you please help me to fix it?",negative,relevant,8b
+7278,False,performance_bugs,none,premium_user,fix Release Radar playlist issue,"Now after this has been solved, they are shuffling it through which i agree, is more then frustrating.",negative,relevant,8b
+7279,True,catalog,discovery_works,power_user,automate playlists,"Enterprising souls with a little patience can automate playlists through IFTTT, I used it for years to automatically capture an archive of Release Radar and Discover Weekly.",positive,relevant,8b
+7280,True,catalog,discovery_works,power_user,automate playlists,Every week I drag the contents of both Discover Weekly and Release Radar to it.,positive,relevant,8b
+7281,True,catalog,stale_recs,premium_user,fix Release Radar playlist issue,"It appears that ""Compilations"" are counting as a new release and it's adding new album art to OLD songs for artists I follow.",negative,relevant,8b
+7282,True,catalog,stale_recs,premium_user,fix Release Radar playlist issue,Same here and this is awful.,negative,relevant,8b
+7283,True,catalog,stale_recs,premium_user,fix Release Radar playlist issue,What the actual f? I have got Madonna - Like a Prayer as a new song,negative,relevant,8b
+7284,True,recommendation_quality,none,premium_user,improve Release Radar,"However, it doesn't seem to have any actual impact on the playlist.",negative,relevant,8b
+7285,False,ui_ux,none,premium_user,fix Release Radar issue,"If you are, try unfollowing them, then unfollowing and following again your Release Radar playlist to shake things up.",neutral,relevant,8b
+7287,True,catalog,niche_genre_gap,unknown,improve listening experience,"The platform is increasingly flooded with AI-generated songs (especially the Release Radar), making it harder for users to discover authentic, human-created music.",negative,relevant,8b
+7288,True,catalog,niche_genre_gap,power_user,improve Discover Weekly,Every week my Discover Weekly is filled with synthpop or sounds of fax machine having an orgasm labeled as dubstep.,negative,relevant,8b
+7289,True,catalog,niche_genre_gap,premium_user,improve Discover Weekly,"This is obnoxious for a handful of reasons. Mostly, I was hoping someone could tell me how I can actually contact SPOTIFY who apparently doesn't want to hear from us",negative,relevant,8b
+7290,True,repetition,stale_recs,premium_user,get new music,Anyone else noticed their discover weekly playing really recently playing songs already heard/played before?,negative,relevant,8b
+7291,False,performance_bugs,none,premium_user,fix playlist,Enhancing the playlist seems to remove non spotify songs from a playlist even if they're cached/downloaded.,negative,relevant,8b
+7292,True,repetition,none,premium_user,avoid language,It's super annoying to block singers when you want to avoid some specific language on Discovery Weekly.,negative,relevant,8b
+7293,True,repetition,stale_recs,premium_user,get new music,When Enhance is turned on in my liked songs folder I keep getting the same batch of songs included as recommendations in the same order.,negative,relevant,8b
+7294,True,repetition,stale_recs,premium_user,get new music,I've noticed a recent issue with Spotify's recommendation system that seems to prioritize suggesting songs already present in a playlist.,negative,relevant,8b
+7295,True,repetition,none,premium_user,get new music,Spotify increasingly feels stuck in a loop.,negative,relevant,8b
+7296,True,catalog,none,premium_user,get unique music,I use Spotify playlists throughout my workday to keep the office humming and productivity up.,negative,relevant,8b
+727,False,ui_ux,none,free_user,listen to music without interruptions,there are a couple of ads but not too many to annoy you too much,neutral,control,70b
+4922,False,ads,none,premium_user,avoid ads,"hate the new widget the old one was fine, also I pay for premium why do I get sponsored recommendation",negative,control,8b
+1616,False,ads,none,free_user,avoid ads,Ads ads ads. If you can’t afford premium don’t bother getting Spotify.,negative,control,8b
+4236,False,ads,none,unknown,avoid ai artists,"Soon every real artist will be replace. Spotify,Seriously? Its full of ai artist don’t forget that everyone pay your bills are real human being.",negative,control,8b
+3454,False,performance_bugs,none,unknown,fix app,Keeps cutting out. Ineffective help desk sends you in the same circles repeatedly,negative,control,8b
+5740,False,performance_bugs,none,premium_user,listen to music,"Weird issue with android auto showing playlists in a different order to how it is on my phone. Not sure how that happens as android auto just steams the phone to the car 🤷‍♂️. Only is recent update this changed. No matter what order I pick on the phone, andoird auto stuck on recently added but oldest at the top 🤦‍♂️",negative,control,8b
+6866,False,ads,none,unknown,listen to music,El audio sin perdida NO ESTA EN SPOTIFY MEXICO 🇲🇽 es una putada,negative,control,8b
+2398,False,ads,none,free_user,listen to music,Just a good app. Aside from the 3 adds every 6 or 7 songs it’s a pretty good app ngl,neutral,control,8b
+5886,False,performance_bugs,none,premium_user,listen to music,"The update is very slow and things take ages to load. Worst, the previous homepage widget I used has been removed but the new one is useless - repeatedly get an error message 'Spotify is offline' so it's basically unusable.",negative,control,8b
+2674,False,performance_bugs,none,premium_user,find a podcast,"Update is awful. I used to be able to click on “podcasts” in my library and it would come up with my list of podcasts in order of which has released an episode recently. Super convenient for a busy working Mum as I don’t have to scroll and search for something to listen to. The latest update has taken that away and combined it with everything else. I can filter to just podcasts, and then recently added, but it’s in order of when I added the podcast was added, not when episodes dropped. It’s so annoying to try to find a recent episode to listen to now. I can’t spend lots of time scrolling and searching so I just gave up",negative,control,8b
+638,False,performance_bugs,none,premium_user,listen to music,"Some things just don’t work. I would love to give this app 5 stars, but almost all audio (all podcast episodes and a few for music) the transcript (lyrics for music) has unwillingly replaced the image cover thing and it is impossible to change back. There is no setting to turn off the transcript it is just permanently on and is all over the place. It also isn’t very accurate to what is being said, especially if it is another language. It tries to transcribe English from non-English words which sometimes end up being inappropriate words which are not being said from the family friendly podcast. This needs to be fixed, or at least have a toggle, so it can be turned off and not interfere with the audio media.",negative,control,8b
+1702,False,performance_bugs,none,premium_user,listen to podcasts,"New iOS update is terrible. Can no longer have a simple list of podcast downloads, among other things. For some reason, a tab for music and a tab for podcasts was not good enough, so Spotify decided to jumble them together in a disorganized fashion. Just terrible",negative,control,8b
+4076,False,catalog,none,premium_user,find a song,Not being able to find songs easy. I am really missing having the ability to go through my music by the letter that was down the side. I really want it back. It makes it soo much easier finding the song I want through my 800 or so saved songs,negative,control,8b
+2786,False,catalog,none,premium_user,listen to albums,"Too hard to play albums. Every morning I get up and want to put on an album. Like the old days of CDs, tapes, vinyls. It’s a beautiful thing to look at the artwork and listen to the whole record. Why can’t I save albums? Why can’t I browse my favourite albums? Why can’t I build a collection of albums? It’s all songs and playlists on this app and doesn’t make any sense. For, what, 60 years, music has been release in longplay format. Yet this entire service is about singles and playlists. Let us save albums. Let us display them! Why do you think people are buying vinyl again? It’s because your services hide albums from people",negative,control,8b
+5885,False,pricing,none,free_user,listen to music,"if you don't have premium, this aap is useless 😔",negative,control,8b
+3141,False,pricing,none,premium_user,read lyrics,Limit on lyrics??. This would be five stars if there wasn’t a limit on how many times you can look at the lyrics a month and I also don’t like the way when I search a song it plays a bunch of other songs before the song that I searched,negative,control,8b
+1414,False,recommendation_quality,none,premium_user,listen to playlist,Reg Spotify. Wish I didn’t need premium to listen to my playlist IN ORDER as previously available. That part sucks a lot! Please change this back,negative,control,8b
+3277,False,repetition,none,premium_user,listen to favorite songs,I make a playlist with some of my 2 favourite songs and it just adds really bad songs with it,negative,control,8b
+5359,False,other,none,unknown,,I just love this app,positive,control,70b
+410,False,catalog,none,premium_user,listen to music,Love my  Spotify,positive,control,8b
+6278,False,other,none,unknown,,"The meaning in the playlist is, this is all the songs by this artist that I like",neutral,control,70b
+592,False,ads,none,free_user,listen to music,To many adds😞😞,negative,control,8b
+2566,False,ui_ux,none,premium_user,create playlists,"Playlists. Overall it’s a great app, however I wish it was easier to make a new playlist",neutral,control,8b
+1959,False,pricing,none,premium_user,listen to music,Bad for artists. Pay the goddam artists that you make money off you scammers!,negative,control,8b
+3602,False,performance_bugs,none,premium_user,listen to music,Latest update is awful. Please fire your UI design team!,negative,control,8b
+4532,True,discovery,discovery_works,unknown,find playlist for situations,very helpful to find playlist of much liked songs for each situation,positive,control,70b
+1528,False,pricing,none,premium_user,listen to music,It’s not worth the price. I had Spotify premium for close to a year,negative,control,8b
+7136,False,ui_ux,none,premium_user,listen to music,It's finally back for me. Took embarassingly long for a company of Spotify's size to reimplement a previously existing feature,neutral,control,8b
+4475,False,ads,none,premium_user,listen to music,One problem only & all think is very good. Plz give little bit less ads,neutral,control,8b
+1272,False,other,none,unknown,,"You speak of choices made by other voices.. Jacques Calitz and Gang Chen. What is taken for granted, shall be taken away forever. Thy will be done",neutral,control,8b
+3385,False,recommendation_quality,none,unknown,,Recommend. This app is very good. It has every song I like and and is well displayed would definitely recommend it if you like music or podcasts,positive,control,8b
+2570,False,catalog,none,unknown,,"Yes. You can access like every song that exists. It may seem not the best for kids as not every song is appropriate but you can see if it has bad words as it says E next to it. The ads are annoying but it’s not often and there is premium. I recommend it because it is amazing and you can make playlists for your favourite songs, songs for a mood booster in the morning or you can find playlists that are pre made and just add or take away any song you want",positive,control,8b
+6683,False,other,none,unknown,,,neutral,control,70b
+5085,True,catalog,none,unknown,,I found every tipe of songs,positive,control,70b
+5775,False,performance_bugs,none,premium_user,,"Even it had ads (only if we dont have premium) it was an amazing app, though it's been 2 times I've redownload it cause of some glitch/bug.",positive,control,8b
+338,False,pricing,none,premium_user,,Premium is great. Get premium,positive,control,8b
+1180,False,pricing,none,unknown,,"Waste of money. Everything, and I mean everything is premium. If I can’t listen to air conditioning beats, I would spend money on my own music app",negative,control,8b
+2062,False,podcasts,none,unknown,,Audiobooks. Wish you could have this version for Zambia and other African countries,neutral,control,8b
+3595,False,recommendation_quality,none,unknown,,Spotify good. So easy to do and use,positive,control,8b
+719,False,performance_bugs,none,premium_user,listen to music offline,"Lately seems laggy. Idk why the app has seemed very laggy, slow, glitchy lately...even when I just play music as normal while offline (and SUPPOSEDLY having premium). It’ll have problems with shuffling music or with offline music downloads (titles I’ve already pre-downloaded for those offline moments I pay ahead of time to have ready) ...like I’m constantly seeing things disappear/not allow playback. And, noticed the filtering artists function doesn’t work %100, it’ll still shuffle random songs when I enter in an option to only listen to 1 specific artist. Needs work and it is constantly causing me data charges for things that should be ready in offline mode when I download them! I’ve been using you guys for years and I have a family plan so my family can enjoy the sound also...please touch your app up! I’m using a brand new iPhone 11 Pro Max and know it’s not my software!",negative,control,8b
+1549,False,ads,none,unknown,,Free Palestine. Stop running ads for the IDF,negative,control,8b
+4777,False,ads,none,premium_user,listen music,but the ads are making as crazy and we can only choose 5 music or it will play random musics.,negative,control,8b
+1557,False,ads,none,premium_user,listen podcast,You pay for premium and yet still have ads when listening to podcast…?,negative,control,8b
+7047,False,ui_ux,none,power_user,listen music,when you said (paraphrased) “if Spotify had all the features from Apple Music then id choose Spotify”,neutral,control,8b
+5982,False,pricing,none,premium_user,listen music,I bought premium yet it only charged me still with no premium..,negative,control,8b
+7225,False,social,none,unknown,,,neutral,control,8b
+4654,False,performance_bugs,none,unknown,listen music,Seems to get buggier every week and makes it harder and harder to just listen to music,negative,control,8b
+2054,False,other,none,unknown,,I love it so much it’s my favourite app,positive,control,70b
+3558,False,pricing,none,unknown,,,negative,control,8b
+5916,False,ui_ux,none,unknown,listen music,"chaos on the starting page, lots of useless recomendations",negative,control,8b
+6816,False,catalog,none,unknown,,,positive,control,8b
+5603,True,recommendation_quality,none,unknown,get songs that match my vibe,confuses kpop with pop,negative,control,70b
+273,False,catalog,none,unknown,,Great selection of 80’s jams,positive,control,70b
+257,False,ads,none,premium_user,listen to music without ads,The advertising says thirty minutes of no ads music. But a few minutes.go bye and then it plays ads.,negative,control,8b
+6124,False,social,none,power_user,follow a channel,"Great content! I follow you since you were making videos about connectors, and I love how this channel has evolved.",positive,control,8b
+4353,False,ads,none,premium_user,not specified,Thanks A lot But don’t be to commercial. We r happy last several years Experience,negative,control,8b
+526,False,catalog,none,unknown,access specific music,Release the Transformers DOTM and AOE scores,neutral,control,70b
+3620,False,other,none,unknown,not specified,AMAZING. It was so good,positive,control,8b
+4559,False,performance_bugs,none,unknown,submit application,Error this application form 15 hour problem pending,negative,control,8b
+829,True,discovery,discovery_works,unknown,find and listen to music,I recently found the songs i was looking for,positive,control,70b
+3408,False,ui_ux,none,premium_user,customize recommendations,Why can't I select NOT to be recommended podcasts that I tried and didn't like?,negative,control,8b
+3281,False,performance_bugs,none,premium_user,log in,Good. Good but when I bought premium it didn’t work it was part of family plan and I couldn’t log in,negative,control,8b
+4352,False,catalog,none,unknown,not specified,Spotify review. It is very good and very easy to use and there are all song,positive,control,8b
+5998,False,pricing,none,premium_user,listen to music without restrictions,what type of f#ing update is this...only 6 skip per hour...also only fixed number of choosing songs a day...,negative,control,8b
+5317,False,pricing,none,free_user,listen to favourite songs,I use Spotify to calm my mind and get some peace through listening to my favourite songs,negative,control,70b
+5063,False,ads,none,premium_user,,"I like to listen to what I want, with no advertisements.",positive,control,8b
+6051,False,other,none,power_user,,"Good points, I agree that it's ultimately up to us, the listeners, to put in the time and effort. We can make conscious choices to listen with intention and ensure we are listening to real human artists ",positive,control,8b
+100,False,catalog,none,new_user,,Great app!. I love this app. It’s great to listen to music and I’m happy for it!,positive,control,8b
+5951,False,repetition,stale_recs,power_user,,it's literally my fave app ever for music and I love the interface and everything honestly except that I feel like my music is really repeating and when I shuffle it's now on genres I don't really do so yeah but that might be a me problem ,positive,control,8b
+136,False,ads,none,free_user,,It’s really good but. It’s awesome all the music I want but there’s just too many ads I know they need money but it’s just so much ads for me it’s every 2-3 songs which are 2 minutes long per,negative,control,8b
+5152,False,catalog,none,new_user,,I love listening to music using this app.,positive,control,8b
+984,False,other,none,unknown,,Zach Bryan in London. Amazing.,positive,control,70b
+3327,False,ads,none,premium_user,,Good things and the bad things about it. I love the app but hate the ads and how you have limited lyrics access but over good,neutral,control,8b
+5390,False,pricing,none,premium_user,,ridiculously overpriced and turns itselfoff since the latest update. just another greedy company taking advantage of music artists,negative,control,8b
+2352,False,catalog,none,power_user,,Love Spotify. It’s a one stop shop for my favourite podcasts and music,positive,control,8b
+1566,False,performance_bugs,none,premium_user,,My songs keep stopping. I go and play a downloaded song then it stops playing 2 seconds in and in order to resume playing it I have to close the app the reopen it. This happens to half of the songs that I’ve downloaded. FIX IT,negative,control,8b
+2118,False,ui_ux,none,unknown,,Nothing. Honestly It’s better than better it so good,positive,control,8b
+5129,False,ads,none,unknown,,too much ads every 2 SONGS!!!,negative,control,8b
+3905,False,other,none,unknown,,I want the songs that know well not songs that I don’t well,negative,control,70b
+560,False,performance_bugs,none,premium_user,access saved artists,All of my saved artists are no longer there,negative,control,8b
+623,False,performance_bugs,none,premium_user,access liked songs,I can never get past the first about 30 to 40 songs,negative,control,70b
+1133,False,pricing,none,free_user,,,positive,control,8b
+7083,False,other,none,unknown,,add this song to my childhood,positive,control,70b
+531,False,ui_ux,none,free_user,easily access music,can't access the full album,negative,control,70b
+6083,False,pricing,none,unknown,,They keep deducting my streams and monthly listeners,negative,control,8b
+4775,False,ads,none,unknown,,Gaane ke beech ad. sunna.,negative,control,8b
+2392,False,other,none,unknown,,,positive,control,8b
+6781,True,discovery,stale_recs,unknown,find music that matches my taste,de escuchar salsa me lleva a regueton y luego a tecno,negative,control,70b
+2422,False,podcasts,none,unknown,,,positive,control,8b
+3776,False,ads,none,unknown,,Way to many ads. Even if you say no thanks it still plays 3 ad which is 1:30 minutes long and when you do want 30 minutes of no ad you still watch three ads the one that is saying to watch the ad for 30 minutes of no ads and then the ad then after is another ad saying you get 30 minutes of no ads but really you watched three long ads but other than that good for music,negative,control,8b
+5580,False,performance_bugs,none,unknown,,"update: I'm changing my rating to 5 stars ,I haven't had any troubles for a few years now ,best app ever. I had this app for two years and really loving it but now it won't work can't even get signed in ,please fix!!!",negative,control,8b
+1678,False,other,none,unknown,,":(. I understand this is a for profit business, but Spotify does not care about the users, their experience, or the musicians that create the content for this app",negative,control,8b
+3425,False,other,none,unknown,,Genuinely my favourite app,positive,control,70b
+33,False,ads,none,unknown,,Los comerciales. Por que música sin comerciales no es Spotify ya tu saves,negative,control,8b
+1825,False,ui_ux,none,unknown,,Ugly app icon. It shocks me when see it first time…,negative,control,8b
+4367,False,ui_ux,none,unknown,,Hate the new tablet split ui. I wish it was more like phone. Doesn’t make sense to have it split,negative,control,8b
+2184,False,other,none,unknown,,Spotify is so good for listing to music listing to podcasts and so much more,positive,control,70b
+1943,False,repetition,none,unknown,hear random songs,I hear the same 100 songs everytime I listen,negative,control,70b
+1592,False,ui_ux,none,unknown,play liked songs by artist,can no longer play ‘liked’ songs by artist,negative,control,70b
+3005,False,performance_bugs,none,unknown,search for songs,the search function needs updating,negative,control,70b
+7204,True,catalog,stale_recs,power_user,music discovery,"P lan Premium Country Philippines Device Huawei Nova 3 Operating System Android Pie My Question or Issue Spotify keeps recommending a horror podcast under ""Picked for you"" in the search dashboard. I've been trying to flush it out, clicking ""Not interested"" every time I see it, which is about 5-6 times at this point. It just won't budge and it is creeping me out. Why have the Not interested option if it doesn't work?",negative,control,8b
+2766,False,performance_bugs,none,premium_user,organize playlists,"Needs option to select multiple songs. Needs a feature where you can add an entire playlist to another playlist or select multiple songs from a playlist (like you can with photos) and either add them to a playlist, to your queue, or delete them.",negative,control,8b
+2587,False,ui_ux,none,free_user,listen to music offline,Pretty good.. I like that you can listen to the music offline without using your own mobile data.,positive,control,8b
+748,False,ads,none,free_user,listen to music,You literally can’t do anything without paying.,negative,control,8b
+1623,False,other,none,unknown,,When tf is the spotify wrap.,negative,control,8b
+5439,False,other,none,unknown,,it not just app of song .its a mind refreshness,positive,control,8b
+5279,False,performance_bugs,none,premium_user,use widget,"The new widget sucks. I used to use the spotify widget as a complete replacement for the spotify app shortcut, now that doesn't work anymore.",negative,control,8b
+3807,False,ui_ux,none,premium_user,add song to playlist,"Add to playlist suggestion. I have a suggestion, when adding a song to a playlist if user could press and hold like button then a pop will come up and select which playlist to add rather than liking the song and press again to add to specific playlist",neutral,control,8b
+5363,False,pricing,none,premium_user,listen to music,Why is the subscription going up again?,negative,control,8b
+5617,False,ui_ux,none,premium_user,use widget,The new widget for the home screen feels worse imo. in most sizes it feels way too big to really be used and when it is at a comfortable size it looses features.,negative,control,8b
+4064,False,catalog,none,premium_user,listen to specific song,"A list of songs you wish you could hear. If I want to play a song, that’s the song I want to hear, not something else.",negative,control,8b
+5719,False,performance_bugs,none,premium_user,use feature,"The previous negative issue has been resolved. Oddly specific issue. Make the ""auto invite nearby to a jam"" opt-in or send a notification that someone has joined you session.",negative,control,8b
+1523,False,performance_bugs,none,premium_user,listen to playlist,it glitches out. 30 seconds into playing my playlist in just glitches out?,negative,control,8b
+2643,False,performance_bugs,none,premium_user,fix performance bug,how do I fix it? I’ve logged in again and again and deleted the all and redownloaded it,negative,control,8b
+3133,False,repetition,none,premium_user,skip songs,It just gets me annoyed like if I skip a few songs then me being unlucky I land on a bad song and have to keep listaning to it,negative,control,8b
+25,False,ads,none,free_user,listen to music without ads,Cant go to sleep while listening to music without listening to 500 ads and having to wait 4 ads to play another song in your playlist,negative,control,8b
+5686,False,ui_ux,none,premium_user,resize widget,I can't increase the size of the widget on my xiaomi redmi note 11s anymore so there's always a gap next to it and it's really annoying,negative,control,8b
+6411,False,pricing,none,premium_user,none,the spotify individual subscription is just 1 dollar in india,positive,control,8b
+3581,False,pricing,none,premium_user,none,Slow and Expensive. Just over priced and old U.I,negative,control,8b
+5949,False,other,none,premium_user,none,"Its not just an app, its a way of life for me",positive,control,8b
+3491,False,other,none,premium_user,none,"I’m closing my membership and moving to Deezer. Such a shame, but I can’t support this anymore",negative,control,8b
+6500,False,other,none,unknown,listen to music,Apple Music is for mature music listeners,positive,control,70b
+1700,False,ui_ux,none,premium_user,organize podcasts,"New UI is not better. I need to see my downloaded podcasts in one place, not categorized by show",negative,control,8b
+2479,False,ui_ux,none,unknown,easily add songs to playlists,select multiple playlists in your profile to add to,negative,control,70b
+624,False,other,none,free_user,get music without ads,I didn’t like the fact that everything was played on shuffle,neutral,control,70b
+2708,False,pricing,none,premium_user,get a good experience,I think certain things still need to be available to those who may not have it.,negative,control,8b
+6164,False,ads,none,new_user,stream music,I despise Spotify.,negative,control,8b
+5770,False,performance_bugs,none,power_user,listen to music,Anytime I search a song it drops whatever speaker I'm bluetoothed to and won't connect again until I restart my phone.,negative,control,8b
+2328,False,other,none,unknown,,10/10. Highly recommend spotify,positive,control,70b
+5215,False,ads,none,free_user,listen to music,ads are terrible app showed 3 adds continuously and when it touched a song it shows me another add horrible adds ka bhi limit rako yaar,negative,control,8b
+4127,False,catalog,none,unknown,listen to music,The song that came on after the one I chose was awful,negative,control,8b
+3612,False,pricing,none,premium_user,listen to music,It’s good when you have premium but when you don’t it’s an add every star of the song and sometimes in the middle it was very annoying,neutral,control,8b
+6405,False,ui_ux,none,power_user,listen to music,I stopped discovering and even having fun with music once I swapped over to Apple!,negative,control,8b
+7058,False,ui_ux,none,power_user,listen to music,"Spotify has nice UI and connectivity, as I switch between my PC, phone and TV.",neutral,control,8b
+4396,False,ads,none,free_user,listen to music,"Worst ever music app. I was trying to play song , after every two song ad comes , i tried to pay for premium. There is no option for payment.",negative,control,8b
+3018,False,other,none,unknown,get help and use CarPlay,online chat and help functionality is quite poor,negative,control,70b
+3880,False,ui_ux,none,premium_user,listen to music,You can delete unwanted albums on IPhone. I can’t remove any unwanted albums from this app.,negative,control,8b
+4368,False,ads,none,unknown,,Advertisement. Too many adds ,negative,control,8b
+4225,False,pricing,none,unknown,,What about poor people who listen to music? Should they all buy subscriptions and listen to?,negative,control,8b
+1265,False,pricing,none,premium_user,listen to music daily,worth it because I have mental breakdowns,positive,control,70b
+6889,True,discovery,none,unknown,,El único problema de Apple músic es su algoritmo de recomendaciones,negative,control,70b
+7092,False,other,none,unknown,,I'm gonna fly some planes into a couple buildings in a Manhattan,negative,control,8b
+2191,False,other,none,unknown,,Very good. I was gone oh yes so good,positive,control,8b
+1508,False,performance_bugs,none,premium_user,listen to music,"I paid for Spotify premium but it keeps shutting down, I can’t even get through one song without it shutting down",negative,control,8b
+4855,False,performance_bugs,none,unknown,,service gets more worsen,negative,control,70b
+3135,False,ads,none,free_user,listen to music without interruptions,I don’t mind the adds because their not that often,positive,control,70b
+6810,False,ui_ux,none,unknown,control music playback,el poder controlar la reproducción de música desde cualquier otro dispositivo,positive,control,70b
+6183,False,other,none,unknown,,This is nothing new. It's been the way ever since multi-movement cantatas and suites. Music didn't start with the 3-minute pop song.,neutral,control,8b
+3971,False,performance_bugs,none,premium_user,listen to music offline,I have been paying for the app and it’s been telling me I’m offline for the last three months. Suddenly it’s back online again,negative,control,8b
+4809,False,ads,none,premium_user,,"My bank confirmed this is the normal status before settlement and provided transaction references, but support kept repeating the same scripted response.",negative,control,8b
+2772,True,discovery,discovery_works,unknown,stay up-to-date with music trends,It really keeps me in the mix the middle with all that’s trending,positive,control,70b
+5974,True,discovery,none,unknown,find old music,fine all the music that I haven't heard from my younger years,neutral,control,70b
+243,False,ui_ux,none,unknown,use in spa room,Gets confused when genre is changed ,neutral,control,8b
+4900,False,other,none,unknown,,,positive,control,70b
+7018,False,social,none,unknown,upload own music to Spotify,YOU CAN upload your own music to Spotify and listen to it on the app on your other devices.,positive,control,8b
+4689,False,other,none,unknown,,"one of the worst apps. if you develop for this app, quit your job.",negative,control,8b
+5509,False,catalog,none,unknown,,you can find basically every song,positive,control,70b
+7035,False,performance_bugs,none,unknown,download playlist from local files,You need to add a song from local files to a playlist and then download that playlist on another device.,neutral,control,8b
+3180,False,performance_bugs,none,unknown,use app without freezing,I have been having problems where it keeps on freezing and then resets every time I go into it and it annoys me and also sometimes it doesn’t connect me to my AirPods,negative,control,8b
+2361,False,pricing,none,unknown,,My point of view. Because we have to pay for it,negative,control,8b
+3825,False,recommendation_quality,none,premium_user,avoid annoying podcast recommendations,I’ve been getting  these dumb podcast recommendations on my Home Screen that have nothing to do with the podcasts I listen to.,negative,control,8b
+4837,False,other,none,unknown,,I just like using it sooooo thats all I wanted to say,neutral,control,8b
+1952,False,other,none,unknown,,"I hate Zionism and xenophobes. The ceo liquid eat his shares to invest hundreds of millions of dollars into a weapons technology company for Israel. 
+Now Spotify is running ICE recruitment advertisements on your platform. 
+Horrible, despicable, shameful, corrupt. Will be deleting imminently",negative,control,8b
+3509,False,ads,none,unknown,,Bad. They always play adds I have specifically asked not to see,negative,control,8b
+2107,False,catalog,none,unknown,find favourite songs,I can find al of my favourite songs,positive,control,70b
+1260,False,ads,none,unknown,,As requested. Enough with all the advertisement’s. Play more uncompressed cleaner sounding music. Pure true clean audio please. Ty,negative,control,8b
+3528,False,ui_ux,none,premium_user,change app logo,"CHANGE THE DAMN APP LOGO. Honestly the worst thing ever, every time I open my phone I get blinded. Insanely close to cancelling my plan and going to Apple Music. Fire your graphic designer!",negative,control,8b
+4316,False,ui_ux,none,unknown,,Pretty user friendly interface,positive,control,70b
+3017,False,podcasts,none,premium_user,disable podcasts,"Stop spamming Podcasts. The app won’t stop spamming about podcasts, I get it you’re doing podcasts. I have a separate podcast app that I use, I don’t care about podcast suggestions, I’m not listening to a random podcast for 30 mins to see if I like it or not . I don’t want to mix my music and podcasts. There should be an option to disable podcasts in the app. I’m probably going to switch to Apple Music because it’s becoming a pain",negative,control,8b
+83,False,ads,none,free_user,,Spotify. The app is good I just hate the adds you’ll get like 3 in a row even tho it says have a good 30 minutes break within a couple minutes you’ll get another add and premium is not an option for me,negative,control,8b
+6255,False,ui_ux,none,unknown,,can't understand putting songs in a particular order (except for one singular playlist where i did that) because alphabetical just helps me find everything easier,negative,control,8b
+5150,False,pricing,none,unknown,,alot of things are behind a paywall,negative,control,70b
+4333,False,pricing,none,free_user,,Beggars. At this point why is this app even free on the AppStore? Might as well make me pay money for that. It’s ridiculous that now without premium I can’t even choose what song I want to play. Absolutely diabolical why you would advertise this app as free and then keep taking away more and more features until I’m forced to buy premium. Why even call it a music app if I can’t hear the music I want?,negative,control,8b
+1652,False,other,none,unknown,,The song 'Dammi Falastini' was removed by Spotify and I don't want to give my Palestinian money to apartheid apologists,negative,control,8b
+6640,False,other,none,unknown,,Spotify for the win,positive,control,8b
+3192,False,other,none,unknown,listen to music while walking,I could walk for at least 2 hrs without any stress,positive,control,70b
+530,False,performance_bugs,none,unknown,listen to music without bugs,"it started being weird, so like at first it was a add so I didn’t think much of it, but then my music stoped played it ago and then stoped, and when I looked there was like a play button on all my songs of my playlist",negative,control,8b
+6118,False,other,none,unknown,,I thought it would be easily over 1M,neutral,control,8b
+1329,False,other,none,premium_user,listen to music,love Spotify take my money,positive,control,8b
+418,False,catalog,none,unknown,listen to music and soundtracks,This is the awesomeness best app ever. It’s really good for listening to music and soundtracks.,positive,control,8b
+398,False,pricing,none,premium_user,listen to music without ads,"I keep getting the same adds and I keep saying not relevant to me and stuff but it doesn’t make any change basically, and almost every thing you need premium",negative,control,8b
+6965,False,ui_ux,none,premium_user,listen to music on multiple devices,The smart thing about Spotify Connect is it plays the same music over all the devices at a given time,positive,control,8b
+3738,False,other,none,unknown,use the app for various activities,I use this app everyday for everything,positive,control,70b
+6685,False,ui_ux,none,premium_user,listen to music with good audio quality,Audio quality is superior on Spotify thanks to the personalized equalizer,positive,control,8b
+1292,False,podcasts,none,unknown,listen to podcasts,Book was mid. I didn’t have any real take aways. I felt like a book generated by chat gpt. Zero substance.,negative,control,8b
+6128,False,other,none,unknown,,"Haha I’ll take this as a confidence vote, thanks for being here!",positive,control,8b
+1015,False,ads,none,premium_user,,Too many ads in podcasts. I've been paying for premium for 10 years and yet podcasts are FULL of annoying ads,negative,control,8b
+3591,False,ui_ux,none,unknown,add to play list,adding to play list:. should be able to select add to play list more conveniently and efficiently. ,negative,control,8b
+2110,False,catalog,none,unknown,,"Limited Songs. The app is very easy, however not all the songs of a band or singer appear on their dedicated list",negative,control,8b
+249,False,performance_bugs,none,free_user,,How Spotify ruined my life. Spotify is not bad on computer if you are a free user but it feels like you are getting bullied while using it on iPhone,negative,control,8b
+6823,False,other,none,unknown,,Yo tengo el S25 Ultra y utilizo Appel music por que la calidad de reproducción es otra cosa. ,positive,control,8b
+5416,False,ui_ux,none,unknown,remove playlists from taste profile,bro make it so you can remove playlists from your taste profile,negative,control,8b
+3632,False,other,none,unknown,,Spotify. I love this app,positive,control,8b
+3500,False,performance_bugs,none,unknown,,"App lagging since recent update. Since about the same time that the developers released this most recent ui update for liking and saving songs to playlists, the app has become much slower and clunky",negative,control,8b
+3527,False,other,none,unknown,,Best app. This is a best app forever i seen i love this app very much i like punjabi song this makes me happy,positive,control,8b
+2622,False,other,none,unknown,,Girl. The music is good PINK PINK GIRLS GIRLS GIRLS GLITTER GLITTER GLITTER TWRLS TWRLS TWRLS TOGETHER FOR EVER WERE LINDA AND HEATHER that’s my favourite song what’s  yours sassy baka I downloaded this app about 4 min ago and I have not even played a song but my favourite emoji is 🥶🥶🥶🥶🥶🥶🥶🥶 because it reminds me of how cool I am look at the way that I move I drop the Fendi and my grove . I am emo 🖤 it’s not funny (  pick me ) they laugh at me caus I’m emo anyways how to be a baddie grrrrrrrr always were black lip stick maw grrrrr and after the end of your sentence always say grrrrrr if you don’t your not part of the baddie colt emos are allowed to but no softy’s or else. Download curcoss San Diego nowwww bye baddie colt,positive,control,8b
+5002,False,performance_bugs,none,unknown,,EDIT: fresh install made it worse! login screen will not accept my existing login. had to use my email instead of Google and now all playlists (even ones I didn't not make) are listed as empty. latest edition of Spotify refuses to load properly. it cycles quickly through songs like the UI is bugged. cannot manually skip to resolve this issue. doesn’t matter what playlist or if I have the app open or in the background. unusable garbage unless resolved!,negative,control,8b
+5933,False,pricing,none,premium_user,,with premium it's goated but without premium it's ,negative,control,8b
+5144,False,pricing,none,unknown,get premium,give 3 months premium,neutral,control,70b
+2673,False,ui_ux,none,premium_user,view lyrics and song facts,"I think it should be split apart into two sections, one for just lyrics, and one for some facts about the song",neutral,control,70b
+2067,False,performance_bugs,none,premium_user,,app tries to load and fails it’s always loading or you try to search something and it fails and says to reload.,negative,control,8b
+6395,False,social,none,premium_user,listen to podcasts and audiobooks,listen to podcasts and audiobooks in a single app,positive,control,70b
+2449,False,other,none,unknown,,,neutral,control,70b
+1158,False,catalog,none,unknown,,a variety of everything,positive,control,70b
+3437,False,pricing,none,free_user,,I cant even queue songs without needing premium now.,negative,control,8b
+3724,False,repetition,none,premium_user,,You only have 6 skips per hour when you have infinite skips on the desktop.,negative,control,8b
+3229,False,ads,none,premium_user,,3 30 second ads in a row after 1 song and they are all the same ad?,negative,control,8b
+3534,False,other,none,unknown,,,neutral,control,70b
+3663,False,ads,none,unknown,,not much ads like YouTube,positive,control,70b
+4658,False,repetition,none,premium_user,listen to music without repetition,Paying 12.99 a month just to hear the same Playlist no matter how many times I shuffle it.,negative,control,8b
+4955,False,other,none,unknown,,great app. great music,positive,control,70b
+3529,False,ui_ux,none,unknown,,I do wish I could change the order of songs,neutral,control,70b
+6367,False,ui_ux,none,unknown,use multiple devices,"i know this is old, but you can use multiple devices on spotify if you download whichever playlist you want and go on offline mode",neutral,control,8b
+3629,False,pricing,none,unknown,listen to music without ads,I wish u could just listen to music without it going away in 2 months begging for Spotify premium.,negative,control,8b
+3688,False,performance_bugs,none,premium_user,pick a song,You can’t pick a song if you don’t have premium you have to play a whole playlist it is really annoying,negative,control,8b
+7079,False,other,none,unknown,identify music video artist,To where I know the guy that says that's a cold ass honky I swear to God you recorded someone else and you pretending the music video that it's that guy,negative,control,8b
+4270,False,other,none,unknown,,I really loved it,positive,control,70b
+349,False,performance_bugs,none,unknown,,this app tend to make a lot of dumb ahh changes,negative,control,70b
+6521,False,ui_ux,none,unknown,view latest updates,there is no latest update music tap like Spotify,negative,control,70b
+1860,False,pricing,none,unknown,listen to music without ads,Too greedy. It’s almost impossible to listen to the songs you want to because they lock basic playing songs in order behind premium,negative,control,8b
+6815,False,other,none,unknown,,Apple lo tengo x 3 meses gratis en mi android xd,neutral,control,8b
+985,False,catalog,none,premium_user,,They are wonderful solos music slolo video is the best in the all the album in the world around to make us feel like they are powerfully together in one way and I have been listening to them all very years also I have been supporting with them very long time couple times in 2000-2010-2015 until now I have enjoyed,positive,control,8b
+6579,False,ui_ux,none,free_user,listen to music from work PC,I listen to music a lot from my work PC and oh boy is the Apple Music app bad for that.,negative,control,8b
+5212,False,performance_bugs,none,premium_user,,when Spotify deletes songs from my library not cool,negative,control,8b
+1879,False,ads,none,premium_user,,I love so much about this app but I don’t feel right continuing to support this company and their business practices.,negative,control,8b
+6240,False,other,none,unknown,,That's crazy. People actually listen to spotify rec playlists??,neutral,control,8b
+1552,False,ads,none,premium_user,,"Ads promoting ICE and other racist idealogical bs, on top of not paying the individuals that produce the content keeping your service alive, on top of AI generated slop that adds ABSOLUTELY NOTHING!!!!! to the experience nor does it fix any problems with the application , unless you consider consuming mass amount pf water and contributing to climate change an issue, then yes!!!! it definitely does!!! ",negative,control,8b
+2145,False,pricing,none,free_user,,Commercials. Too expensive for no commercials,negative,control,8b
+1650,False,other,none,unknown,,Dammi Falastini. will not be supporting a zionist platform,negative,control,8b
+6744,False,performance_bugs,none,premium_user,,"Algo malo a destacar es que sus lanzamientos funcionan mal, muchas canciones tardan en aparecer como catalogo o algunas aparecen pero no se pueden reproducir después de 1 hora aproximadamente :(",negative,control,8b
+6309,False,pricing,none,premium_user,,i switched to yt music the second i saw pay walled lyrics FUCK spotify,negative,control,8b
+6941,False,other,none,unknown,,Good summary. Thanks. That despite Our music tastes being nothing alike ,neutral,control,8b
+6792,False,catalog,none,unknown,,"Yo voy al 10000% por YT Music. Puedes escuchar playlist de covers creadas x personas externas que nunca encontrarás en esas Poutas apps de spotify y Apple Music, además puedes ver los videos mientras escuchas las músicas y encontrar música que no tiene licencia en las otras apps y música que han sido bajadas pero las personas normales las suben por su propia cuenta",positive,control,8b
+6931,False,pricing,none,premium_user,compare music streaming services,Apple music is half the price of Spotify despite having technically a slightly larger library.,neutral,control,8b
+5036,False,pricing,none,unknown,unknown,they don't pay there artists enough,negative,control,8b
+6188,False,social,none,unknown,learn about linguistics,I was actually talking to my college classmates about your channel.,positive,control,8b
+92,False,ui_ux,none,unknown,,I love how many options there are,positive,control,70b
+6216,False,repetition,none,unknown,unknown,WHAT THE HELL IS AN UPDATE!?!?!?,negative,control,8b
+3023,False,performance_bugs,none,power_user,play music while gaming,when you exit the app with a song let’s say like.. bones and you want to play a video game with music I try and I can’t,negative,control,8b
+3120,False,performance_bugs,none,free_user,listen to specific songs,Songs disappearing?. i really like to listen to songs n all and mostly “ON THE FLOOR” specially by lumi athena,negative,control,8b
+225,False,other,none,unknown,unknown,Spotify is amazing Hitler,positive,control,8b
+2758,False,recommendation_quality,stale_recs,premium_user,listen to chosen music,i just want to listen to MY music. why are suggested tracks a thing?,negative,control,8b
+162,False,ui_ux,none,unknown,,This music app is amazingly better than every other option,positive,control,70b
+4290,False,other,none,unknown,,Best listening app,positive,control,70b
+1686,False,performance_bugs,none,premium_user,listen to music without app crashing,I try to play music and the app just keeps crashing,negative,control,8b
+240,False,ads,none,premium_user,,"Fantastic work for this, you will still get ads if you don’t get the premium but after a while you will get used to it!",positive,control,8b
+5745,False,performance_bugs,none,premium_user,,its greedy and has limits to picking your own song and you only have 6 skips per hour and very laggy sometimes it has 3 or 2 ads and sometimes they put an ad and then will put it again after the first ad and i have to pay for better experiences,negative,control,8b
+4899,False,pricing,none,unknown,,to many ads. to pricey in current economic times,negative,control,8b
+4472,False,ads,none,unknown,,To much add. Every song not available,negative,control,8b
+3233,False,other,none,unknown,listen to music offline,maybe add something were you can listen to it offline,positive,control,70b
+2127,False,other,none,unknown,,I highly recommend it and it’s really good for when you’re going on late night drives,positive,control,70b
+2898,False,performance_bugs,none,premium_user,listen to music,"Great App with Minor Issues. Ok so let’s just say that premium is essential. I love everything about the app, the accessibility, range of music and so on.",positive,control,8b
+5906,False,performance_bugs,none,unknown,play music offline,we can play music even when our mobile is off,positive,control,70b
+1219,False,performance_bugs,none,premium_user,,"Music constantly skips. I have a premium plan, and 3K+ songs downloaded. Setting are set to only play downloaded files. However music and audio books are choppy and skip constantly.",negative,control,8b
+205,False,ads,none,unknown,,way to many ads. tbh it’s really good app for music but it has to many ads we only need like 1-2 not 5 thts way to much can u increase it down we don’t need tht much for the people who don’t wanna buy premium,negative,control,8b
+905,False,performance_bugs,none,free_user,,I hate it!. What did you guys do? My iPad app was fine until you did your updated day ago. Now I have lost access to all 8000+ songs. First you had to go and change how the phone app works and now you change how the iPad app works.,negative,control,8b
+1001,False,ui_ux,none,unknown,,Idk. This app is so good,positive,control,8b
+6512,False,pricing,none,unknown,,Apple Music gets you free Apple TV+ with the student plan.,positive,control,8b
+3013,False,ui_ux,none,unknown,play songs before adding to playlist,can’t play songs to listen to them prior to adding them,negative,control,70b
+2804,False,ads,none,free_user,avoid ads,the sheer amount of ads are alot,negative,control,70b
+3939,False,other,none,unknown,,Great songs I recommend this to you guys!,positive,control,70b
+4685,False,performance_bugs,none,unknown,,"Saya baru saja update app nya, tiba tiba disuruh log in ulang, saya coba log in, malah something went wrong terus",negative,control,8b
+2348,False,catalog,none,unknown,,Podcast and Music. Everything all in one place right at your fingertips!,positive,control,8b
+5352,False,ui_ux,none,unknown,,I love spotify but if anyone knows to link to a another device pls tell me just say me,neutral,control,8b
+2497,False,ads,none,free_user,listen to music without ads,ads are infuriatingly often,negative,control,70b
+2896,False,catalog,none,unknown,find songs to listen to,Quick and easy to find songs,positive,control,70b
+5538,False,ads,none,unknown,,uno ya ni deprimirse en paz puede. sería preferible otro tipo de anuncios por lo menos.,negative,control,8b
+1800,False,pricing,none,unknown,,Price. Why is the price increasing again?,negative,control,8b
+1595,False,ui_ux,none,unknown,,Latest update!. The new logo is very disturbing to look at,negative,control,8b
+4759,False,ads,none,premium_user,listen to music,hm it's good in everything but ad and i don't want to get premium but I am happy..,positive,control,8b
+2427,False,other,none,unknown,listen to music,"JIGGLE JIGGLE. Louis Theroux, Duke & Jones
+Jiggle, jiggle
+My money don't jiggle, jiggle, it folds
+I'd like to see you wiggle, wiggle, for sure
+It makes me wanna dribble, dribble, you know
+Riding in my Fiat
+You really have to see it
+Six feet two in a compact
+No slack but luckily the seats go back
+I've got a knack to relax, in my mind
+Sipping some red, red wine
+Shepherd's Bush
+My compact push
+Notting Hill Gate
+My Fiat skates
+With a crate of Cabernet
+But not today
+Because I gotta drive
+I wanna stay alive
+Not 'cause it's illicit
+Do I have to get explicit?
+As a matter of fact
+I sip on the 'gnac
+With Big and Reece
+200 diamonds in their piece
+I'm trying to get mine
+So I can shine
+Jiggle, jiggle
+I like to see you, wiggle, wiggle
+Jiggle, jiggle
+I like to see you, wiggle, wiggle
+My money don't jiggle, jiggle, it folds
+I'd like to see you wiggle, wiggle, for sure
+It makes me wanna dribble, dribble, you know
+Riding in my Fiat
+You really have to see it
+Six feet two in a compact
+No slack but luckily the seats go back
+I've got a knack to relax, in my mind
+Sipping some red, red wine
+I think that went really well, don't you?
+I enjoyed it, nice being in the booth
+So unless you have anything else, that's a wrap
+(Jiggle, jiggle)
+(I like to see you, wiggle, wiggle)
+(Jiggle, jiggle)
+(I like to see you, wiggle, wiggle)",positive,control,8b
+2863,False,performance_bugs,none,unknown,listen to music,"Your app is almost unsable. Every time I want to listen to a certain song, your app plays a random song from an album that contains the song I want to play. I don’t want to spend money JUST to listen to music. How about you let us choose what song we want to listen to on mobile and that will be great because I don’t want to listen to random songs from a playlist that contains the song I want to play -_-
+",negative,control,8b
+5909,False,ads,none,free_user,listen to music,noob ad is constant and only have 6 skips it play the song itself,negative,control,8b
+5191,False,recommendation_quality,none,premium_user,listen to music,"forgot to change my rating, the app works now! Spotify is always a good choice for music listening! would recommend to most people! sure, the ads kinda suck if you cant get premium, but they aren't too bad once you're used them!",positive,control,8b
+2117,False,catalog,none,unknown,listen to audiobooks,Amazing but…. Amazing just that but got quite annoyed with some audio books being removed (MID READ) and only getting the message “this content is unavailable in you region” when I was listening to it 5 minutes ago!,negative,control,8b
+2274,False,ui_ux,none,unknown,unknown,Logo. i don’t like the new logo 🙁,negative,control,8b
+932,False,performance_bugs,none,unknown,listen to music,"Billion dollar company and they can’t stop their songs from being hacked. Songs get hacked and replaced almost regularly, people also post from other artists accounts",negative,control,8b
+1037,False,ui_ux,none,unknown,listen to music,Good. Like listening to music,positive,control,8b
+3061,False,ui_ux,none,unknown,listen to music,"Rearranging. I really love using this app for listening to music, but then last year you removed the feature to rearrange songs in a created playlist and I don’t see why it was removed. But soon, can you please have the feature back?",neutral,control,8b
+6879,False,other,none,unknown,unknown,"Ninguno de los dos, prefiero mil veces YouTube Music.",negative,control,8b
+6031,False,other,none,unknown,unknown,"I usually don’t jump into new projects, but after seeing the potential with Flixy5 FLX, I’m in. Time to diversify my portfolio!",positive,control,8b
+6429,False,ui_ux,none,unknown,,"The biggest argument for Apple Music for me was, that my whole music library so far was on iTunes and adding Apple Music to that just worked. I also love that I can see my most played songs, albums and artists monthly.",positive,control,8b
+6029,False,other,none,unknown,,"Why wait? The Flixy5 presale is live, and with everything they’re offering, this could be a game-changer for investors.",positive,control,8b
+921,False,other,none,unknown,,I love playing music and I Love Juice WRLD,positive,control,70b
+6751,False,catalog,none,unknown,,Yo que uso un Youtube Music de codigo abierto que descargué de F Droid: Peleense ,positive,control,8b
+2814,False,recommendation_quality,none,premium_user,finding specific songs,One suggestion is that when you are in an artists profile to access single songs easier as I don’t always know which album a song is from.,positive,control,8b
+216,False,ads,none,unknown,,,negative,control,8b
+4045,False,performance_bugs,none,unknown,,iOS issue. Please please PLEASE fix the iOS issue where the app doesn’t open past the loading screen and crashes.,negative,control,8b
+1361,False,pricing,none,unknown,,Priced out. You’ve raised the price so many times in the past couple of years that you are by far the most expensive music app around,negative,control,8b
+3145,False,social,none,unknown,,"Account hacked and no customer support. Account was hacked, the hacker changed my account to a premium family account moving my renewal date up and can’t contact anyone to sort it",negative,control,8b
+1380,False,recommendation_quality,none,unknown,,hate the new update. tell me why did you think adding ONLY 6 skips per hour was a good idea??,negative,control,8b
+1872,False,ui_ux,none,unknown,,WHY WOULD YOU REMOVE THE WHATS NEW FEATURE. Literally the most useful feature and it’s gone. HATE IT,negative,control,8b
+6780,False,catalog,none,unknown,,,negative,control,8b
+4967,False,pricing,none,premium_user,,WHY DO I HAVE TO PAY 300RS PER MONTH JUST TO GET LOSSLESS,negative,control,8b
+6969,False,ui_ux,none,power_user,,,positive,control,8b
+6413,False,performance_bugs,none,unknown,,I got really pissed off when Spotify killed streaming with Djay pro. Sooo mad,negative,control,8b
+6724,False,pricing,none,free_user,,"Soy un hombre simple: quién me de meses gratis, usaré su aplicación. Eso de ponerse la camiseta de una app o buscar al mejor es inútil porque estás pagando por algo que es gratis en brave o telegram jaja",negative,control,8b
+6592,False,catalog,none,unknown,,Apple Music for Playlists and SiriusXM for Radio!!,positive,control,8b
+6741,True,recommendation_quality,none,unknown,get podcast recommendations,el algoritmo de Spotify está muy chido,positive,control,70b
+5072,False,performance_bugs,none,premium_user,,won't let me play any of my liked songs without premium.,negative,control,8b
+4770,False,ui_ux,none,premium_user,,Exceptional music app. Absolutely love the fact that I can listen to music while my phone is off.,positive,control,8b
+2368,False,other,none,unknown,,sooooooo good..,positive,control,70b
+5014,True,discovery,discovery_works,unknown,musical curiosity,answer to my musical curiosity,positive,control,70b
+3371,False,ui_ux,none,premium_user,,Pencil edit bottom. Why did you remove the pencil Edit bottom so I could put the order I wanted on my podcast instead of the order I download them,negative,control,8b
+5967,False,ui_ux,none,premium_user,,I can only describe this app in one word amazing,positive,control,8b
+627,False,repetition,none,premium_user,,"you cant even view the entirety of people playlists, you can go back or speed forward on songs, you cant pick which song you wanna listen too",negative,control,8b
+5335,False,performance_bugs,none,premium_user,,the adds kept popping every second,negative,control,8b
+645,False,other,none,unknown,,Safe Protected Diplomacy. Learning together to protect oneself and our own children worldwide is always important,neutral,control,8b
+4529,False,performance_bugs,none,free_user,listen to music,"sometimes app gets crashed, sometimes i add song to queue its doesn't get added",negative,control,8b
+1348,False,other,none,unknown,,Find Noah Simpson,neutral,control,8b
+2285,False,pricing,none,free_user,listen to music,I can’t afford to pay for premium and the basic Spotify sucks arse!!!,negative,control,8b
+1806,False,performance_bugs,none,premium_user,listen to music,Wrong song appearing in media page. Seems to be always late a song,negative,control,8b
+6944,False,other,none,unknown,,you can literally do the same thing with spotify,neutral,control,8b
+2743,False,repetition,none,premium_user,listen to music,"You have to wait five seconds to skip an ad now, which is a bit ridiculous",negative,control,8b
+1699,False,ui_ux,none,premium_user,organize playlists,I just want a place where I can see only my playlists sorted a way I want,negative,control,8b
+1688,False,other,none,unknown,,I feel like a astronaut in the ocean,neutral,control,8b
+933,False,catalog,none,premium_user,run with music,"Love Spotify, but could you link with Runna to play music at the tempo they want me to run at?",positive,control,8b
+6779,False,ui_ux,none,unknown,,"En configuraciones del celular bro, solo busca la app y vas bajando ahí sale el ecualizador",neutral,control,8b
+4309,False,ads,none,unknown,,Suggestion. Frequent Ads are bad and distressing,negative,control,8b
+5801,False,performance_bugs,none,unknown,,dj plays two sets then doesn't work for a week straight,negative,control,8b
+7182,False,ui_ux,none,premium_user,music listening experience,"I appreciated the former relationship spotify gave its listeners to autogenerated suggestions. I felt I had control of choice as well as a clear visual differentiation as to what was my music and what was ""suggested for"" me or advertised to me.",negative,control,8b
+1006,False,other,none,unknown,,The best app there is,positive,control,70b
+5672,False,performance_bugs,none,unknown,,I use this all the time but recently threw app won't fully open. I'll get stuck on a grey screen and it'll never load. I need to constantly uninstall and reinstall the app to get it work once.,negative,control,8b
+3754,False,catalog,none,premium_user,finding music,The option I use %90 of the time when finding music has been removed. That is the songs list in my library.,negative,control,8b
+4231,False,performance_bugs,none,unknown,,Laggy Startup. It is severely laggy at startup. It takes several minutes to load up after opening and is super slow,negative,control,8b
+5487,False,performance_bugs,none,unknown,,it automatically get delete from the history 😭 very bad performance 😞,negative,control,8b
+5850,False,ui_ux,none,premium_user,,forcing to use a bigger widget is a joke. I'm starting to think about ending paying for it.,negative,control,8b
+2389,False,pricing,none,free_user,,"Free Spotify account. I really like Spotify, but I hate the free accounts now. I can’t skip songs more than 6 times. If I want a song by an artist it will play a different song by that artist.",negative,control,8b
+6000,False,ads,none,unknown,listen to music without ads,one problem is a lot of ads,negative,control,70b
+576,False,ads,none,free_user,listen to music without ads,"Now the reason I’m only giving it a one (even though it actually deserves a zero) is due to the fact that the app claims after thirty minutes you either can listen to ads for thirty minutes of music or not (which ends up with ads every two to four songs, equaling only about 16-19 minutes; trust me, I timed it).",negative,control,8b
+4455,True,discovery,discovery_works,unknown,find soundtrack for feelings,it’s how easily it finds the soundtrack for whatever I’m feeling,positive,control,70b
+4443,False,pricing,none,premium_user,get premium features without paying,Pay money but still not give subscription.,negative,control,8b
+3094,False,ui_ux,none,premium_user,share lyrics,Love but bring back the share lyrics feature.,neutral,control,8b
+1532,False,pricing,none,unknown,get premium features for free,would have been better if people could just get premium features for free,negative,control,8b
+1202,False,other,none,unknown,,I love how they made Spotify,positive,control,70b
+39,False,other,none,unknown,,H. I will always love this app,positive,control,8b
+2742,False,ui_ux,none,premium_user,listen to songs in the order I chose,"you make a playlist, and you don’t have a choice what songs come up when, and you even get songs played to you that you didn’t put on the playlist, and you can’t remove them",negative,control,8b
+2082,False,other,none,unknown,,Thank u so good. Thank you so much for all your effort in to this app,positive,control,8b
+909,False,performance_bugs,none,new_user,listen to the songs I want,"Why even HAVE an uncontrolled queue that overtakes the whole app? Whats the point of a music app, if it wont let you listen to the stuff you’re tryna play?",negative,control,8b
+308,False,catalog,none,premium_user,,"it has so many podcasts, shows, and songs!",positive,control,70b
+2130,False,ads,none,free_user,listen to music without ads,the only thing that annoys me is the amount of ads,neutral,control,70b
+3523,False,ui_ux,none,power_user,fix annoying song shuffle,I get a bit annoyed when the song ends and puts on a random song that I don’t want to listen to like I just need something to fix it,negative,control,8b
+3435,False,catalog,none,unknown,,some songs that r on youtube,positive,control,70b
+1956,False,repetition,stale_recs,power_user,avoid repetitive songs,Have 800 saved songs and it literally plays the same 100 songs no matter where I start in the list,negative,control,8b
+1580,False,performance_bugs,none,premium_user,use app without hassle,it’s such a hassle that I’m switching to Apple Music,negative,control,8b
+6009,False,ui_ux,none,unknown,listen to music offline,I can download it to my playlist,positive,control,70b
+3604,False,catalog,none,power_user,listen to music,Spoilt for choice,positive,control,8b
+3918,False,performance_bugs,none,power_user,use app without hassle,The update just gets more and more infuriating,negative,control,8b
+5253,False,ui_ux,none,power_user,use new widget,why force me to get rid of the old one when it worked fine,negative,control,8b
+845,False,ui_ux,none,free_user,create and manage playlists,why do you add songs to my playlist like I didn’t ask you,negative,control,70b
+1983,False,other,none,power_user,use app,Spotify is Gold,positive,control,8b
+4934,False,ads,none,free_user,use app without ads,showing only ads...... i listen only 1 song & watch 3 ads,negative,control,8b
+1618,False,ui_ux,none,power_user,use app without hassle,Please fire whoever thought it was smart to put a “add playlist” button on the main screen,negative,control,8b
+2148,False,other,none,unknown,,I like add in grease spottily adds stuff I has ve forgotten about.,positive,control,8b
+1516,False,catalog,none,unknown,,Where is the Spotify wrapped you’ve been talking about?,negative,control,8b
+5646,False,repetition,none,unknown,,It's the music app I use and I hope it will be better someday,negative,control,8b
+6927,False,ui_ux,none,unknown,,apple music ui craps on spotify outdated ui,negative,control,8b
+1409,False,other,none,unknown,,Ai. Il sais vraiment ques se que je veux,neutral,control,8b
+3461,False,catalog,none,unknown,,Loving Spotify. Spotify is sooooo good! I love having music on hand and for FREE!,positive,control,8b
+4207,False,other,none,unknown,,Best music app. Keep it up,positive,control,8b
+1876,False,pricing,none,unknown,,Stop having every feature require premium.,negative,control,8b
+694,False,pricing,none,unknown,,"Great app, if you have premium.",neutral,control,8b
+1876,False,performance_bugs,none,unknown,,,negative,control,8b
+1237,False,performance_bugs,none,unknown,,It’s ok. I won’t load when I open the app……….??? That normal,neutral,control,8b
+866,False,ui_ux,none,unknown,,PLEASE stop fixing what isn’t broken.,negative,control,8b
+977,False,other,none,unknown,,Music. I love all your mucic it never let's me down,positive,control,8b
+1966,False,other,none,unknown,,,neutral,control,8b
+1756,False,ads,none,unknown,,Vaccine misinformation has no place in a word of vulnerable people.  Be responsible.  Stop it.,negative,control,8b
+2105,False,ads,none,unknown,,Way to many adds at one and to many in general like tone it down a bit,negative,control,8b
+2971,False,performance_bugs,none,unknown,edit playlist,"The new update has made it a lot harder to quickly remove songs from your playlist, ",negative,control,8b
+4733,False,ui_ux,none,unknown,,Has now become just grey in colour with fewer controls!,negative,control,8b
+3466,False,ads,none,premium_user,,"even having a premium user, spotify always sneaks advisement into long podcasts and audio books",negative,control,8b
+5645,False,other,none,unknown,find something to chill to,looking for what to Chil with,positive,control,70b
+2731,False,performance_bugs,none,unknown,view playlist,But ever since the latest update I can’t see any of the song in my playlist but my friends on their phone can.,neutral,control,8b
+362,False,pricing,none,unknown,,I do not like the new update where you have to pay to listen to music in any order you two,negative,control,8b
+1406,False,other,none,unknown,listen to music,great app to listen to all kinds of music,positive,control,70b
+857,False,ui_ux,none,premium_user,preview songs before playing,I loved being able to tap and hold on a particular song and hear a good 30 seconds of it,negative,control,70b
+7113,False,other,none,unknown,,,neutral,control,8b
+1978,False,ads,none,free_user,listen to music without ads,please make it less,negative,control,8b
+823,False,performance_bugs,none,premium_user,view downloaded albums offline,if I have no internet I have downloaded music to listen to but if the album I want to listen to isn’t showing up as downloaded I can’t go to the artist profile because I’m offline,negative,control,8b
+3237,False,catalog,none,premium_user,listen to Irish dancing music,all my irish dancing music didnt exist on the app any more,negative,control,8b
+163,True,catalog,discovery_works,unknown,,highly curated,positive,control,70b
+368,False,other,none,unknown,,I love Spotify so much it’s a life saver,positive,control,70b
+1136,False,other,none,unknown,,This is the best app ever made,positive,control,70b
+2010,False,other,none,unknown,,I listened to my favourite songs and it was excellent,positive,control,70b
+1955,False,performance_bugs,none,free_user,listen to music,IT WONT EVEN LET ME PLAY MUSIC,negative,control,8b
+2510,False,pricing,none,premium_user,top up premium,Every time it came up with a pink page that said “404s and heartbreaks”,negative,control,8b
+472,False,performance_bugs,none,premium_user,listen to music without bugs,This app is constantly laggy and buggy to an obnoxious degree,negative,control,8b
+3525,False,ads,none,premium_user,listen to music without ads,Too many ads,negative,control,8b
+2764,False,ui_ux,none,premium_user,search and listen to a song,the app is very hard to use if you don’t have premium,negative,control,8b
+3282,False,other,none,unknown,,Nothing better than this,positive,control,70b
+2925,False,other,none,unknown,listen to music,I love listening to music on it,positive,control,70b
+5160,False,pricing,none,unknown,,wish you could have 1 year free trial and add songs from Pandora YouTube and more onto Spotify,negative,control,8b
+2573,False,performance_bugs,none,premium_user,,Terrible for iphones. This app is the most infuriating thing to work. There is no way to view and edit you cue or play a song in full.,negative,control,8b
+542,False,ui_ux,none,premium_user,,The heart function. Why on god’s green earth would you get rid of the hearts that denote whether a song is liked.,negative,control,8b
+2404,False,performance_bugs,none,unknown,,TERRIBLE.. It’s good but you can’t get it on a specific device with restrictions on like how are you supposed to listen to music when you have them damned  restrictions on?!?!?!?!,negative,control,8b
+2469,False,recommendation_quality,none,free_user,listen to music,Skipping. I recommend making it so people without premium can skip because there are people in this world who would love to listen to music but the option to skip being unavailable is very hard to enjoy,negative,control,8b
+6414,False,catalog,none,unknown,,Older video but Spotify now has lossless audio,positive,control,8b
+5046,False,catalog,none,unknown,,out of this world all in one you are unstoppable,positive,control,8b
+1681,False,ads,none,premium_user,,COVID blood money. Just another heartless psychotic company that would rather watch people literally die from their knowingly spreading disinformation through their promotion of an over payed idiot jock than take the responsible action of cutting ties with the mouth breather.,negative,control,8b
+1256,False,other,none,unknown,,"Read below. Spotify CEO Daniel Ek has invested heavily in Helsing, a European defense-technology company that develops artificial intelligence (AI) for military use.",neutral,control,8b
+4745,False,ui_ux,none,unknown,,"The way you can manage your Playlists, the songs and plenty of library makes want to keep listening to music, podcasts and books!!",positive,control,8b
+4199,False,other,none,unknown,,,positive,control,8b
+6819,False,ui_ux,none,unknown,,,positive,control,8b
+3773,False,pricing,none,premium_user,listen to music,Good and bad. Well music is great but you have to pay do get better music quality and clearer so they purposely turn it down? And explain how I just got 6 ads in a row one after another and no songs. Far too many ads and half the ads are saying don’t you hate ads?,negative,control,8b
+2048,False,ads,none,unknown,,Ads. There are way to manny adds,negative,control,8b
+3367,False,performance_bugs,none,premium_user,listen to music,Help! Music won’t stop “crackling”. Every ten seconds my songs make a crackling noise. I have a new IPhone 8 so I really don’t think it’s my speakers. Please fix this or I’m going to have to cancel my premium,negative,control,8b
+82,False,catalog,none,unknown,,SO GOOOOD. Love listening to songs on here quality is good and loads of the best songs ever!!!!,positive,control,8b
+173,False,pricing,none,unknown,,The best music play app if ot was free. ,negative,control,8b
+6122,False,other,none,unknown,,"they ruined very thing, chat rooms, dating sites, auction sites, social media, forums, even wiki",negative,control,8b
+4109,False,catalog,none,unknown,find any music,I can find anything I want to listen to,positive,control,70b
+4154,False,recommendation_quality,none,premium_user,listen to music,5stars. It is the best place to listen songs but with premium as once add came it’s gone for 2 to 3 minutes and the 2 to 3 minutes kill all the vibes and once the vibes are gone they are goneee,positive,control,8b
+6394,False,ui_ux,none,unknown,,"Apple Music have better design, but spotify have more musics and is better for connective",neutral,control,8b
+5435,False,other,none,unknown,,I use it everyday no issues and couldn’t be better,positive,control,8b
+5623,False,ui_ux,none,unknown,,super easy to use and great for my family! love it!,positive,control,8b
+7088,False,other,none,unknown,,0:29  im going drive my plane,neutral,control,8b
+1547,False,performance_bugs,none,unknown,listen to playlists in order,"You update this app every week, yet you can’t fix the playlists defaulting to shuffle.",negative,control,8b
+185,False,recommendation_quality,none,unknown,,I GET WAAAAAY TO MUCH ADDS OF MY CONSOLE,negative,control,8b
+395,False,pricing,none,unknown,,Lemme use que whenever I want and lemme pick whichever songs I want without premium,negative,control,8b
+6050,False,other,none,unknown,,"I don't use ANY of those music streaming services, I created my own music library since the last 40+ years",negative,control,8b
+2636,False,performance_bugs,none,unknown,listen to liked songs in order,I love the app but at the moment with my liked songs I’m trying to listen to one of the specific genres that pop up at the top,negative,control,8b
+2417,False,performance_bugs,none,unknown,,I love this app but am annoyed by a couple things. Something that has happened the past couple months is that it will just stop playing.,negative,control,8b
+2026,False,pricing,none,unknown,,Spotify is super money hungry. I can’t a play another song without getting an ad,negative,control,8b
+4868,False,ui_ux,none,unknown,,I like how I can listen to music in the background without paying for it,positive,control,8b
+3276,False,ui_ux,none,unknown,edit playlist cover,It’s great but.... It’s a brilliant app but it would be way better if we were able to edit the cover of our playlists,neutral,control,8b
+6384,False,other,none,unknown,,My personal take - Apple Music is better due to the more single focus of the app,negative,control,8b
+3714,False,performance_bugs,none,premium_user,listen to music or podcasts,If it’s music you what then this app is great.  Lacking a few things as a podcast player like not being able to play just one podcast.,negative,control,8b
+917,False,performance_bugs,none,free_user,listen to music without errors,"anytime I search a song, if I click on it almost 90 percent of the time it plays a different song",negative,control,70b
+7081,False,other,none,unknown,,,neutral,control,8b
+5250,False,pricing,none,free_user,listen to music,I wish they had less ads and made the app have more ways to gain temporary premium,negative,control,8b
+2266,False,other,none,unknown,,,neutral,control,8b
+2887,False,catalog,none,premium_user,listen to music,They decided to delete the whole album after My request.,negative,control,8b
+52,False,ads,none,unknown,,I just wish I could get a break from the adds,positive,control,70b
+1375,False,pricing,none,unknown,,Vous nous oubliger à avoir premium après 6 lecture c abusif,negative,control,8b
+3084,False,ui_ux,none,premium_user,listen to music,There needs to be a couple’s account option (as people have been crying out for it for years),negative,control,8b
+5240,False,catalog,none,unknown,,it is a very good app for listening songs,positive,control,8b
+2957,False,performance_bugs,none,free_user,listen to music,Lots of different people logging in from different countries and I can seem to change my password,negative,control,8b
+6308,False,ui_ux,none,premium_user,organize playlists,My playlists are organized by the date I added the songs,positive,control,8b
+1882,False,ads,none,premium_user,pick songs and order,Not only when I ran out when normally I’m used to js ads every 10m and that’s it now I lose the chance of picking my songs and the order there in and the adds are like after every 1.5 songs js giv did Brokie s a chance I don’t have the currency for this,negative,control,8b
+5118,False,ui_ux,none,free_user,playlist song order,good just please make the playlist song actially played turns by turns for free,neutral,control,8b
+7011,False,catalog,none,unknown,,Apple Music has lyrics for almost every song and a better library.,positive,control,8b
+6154,False,other,none,unknown,,now you notice the capitalism vs art debate,neutral,control,8b
+322,False,ui_ux,none,unknown,choose music,"Wow. Can’t choose music, 1 star",negative,control,8b
+2086,False,recommendation_quality,none,unknown,,B. Best app that plays songs ❤️❤️❤️❤️❤️,positive,control,8b
+1338,False,ads,none,unknown,listen to music ad-free,put no adds,neutral,control,70b
+892,False,performance_bugs,none,premium_user,listen to music,"Like it but it has too many ads without premium. Sometimes I’ll be listening to music and after a song it gives me 3 15 second ads in a row and it really aggrivates me because if I want to play a different track, even though I already had to listen to 3 ads it still gives me three more. The only other problem I have is when it shows the songs in a playlist or album that’s not mine it only shows a few of the songs. If I want to know if a certain song is on a playlist I won’t have any way of knowing unless I listen to the entire thing and waste an hour of my time. Also sometimes while I’m listening to music a song will randomly stop and when I turn on my phone It says there’s no music being played. I got into the app and play the music again and it starts the song over for it to just stop in the middle again. I’m hoping this bug gets fixed soon because it really gets on my nerves",negative,control,8b
+5423,False,ui_ux,none,premium_user,use widget,Being forced to get a new widget that literally never works is insanely frustrating.,negative,control,8b
+534,False,pricing,none,premium_user,use app,,negative,control,8b
+5305,False,performance_bugs,none,unknown,open app,"only good because of the background play, sometimes I can't even open the app, I've cleared cache, I've reinstalled the app and I've logged out and back in but nothing seems to work, right now it's not even showing anything but a black screen but there's nothing I can do about it.",negative,control,8b
+4493,False,ads,none,premium_user,use app,"DISGUSTING MONEY GRABBING SCAM. this app has to be the stupidest thing to exist, their only motive remaining is to fish money, any user that downloads this app doesn’t get to even operate it anymore in the way it used to be. It is getting worse increasingly, it is to the point where you cant select a song( after a select number of times), you can’t skip ahead or to the previous song, You can’t forward or rewind a song which just means you can’t use the app anymore beach anything that you could do, any button you could click, doesn’t do its job anymore unless you pay this money hungry business. I was still using this app in these condition’s until a new experience, which has sent this beyond disgusting. I re-download this app and I see that my liked songs playlist is completely empty- after years of songs saved in that playlist and it being the only playlist I use, it is completely gone. And thats not all, the app isn’t playing any songs anymore and is seemingly glitching out before playing a song I select, but it is still entirely capable of playing the adds right before. This has to be the peak of endurance, why even make the app free to download when all it is left is as decoration. I’m never going to use this filthy app again",negative,control,8b
+7222,False,ui_ux,none,unknown,,You can check all the related info in this article .,neutral,control,8b
+7013,False,ui_ux,none,premium_user,,"horrible, slow and laggy... and believe me, I'm on my mac m1.",negative,control,8b
+1880,False,pricing,none,free_user,,I want to be able to listen to the songs I want to without getting told to pay.,negative,control,8b
+2825,False,performance_bugs,none,premium_user,,"If you search for an album and Add to Queue, the album does not queue.",negative,control,8b
+2601,False,ads,none,free_user,,"Man i want to listen to Coldplay, not to Coca-Cola ads every 2 songs, and the worst part is that you can't skip the ads",negative,control,8b
+1609,False,other,none,unknown,,Ice. Do not get they support ice n if they do you do too,negative,control,8b
+6140,False,catalog,none,premium_user,,"I have a Spotify playlist of all my favorite songs(that aren't put in other playlists),",positive,control,8b
+4849,False,ui_ux,none,premium_user,,works *edit took away the queue editing. immediate loss of 4 stars. edit** gave it back PLUS reshuffle button,neutral,control,8b
+5866,False,ui_ux,none,unknown,choose a genre and listen,choosing a genre and getting only those song,positive,control,70b
+1366,False,podcasts,none,unknown,,Tuff. I love listening to the podcast like mars Patel,positive,control,8b
+6258,False,other,none,unknown,,"haha, so true [stuffs chili dog into mouth, flips to next video]",neutral,control,8b
+565,False,performance_bugs,none,free_user,,"it just messed up my playlist of liked songs. For example, on of the songs I liked  was called “Gone Forever”,",negative,control,8b
+5505,False,ads,none,free_user,,there's a lot of adds but the music is good and it's free so I don't really mind,neutral,control,8b
+3571,False,ads,none,unknown,,"Good for listeners - Bad for Artist. Very good for listeners, but from what i’ve heard about how it pays its artists i fear",negative,control,8b
+662,False,performance_bugs,none,premium_user,undo update,UNDO THIS UPDATE. IF I COULD PUT -5 STARS I WOULD,negative,control,8b
+97,False,pricing,none,premium_user,,Sucks without premium. It really does,negative,control,8b
+5947,False,ui_ux,none,new_user,,"I really enjoy using Spotify in my new car, Spotify has an amazing blue tooth and sounds like I am at a concert.",positive,control,8b
+4462,False,catalog,none,unknown,,Best app for song but it have some problems. This app have A to Z song in any language but it’s perineum is to costly,neutral,control,8b
+1600,False,other,none,unknown,,"Spotify is a joke and is disgusting.. How can you be so corrupt with your app and inhumane when it comes to collaborating with ICE and Isr*el? Your advertisement’s are not even that funny, it just kills my ears and brain",negative,control,8b
+1386,False,recommendation_quality,none,premium_user,playlist,Playlist. Dont add “similar songs” to my playlist i don’t want ur songs let me listen to my own in peace and like I know u guys have to make money some how but if I don’t want to pay at least stop adding annoying songs to my playlist,negative,control,8b
+2235,False,pricing,none,premium_user,,Amazing. I have the family Spotify premium what ever you call it. It’s amazing has so many song options theirs always something for everyone,positive,control,8b
+1183,False,ui_ux,none,unknown,,Icon. Thanks for change that horrible logo,positive,control,8b
+336,False,ads,none,free_user,,"Too many adds. Spotify is perfect, I use it everyday but with someone like me who doesn’t want to pay for subscriptions, I don’t like how many adds I get after one song. Sometimes I get 5 adds! And then 1 then to 4, I don’t understand it and I don’t like it but all in all I love Spotify itself, even without the subscription",neutral,control,8b
+258,False,ads,none,unknown,,And. Spotify is one of my daily essentials. I can’t go without Spotify but what makes me put it four stars is that it has so many ads if you don’t have premium,neutral,control,8b
+4575,False,recommendation_quality,none,premium_user,recommend music,100% recommend,positive,control,8b
+7161,False,ads,none,premium_user,avoid ads,I don't want to accidentally listen to russian artists or give them the opportunity to earn even $0.0001 from my account.,negative,control,8b
+6458,False,catalog,none,free_user,access music,Apple music is most useless don’t even have most of the song,negative,control,8b
+6455,False,other,none,unknown,view listening history,"apple music replay, and it's every month you'll get a little recap",positive,control,70b
+908,False,ads,none,premium_user,avoid ads,I feel like since we only get 6 skips an hour they should be able to add up like I go to sleep for like 8 hours then when I wake up I should get 48 skips and like ads every 5 minutes come on I understand like sponsorships but every 5 minutes is to much it should be two every hour and it can be different ads every hour,negative,control,8b
+3792,False,performance_bugs,none,premium_user,access music,Have to restart iPhone daily. I have to restart my iphone at least once a day to access songs in the library. Playlists are accessible without restarting.,negative,control,8b
+2830,False,pricing,none,premium_user,join family plan,"As amazing as this app is, premium gave those using the family plans a week to confirm that those in the plan were living together (their address).",negative,control,8b
+6207,False,ui_ux,none,free_user,listen to music,And this is why I listen to music on YouTube. Spotify is just too much of a hassle.,negative,control,8b
+4906,False,performance_bugs,none,premium_user,use app,I love this app so much but the updates and the premium ones suck really bad,negative,control,8b
+6020,False,other,none,unknown,,@Mr.N0.0ne  I think I've fixed my grammatical errors! Sorry it was late,neutral,control,8b
+5331,False,ads,none,premium_user,avoid ads,I just don't like they ads like I get it in order for no ads we have to get premium. but sometimes I don't like how I'm only able to skip certain amount of songs and other times I get 8 ads in a row I just want to listen to my music not adds.,negative,control,8b
+95,True,catalog,niche_genre_gap,niche_taste,,not enough niche artists,negative,control,70b
+2985,False,performance_bugs,none,unknown,,"App always takes ages to fire up no matter what device you're using. The search feature is lack lustre, oftentimes having to search the exact spelling.",negative,control,8b
+332,False,other,none,unknown,,Pero ofrece muy poquito,negative,control,8b
+5228,False,ads,none,unknown,,too many ads but I can't pay to not listen,negative,control,8b
+3403,False,ui_ux,none,premium_user,,"should add the ability to see what the people you’re following are listening to (like on the PC app), and the ability to see who follows your playlists",neutral,control,8b
+5378,False,performance_bugs,none,unknown,,automatic plays when it see a Bluetooth,negative,control,8b
+2737,False,catalog,none,unknown,find specific songs,it might not have every single song that you like on it,neutral,control,70b
+4911,False,performance_bugs,none,unknown,,Forced Update no longer lets me use the old Widget. New Widget does NOT work on Samsung/Android phone.,negative,control,8b
+6647,False,other,none,unknown,,,positive,control,70b
+2327,False,other,none,unknown,,Spotfry music profiles. Please download on YouTube spotfry yes please download on YouTube thank you  very much download on YouTube,positive,control,8b
+6087,False,other,none,unknown,,Look up cryptobriefing Spotify aims to rival YouTube and TikTok with new video service,neutral,control,8b
+19,False,other,none,unknown,,Tiki tikki tikki. I’m always locked in from yara yara and tiki tiki phonk,neutral,control,70b
+3633,False,other,none,unknown,,i love it. It’s the best fing in the world!!!,positive,control,8b
+2888,False,performance_bugs,none,power_user,streaming service,I’ve had this app for well over a decade and have never until now considered changing streaming service,negative,control,8b
+2888,False,performance_bugs,none,power_user,streaming service,The music player is slow and laggy and the app will often take a few seconds to respond to an action,negative,control,8b
+2888,False,performance_bugs,none,power_user,streaming service,The podcast player is the worst thing though. It takes so long to load that it’s not worth waiting for,negative,control,8b
+2888,False,performance_bugs,none,power_user,streaming service,I’ll stick around for another update or two but no one has time to mess about with a dysfunctional app everything they want to put music or a podcast on,negative,control,8b
+2693,False,performance_bugs,none,power_user,streaming service,When I’m playing a song and go to click on another one it will stop the music I’m currently playing and just do nothing,negative,control,8b
+2618,False,ui_ux,none,premium_user,delete song from playlist,The most recent update for iPhone makes it much too difficult to delete a song from my playlists,negative,control,8b
+2618,False,ui_ux,none,premium_user,delete song from playlist,Either a delete option from search or when you select the settings for a song within the playlist,negative,control,8b

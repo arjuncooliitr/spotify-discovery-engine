@@ -1,0 +1,17 @@
+# secrets — never commit
+.env
+.streamlit/secrets.toml
+
+# deprecated original scripts that contain a hardcoded (leaked) API key
+analyze_chunk.py
+groq_review_engine.py
+final_synthesis.py
+dashboard_generator.py
+
+# python
+__pycache__/
+*.pyc
+
+# local-only intermediates / scratch
+sample_for_labeling.csv
+reviews_labeled_sample61.csv
