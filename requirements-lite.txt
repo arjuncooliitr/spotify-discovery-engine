@@ -1,0 +1,9 @@
+# PLAN B — light, fast, no torch. Use this if `requirements.txt` is slow/fails:
+#   pip install -r requirements-lite.txt
+# The app auto-falls back to keyword (TF-IDF) search instead of semantic search.
+streamlit==1.50.0
+pandas>=2.2.3
+numpy>=2.1,<3
+plotly>=6.0
+scikit-learn>=1.5
+groq>=0.11
