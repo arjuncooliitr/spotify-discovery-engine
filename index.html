@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Spotify · Liner Notes (MVP)</title>
+<style>
+  :root{ --green:#1DB954; --bg:#121212; --el:#181818; --el2:#242424; --txt:#fff; --mut:#b3b3b3; --dim:#7a7a7a; }
+  *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body{ margin:0; background:#0a0a0a; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+        min-height:100vh; display:flex; align-items:center; justify-content:center; padding:18px; color:var(--txt); }
+  .wrap{ display:flex; gap:34px; align-items:center; flex-wrap:wrap; justify-content:center; }
+  .phone{ width:390px; height:min(844px,94vh); background:var(--bg); border-radius:42px; overflow:hidden; position:relative;
+          box-shadow:0 0 0 11px #000, 0 0 0 13px #2a2a2a, 0 30px 80px rgba(0,0,0,.6); display:flex; flex-direction:column; }
+  .statusbar{ height:44px; flex:0 0 44px; display:flex; align-items:center; justify-content:space-between; padding:0 26px; font-size:13px; font-weight:600; z-index:2; }
+  .statusbar .dots{ display:flex; gap:5px; align-items:center; }
+  .viewport{ flex:1; overflow:hidden; position:relative; }
+  .screen{ position:absolute; inset:0; overflow-y:auto; padding:6px 16px 150px; display:none; }
+  .screen.active{ display:block; }
+  .screen::-webkit-scrollbar{ width:0; }
+  #home{ background:linear-gradient(180deg, rgba(40,70,55,.85), rgba(18,18,18,1) 300px); }
+  #newmusic{ background:linear-gradient(180deg, rgba(29,185,84,.28), rgba(18,18,18,1) 300px); }
+  #search,#library{ background:linear-gradient(180deg, rgba(34,34,40,.7), rgba(18,18,18,1) 240px); }
+  h1{ font-size:25px; font-weight:800; margin:14px 0 14px; letter-spacing:-.3px; }
+  h2{ font-size:18px; font-weight:800; margin:22px 0 12px; }
+  .sub{ color:var(--mut); font-size:13px; }
+  .topbar{ display:flex; align-items:center; gap:9px; margin:12px 0 8px; }
+  .topbar .logo{ display:flex; align-items:center; gap:7px; font-size:23px; font-weight:800; letter-spacing:-.4px; }
+  .grid2{ display:grid; grid-template-columns:1fr 1fr; gap:9px; }
+  .qcard{ display:flex; align-items:center; gap:11px; background:rgba(255,255,255,.08); border-radius:6px; height:56px; overflow:hidden; cursor:pointer; font-weight:700; font-size:13px; backdrop-filter:blur(4px); }
+  .qcard .art{ width:56px; height:56px; flex:0 0 56px; border-radius:0; }
+  .row{ display:flex; gap:14px; overflow-x:auto; padding-bottom:6px; }
+  .row::-webkit-scrollbar{ height:0; }
+  .tile{ width:144px; flex:0 0 144px; cursor:pointer; }
+  .tile .art{ width:144px; height:144px; border-radius:8px; box-shadow:0 8px 18px rgba(0,0,0,.45); }
+  .tile .t{ font-size:13px; font-weight:700; margin-top:8px; }
+  .tile .d{ font-size:11px; color:var(--mut); margin-top:2px; }
+  .art{ overflow:hidden; display:block; position:relative; }
+  .art svg{ display:block; width:100%; height:100%; }
+  /* hero banner */
+  .hero{ margin:10px 0 6px; border-radius:14px; padding:18px; background:linear-gradient(120deg,#1ed760,#0a6b39 70%,#063d20); cursor:pointer; position:relative; overflow:hidden; box-shadow:0 10px 26px rgba(13,107,57,.4); }
+  .hero::after{ content:""; position:absolute; right:-30px; top:-30px; width:150px; height:150px; border-radius:50%; background:rgba(255,255,255,.13); }
+  .hero h3{ margin:0; font-size:20px; font-weight:800; }
+  .hero p{ margin:6px 0 0; font-size:12.5px; color:#eafff1; max-width:74%; line-height:1.35; position:relative; }
+  .hero .go{ position:absolute; right:16px; bottom:16px; width:44px; height:44px; border-radius:50%; background:#000; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 12px rgba(0,0,0,.4); }
+  .hero .badge{ display:inline-block; background:rgba(0,0,0,.28); font-size:10px; font-weight:800; letter-spacing:1.5px; padding:4px 10px; border-radius:20px; margin-bottom:10px; position:relative; }
+  /* search */
+  .searchbar{ background:#fff; color:#121212; border-radius:7px; height:44px; display:flex; align-items:center; gap:10px; padding:0 13px; font-weight:600; font-size:15px; }
+  .gtiles{ display:grid; grid-template-columns:1fr 1fr; gap:11px; }
+  .gtile{ height:90px; border-radius:9px; padding:12px; font-weight:800; font-size:15px; position:relative; overflow:hidden; cursor:pointer; color:#fff; text-shadow:0 1px 3px rgba(0,0,0,.4); }
+  .gtile .deco{ position:absolute; right:-12px; bottom:-14px; width:60px; height:60px; transform:rotate(28deg); border-radius:8px; box-shadow:0 6px 14px rgba(0,0,0,.5); overflow:hidden; }
+  /* new music */
+  .chips{ display:flex; gap:8px; overflow-x:auto; padding:14px 0 10px; position:sticky; top:0; z-index:5; }
+  .chips::-webkit-scrollbar{ height:0; }
+  .chip{ flex:0 0 auto; border:1px solid #3a3a3a; background:rgba(36,36,36,.92); color:#fff; border-radius:20px; padding:8px 14px; font-size:12.5px; font-weight:700; cursor:pointer; white-space:nowrap; display:flex; align-items:center; gap:6px; backdrop-filter:blur(6px); }
+  .chip.green{ background:var(--green); color:#000; border-color:var(--green); }
+  .chip:active{ transform:scale(.96); }
+  .gfilter{ font-size:12px; color:var(--green); font-weight:700; margin:2px 0 12px; }
+  .song{ display:flex; gap:12px; padding:12px; background:rgba(255,255,255,.05); border-radius:12px; margin-bottom:11px; align-items:flex-start; transition:background .15s; }
+  .song:active{ background:rgba(255,255,255,.1); }
+  .song .art{ width:56px; height:56px; flex:0 0 56px; border-radius:7px; box-shadow:0 5px 12px rgba(0,0,0,.4); }
+  .song .mid{ flex:1; min-width:0; }
+  .song .tt{ font-size:14.5px; font-weight:700; display:flex; align-items:center; gap:7px; flex-wrap:wrap; }
+  .newpill{ background:var(--green); color:#000; font-size:8.5px; font-weight:800; padding:2px 6px; border-radius:9px; letter-spacing:.4px; }
+  .song .meta{ font-size:11.5px; color:var(--mut); margin-top:3px; }
+  .song .story{ font-size:12.5px; color:#dcdcdc; font-style:italic; margin-top:8px; line-height:1.4; }
+  .trust{ font-size:11.5px; font-weight:700; margin-top:9px; display:flex; align-items:center; gap:6px; }
+  .song .acts{ display:flex; flex-direction:column; align-items:center; gap:14px; padding-top:3px; }
+  .iconbtn{ cursor:pointer; background:none; border:none; padding:0; display:flex; }
+  .playbtn{ width:36px; height:36px; border-radius:50%; background:var(--green); display:flex; align-items:center; justify-content:center; cursor:pointer; box-shadow:0 3px 9px rgba(29,185,84,.45); }
+  .playbtn:active{ transform:scale(.92); }
+  /* library */
+  .lib-item{ display:flex; gap:12px; align-items:center; padding:8px 0; cursor:pointer; }
+  .lib-item .art{ width:50px; height:50px; flex:0 0 50px; border-radius:6px; }
+  .empty{ color:var(--dim); text-align:center; margin-top:60px; font-size:14px; line-height:1.6; }
+  .libhead{ display:flex; align-items:center; gap:14px; margin:6px 0 14px; }
+  .libhead .bigart{ width:74px; height:74px; border-radius:8px; overflow:hidden; background:linear-gradient(135deg,#4500c9,#9b6dff); display:flex; align-items:center; justify-content:center; box-shadow:0 8px 18px rgba(0,0,0,.4); }
+  /* mini player */
+  .mini{ position:absolute; left:8px; right:8px; bottom:64px; height:60px; border-radius:9px; display:none; align-items:center; gap:11px; padding:0 12px; z-index:20;
+         background:linear-gradient(90deg,#1f3a2a,#14241a); box-shadow:0 6px 18px rgba(0,0,0,.5); }
+  .mini.show{ display:flex; }
+  .mini .art{ width:44px; height:44px; flex:0 0 44px; border-radius:5px; }
+  .mini .mtxt{ flex:1; min-width:0; }
+  .mini .mt{ font-size:12.5px; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .mini .md{ font-size:11px; color:var(--mut); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .mini .prog{ position:absolute; left:0; bottom:0; height:3px; background:var(--green); width:0; border-radius:0 0 0 9px; transition:width .2s linear; }
+  .eq{ display:flex; align-items:flex-end; gap:2px; height:16px; }
+  .eq span{ width:3px; background:var(--green); height:5px; border-radius:1px; animation:eq .7s ease-in-out infinite; }
+  .eq span:nth-child(2){ animation-delay:.2s; animation-duration:.5s; }
+  .eq span:nth-child(3){ animation-delay:.35s; animation-duration:.62s; }
+  .mini:not(.playing) .eq span{ animation-play-state:paused; }
+  @keyframes eq{ 0%,100%{ height:4px } 50%{ height:15px } }
+  /* bottom nav */
+  .nav{ position:absolute; left:0; right:0; bottom:0; height:64px; background:linear-gradient(180deg,rgba(12,12,12,.6),#0a0a0a 60%); display:flex; z-index:25; }
+  .nav .item{ flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:4px; color:var(--dim); font-size:10px; font-weight:600; cursor:pointer; }
+  .nav .item.active{ color:#fff; }
+  /* genre sheet */
+  .overlay{ position:absolute; inset:0; background:rgba(0,0,0,.55); display:none; z-index:40; }
+  .overlay.show{ display:block; }
+  .sheet{ position:absolute; left:0; right:0; bottom:0; background:#222; border-radius:18px 18px 0 0; padding:10px 18px 28px; transform:translateY(100%); transition:transform .25s ease; z-index:41; }
+  .sheet.show{ transform:translateY(0); }
+  .sheet .grab{ width:38px; height:4px; background:#555; border-radius:3px; margin:8px auto 14px; }
+  .sheet h3{ margin:0 0 6px; font-size:17px; font-weight:800; }
+  .grow{ display:flex; align-items:center; justify-content:space-between; padding:13px 4px; border-bottom:1px solid #333; cursor:pointer; font-size:15px; font-weight:600; }
+  .grow .chk{ color:var(--green); font-weight:800; opacity:0; }
+  .grow.sel .chk{ opacity:1; }
+  /* toast */
+  .toast{ position:absolute; left:50%; transform:translateX(-50%) translateY(20px); bottom:140px; background:#fff; color:#121212; font-weight:700; font-size:13px; padding:11px 18px; border-radius:24px; opacity:0; transition:all .25s; z-index:60; pointer-events:none; box-shadow:0 8px 24px rgba(0,0,0,.5); }
+  .toast.show{ opacity:1; transform:translateX(-50%) translateY(0); }
+  .caption{ text-align:center; color:#666; font-size:12.5px; max-width:300px; line-height:1.5; }
+  .caption b{ color:#1DB954; }
+  .insight{ background:linear-gradient(120deg,#3a1d6e,#7b3fb5); border-radius:14px; padding:15px 16px; margin:4px 0 12px; cursor:pointer; position:relative; overflow:hidden; box-shadow:0 8px 22px rgba(70,20,120,.4); }
+  .insight .k{ font-size:10px; font-weight:800; letter-spacing:1.5px; color:#e9d6ff; }
+  .insight h3{ margin:6px 0 4px; font-size:18px; font-weight:800; }
+  .insight p{ margin:0; font-size:12px; color:#ecdcff; line-height:1.4; max-width:82%; }
+  .insight .cta{ display:inline-flex; align-items:center; gap:6px; margin-top:11px; background:#fff; color:#3a1d6e; font-weight:800; font-size:12.5px; padding:7px 14px; border-radius:20px; }
+  #playlist{ background:linear-gradient(180deg, rgba(123,63,181,.6), rgba(18,18,18,1) 330px); }
+  .plhero{ display:flex; gap:14px; align-items:flex-end; margin:10px 0 8px; }
+  .plhero .bigart{ width:96px; height:96px; border-radius:6px; overflow:hidden; box-shadow:0 10px 24px rgba(0,0,0,.5); }
+  .loopstat{ background:rgba(255,255,255,.08); border-radius:10px; padding:12px 14px; margin:8px 0 16px; font-size:12.5px; color:#e7d9ff; line-height:1.45; }
+  .loopstat b{ color:#fff; }
+  .injcard{ border:1.5px solid var(--green); background:linear-gradient(120deg, rgba(29,185,84,.18), rgba(29,185,84,.04)); }
+  .injtag{ display:inline-block; background:var(--green); color:#000; font-size:9px; font-weight:800; letter-spacing:.5px; padding:2px 8px; border-radius:10px; margin-bottom:7px; }
+  .plrow{ display:flex; gap:12px; align-items:center; padding:9px 2px; }
+  .plrow.fam{ opacity:.7; }
+  .loopctx{ background:rgba(255,255,255,.05); border-radius:13px; padding:14px; margin:12px 0 4px; }
+  .loopctx .lchead{ font-size:14px; font-weight:800; }
+  .loopctx .lcsub{ font-size:12px; color:var(--mut); margin:4px 0 11px; line-height:1.4; }
+  .loopctx .lcsub b{ color:#fff; }
+  .loopctx .lcrow{ display:flex; gap:7px; }
+  .loopctx .lcart{ width:42px; height:42px; border-radius:5px; overflow:hidden; flex:0 0 42px; opacity:.55; }
+  .loopctx .lcgo{ font-size:12px; font-weight:700; color:var(--green); margin-top:12px; }
+  svg{ display:block; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="phone">
+    <div class="statusbar">
+      <span>9:41</span>
+      <span class="dots"><svg width="17" height="11" viewBox="0 0 17 11"><rect x="0" y="7" width="3" height="4" rx="1" fill="#fff"/><rect x="4.5" y="5" width="3" height="6" rx="1" fill="#fff"/><rect x="9" y="2.5" width="3" height="8.5" rx="1" fill="#fff"/><rect x="13.5" y="0" width="3" height="11" rx="1" fill="#fff"/></svg>
+      <svg width="22" height="11" viewBox="0 0 24 12"><rect x="1" y="1" width="20" height="10" rx="3" fill="none" stroke="#fff" stroke-width="1"/><rect x="2.5" y="2.5" width="15" height="7" rx="1.5" fill="#fff"/><rect x="22" y="4" width="1.5" height="4" rx="1" fill="#fff"/></svg></span>
+    </div>
+    <div class="viewport">
+      <!-- HOME -->
+      <div class="screen active" id="home">
+        <div class="topbar"><span class="logo">
+          <svg width="26" height="26" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#1DB954"/><path d="M6 9.5c4-1.2 8.5-.8 12 1.3M6.8 13c3.2-1 6.8-.6 9.6 1.1M7.6 16.2c2.5-.8 5.2-.5 7.4.9" stroke="#000" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg>
+          Spotify</span></div>
+        <h1 style="margin:6px 0 14px">Good evening</h1>
+        <div class="grid2" id="home-quick"></div>
+        <div class="insight" onclick="goNewMusic('All')">
+          <div class="k">✦ LINER NOTES · YOUR LISTENING</div>
+          <h3>You're on repeat</h3>
+          <p id="home-loopstat">6 tracks made up 78% of your listening this month. Time to break out?</p>
+          <span class="cta">Break the loop →</span>
+        </div>
+        <div class="hero" onclick="goNewMusic('All')">
+          <span class="badge">✦ LINER NOTES</span>
+          <h3>New Music for You</h3>
+          <p>Not just served — introduced. Each pick comes with the story of why you'll love it.</p>
+          <div class="go"><svg width="16" height="16" viewBox="0 0 16 16"><path d="M4 2l9 6-9 6z" fill="#1DB954"/></svg></div>
+        </div>
+        <h2>Made for you</h2>
+        <div class="row" id="home-row"></div>
+      </div>
+      <!-- SEARCH -->
+      <div class="screen" id="search">
+        <h1>Search</h1>
+        <div class="searchbar"><svg width="20" height="20" viewBox="0 0 20 20"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="#121212" stroke-width="2"/><line x1="13" y1="13" x2="18" y2="18" stroke="#121212" stroke-width="2" stroke-linecap="round"/></svg>Artists, songs, or podcasts</div>
+        <div class="hero" style="margin-top:18px" onclick="goNewMusic('All')">
+          <span class="badge">✦ DISCOVERY</span>
+          <h3>New Music for You</h3>
+          <p>Songs you've never heard — each introduced with a reason to press play.</p>
+          <div class="go"><svg width="16" height="16" viewBox="0 0 16 16"><path d="M4 2l9 6-9 6z" fill="#1DB954"/></svg></div>
+        </div>
+        <h2>Browse by your taste</h2>
+        <div class="gtiles" id="search-genres"></div>
+      </div>
+      <!-- NEW MUSIC -->
+      <div class="screen" id="newmusic">
+        <h1 style="margin:14px 0 2px">New Music</h1>
+        <div class="sub" id="nm-sub">Introduced for your taste</div>
+        <div class="loopctx" id="loopctx"></div>
+        <div class="chips">
+          <button class="chip green" onclick="weirder(this)">✦ Weirder</button>
+          <button class="chip" onclick="openSheet()">🎚 Different genre</button>
+          <button class="chip" onclick="saveAll()">＋ Save all</button>
+        </div>
+        <div class="gfilter" id="nm-filter"></div>
+        <div id="nm-list"></div>
+        <div class="caption" style="margin:18px auto 0">Every pick is <b>new to you</b>, comes with a <b>reason to try it</b>, and tells you <b>who vouches for it</b>.</div>
+      </div>
+      <!-- LIBRARY -->
+      <div class="screen" id="library">
+        <h1>Your Library</h1>
+        <div class="libhead"><div class="bigart"><svg width="34" height="34" viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.5 8 2 4 5.5 4 8 4 9 6 12 6s3-2 6.5-2C22 4 23.5 8 21.5 12 19 16.5 12 21 12 21z" fill="#fff"/></svg></div>
+          <div><div style="font-size:17px;font-weight:800">Discovered Songs</div><div class="sub" id="lib-sub">Saved from Liner Notes</div></div></div>
+        <div id="lib-list"></div>
+      </div>
+      <!-- mini player -->
+      <div class="mini" id="mini">
+        <div class="art" id="mini-art"></div>
+        <div class="mtxt"><div class="mt" id="mini-t">—</div><div class="md" id="mini-d">—</div></div>
+        <div class="eq"><span></span><span></span><span></span></div>
+        <button class="iconbtn" onclick="toggleHeartMini()"><svg id="mini-heart" width="22" height="22" viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.5 8 2 4 5.5 4 8 4 9 6 12 6s3-2 6.5-2C22 4 23.5 8 21.5 12 19 16.5 12 21 12 21z" fill="none" stroke="#fff" stroke-width="2"/></svg></button>
+        <button class="iconbtn" onclick="togglePlay()"><svg id="mini-pp" width="26" height="26" viewBox="0 0 24 24"><rect x="6" y="5" width="4" height="14" fill="#fff"/><rect x="14" y="5" width="4" height="14" fill="#fff"/></svg></button>
+        <div class="prog" id="mini-prog"></div>
+      </div>
+      <!-- bottom nav -->
+      <div class="nav">
+        <div class="item active" id="nav-home" onclick="showScreen('home')"><svg width="23" height="23" viewBox="0 0 24 24"><path d="M12 3l9 8h-2.5v9h-5v-6h-3v6h-5v-9H3z" fill="currentColor"/></svg>Home</div>
+        <div class="item" id="nav-search" onclick="showScreen('search')"><svg width="23" height="23" viewBox="0 0 24 24"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="2.2"/><line x1="15" y1="15" x2="21" y2="21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>Search</div>
+        <div class="item" id="nav-library" onclick="showScreen('library')"><svg width="23" height="23" viewBox="0 0 24 24"><path d="M4 4h2v16H4zM8 4h2v16H8zM13 4l6 1.5-3.5 14.5-6-1.5z" fill="currentColor"/></svg>Library</div>
+      </div>
+    </div>
+    <div class="overlay" id="overlay" onclick="closeSheet()"></div>
+    <div class="sheet" id="sheet"><div class="grab"></div><h3>Genres you love</h3><div class="sub" style="margin-bottom:8px">Tap to filter your new music</div><div id="sheet-list"></div></div>
+    <div class="toast" id="toast"></div>
+  </div>
+  <div class="caption"><b>Spotify · Liner Notes — clickable MVP.</b><br>Tap <b>New Music for You</b> (Home / Search) → play, save, <b>Save all</b>, or <b>Different genre</b>. Album art is procedurally generated; stories are real AI output.</div>
+</div>
+
+<script>
+const LINER_DATA = {
+ "taste": "Tame Impala · lo-fi · indie",
+ "genres": [
+  "Psych-pop",
+  "Indie",
+  "Lo-fi",
+  "Electronic",
+  "Hip-hop",
+  "Jazz"
+ ],
+ "songs": [
+  {
+   "genre": "Psych-pop",
+   "artist": "Crumb",
+   "track": "Locket",
+   "origin": "Brooklyn",
+   "story": "Get ready to trip with Crumb's 'Locket', a swirling Brooklyn psych-pop track with infectious hooks.",
+   "trust": {
+    "type": "friend",
+    "label": "Liked by Rahul",
+    "sub": "your friend"
+   },
+   "len": "2:17"
+  },
+  {
+   "genre": "Psych-pop",
+   "artist": "Mild High Club",
+   "track": "Homage",
+   "origin": "Los Angeles",
+   "story": "Mild High Club's 'Homage' is a lush, jazzy ode to love, perfect for a psychedelic afternoon.",
+   "trust": {
+    "type": "twin",
+    "label": "Loved by listeners just like you",
+    "sub": "taste-twin"
+   },
+   "len": "3:24"
+  },
+  {
+   "genre": "Psych-pop",
+   "artist": "The Babe Rainbow",
+   "track": "The Wave of Love",
+   "origin": "Australia",
+   "story": "The Babe Rainbow's 'The Wave of Love' is an Australian psych-pop masterpiece with dreamy textures and a catchy beat.",
+   "trust": {
+    "type": "ai",
+    "label": "AI pick for your taste",
+    "sub": ""
+   },
+   "len": "4:31"
+  },
+  {
+   "genre": "Indie",
+   "artist": "Men I Trust",
+   "track": "Show Me How",
+   "origin": "Montreal",
+   "story": "Men I Trust's 'Show Me How' is a laid-back, Montreal indie gem with a soothing melody and gentle vibes.",
+   "trust": {
+    "type": "friend",
+    "label": "Liked by Kabir",
+    "sub": "your friend"
+   },
+   "len": "2:38"
+  },
+  {
+   "genre": "Indie",
+   "artist": "Still Woozy",
+   "track": "Goodie Bag",
+   "origin": "Oakland",
+   "story": "Still Woozy's 'Goodie Bag' is a funky, lo-fi indie track with catchy hooks and a groovy vibe.",
+   "trust": {
+    "type": "twin",
+    "label": "Loved by listeners just like you",
+    "sub": "taste-twin"
+   },
+   "len": "3:45"
+  },
+  {
+   "genre": "Indie",
+   "artist": "Parcels",
+   "track": "Tieduprightnow",
+   "origin": "Berlin",
+   "story": "Parcels' 'Tieduprightnow' is a catchy, indie dance track with a driving beat and infectious energy.",
+   "trust": {
+    "type": "ai",
+    "label": "AI pick for your taste",
+    "sub": ""
+   },
+   "len": "4:52"
+  },
+  {
+   "genre": "Lo-fi",
+   "artist": "Tom Misch",
+   "track": "It Runs Through Me",
+   "origin": "London",
+   "story": "Tom Misch's 'It Runs Through Me' is a laid-back, London lo-fi track with soulful vocals and jazzy undertones.",
+   "trust": {
+    "type": "friend",
+    "label": "Liked by Rahul",
+    "sub": "your friend"
+   },
+   "len": "2:59"
+  },
+  {
+   "genre": "Lo-fi",
+   "artist": "Puma Blue",
+   "track": "Want Me",
+   "origin": "London",
+   "story": "Puma Blue's 'Want Me' is a melancholic, London lo-fi track with soaring vocals and a haunting melody.",
+   "trust": {
+    "type": "twin",
+    "label": "Loved by listeners just like you",
+    "sub": "taste-twin"
+   },
+   "len": "3:06"
+  },
+  {
+   "genre": "Lo-fi",
+   "artist": "Jordan Rakei",
+   "track": "Wildfire",
+   "origin": "London",
+   "story": "Jordan Rakei's 'Wildfire' is a soulful, London lo-fi track with a catchy hook and emotional depth.",
+   "trust": {
+    "type": "ai",
+    "label": "AI pick for your taste",
+    "sub": ""
+   },
+   "len": "4:13"
+  },
+  {
+   "genre": "Electronic",
+   "artist": "Bonobo",
+   "track": "Kerala",
+   "origin": "UK",
+   "story": "Bonobo's 'Kerala' is an ethereal, electronic journey with lush textures and a hypnotic beat.",
+   "trust": {
+    "type": "friend",
+    "label": "Liked by Kabir",
+    "sub": "your friend"
+   },
+   "len": "2:20"
+  },
+  {
+   "genre": "Electronic",
+   "artist": "Floating Points",
+   "track": "Silhouettes",
+   "origin": "UK",
+   "story": "Floating Points' 'Silhouettes' is a mesmerizing, electronic track with a deep bassline and celestial sounds.",
+   "trust": {
+    "type": "twin",
+    "label": "Loved by listeners just like you",
+    "sub": "taste-twin"
+   },
+   "len": "3:27"
+  },
+  {
+   "genre": "Electronic",
+   "artist": "Jamie xx",
+   "track": "Gosh",
+   "origin": "UK",
+   "story": "Jamie xx's 'Gosh' is an atmospheric, electronic track with a driving beat and catchy hooks.",
+   "trust": {
+    "type": "ai",
+    "label": "AI pick for your taste",
+    "sub": ""
+   },
+   "len": "4:34"
+  },
+  {
+   "genre": "Hip-hop",
+   "artist": "Saba",
+   "track": "Sirens",
+   "origin": "Chicago",
+   "story": "Saba's 'Sirens' is a moody, Chicago hip-hop track with a haunting hook and emotional depth.",
+   "trust": {
+    "type": "friend",
+    "label": "Liked by Rahul",
+    "sub": "your friend"
+   },
+   "len": "2:41"
+  },
+  {
+   "genre": "Hip-hop",
+   "artist": "Smino",
+   "track": "Anita",
+   "origin": "St. Louis",
+   "story": "Smino's 'Anita' is a soulful, St. Louis hip-hop track with a catchy hook and jazzy undertones.",
+   "trust": {
+    "type": "twin",
+    "label": "Loved by listeners just like you",
+    "sub": "taste-twin"
+   },
+   "len": "3:48"
+  },
+  {
+   "genre": "Hip-hop",
+   "artist": "Mick Jenkins",
+   "track": "Jazz",
+   "origin": "Chicago",
+   "story": "Mick Jenkins' 'Jazz' is a laid-back, Chicago hip-hop track with a smooth flow and jazzy beats.",
+   "trust": {
+    "type": "ai",
+    "label": "AI pick for your taste",
+    "sub": ""
+   },
+   "len": "4:55"
+  },
+  {
+   "genre": "Jazz",
+   "artist": "GoGo Penguin",
+   "track": "Hopopono",
+   "origin": "Manchester",
+   "story": "GoGo Penguin's 'Hopopono' is a high-energy, Manchester jazz track with a driving beat and soaring saxophone.",
+   "trust": {
+    "type": "friend",
+    "label": "Liked by Kabir",
+    "sub": "your friend"
+   },
+   "len": "2:02"
+  },
+  {
+   "genre": "Jazz",
+   "artist": "BadBadNotGood",
+   "track": "Time Moves Slow",
+   "origin": "Toronto",
+   "story": "BadBadNotGood's 'Time Moves Slow' is a melancholic, Toronto jazz track with a haunting hook and emotional depth.",
+   "trust": {
+    "type": "twin",
+    "label": "Loved by listeners just like you",
+    "sub": "taste-twin"
+   },
+   "len": "3:09"
+  },
+  {
+   "genre": "Jazz",
+   "artist": "Yussef Kamaal",
+   "track": "Black Focus",
+   "origin": "London",
+   "story": "Yussef Kamaal's 'Black Focus' is a psychedelic, London jazz track with a hypnotic beat and soaring horns.",
+   "trust": {
+    "type": "ai",
+    "label": "AI pick for your taste",
+    "sub": ""
+   },
+   "len": "4:16"
+  }
+ ]
+};
+</script>
+<script>
+const PAL = { "Psych-pop":["#c06cff","#ff5ca8","#2e1659"], "Indie":["#27d367","#bde84f","#0c3a23"],
+  "Lo-fi":["#8a93ff","#b06ab3","#1e234f"], "Electronic":["#33d6ff","#6a6cff","#0a2740"],
+  "Hip-hop":["#ffb02e","#ff6a3d","#4a2600"], "Jazz":["#ff7a5c","#ffd166","#4a1a12"] };
+const TRUSTCOLOR = { friend:"#1DB954", twin:"#6FB0FF", ai:"#C9A8FF" };
+const TRUSTICON = { friend:"❤", twin:"👥", ai:"✦" };
+let CUR_GENRE="All"; const SAVED=new Set(); let NOW=null, playing=false, progTimer=null;
+
+function hsh(s){ let h=0; for(let i=0;i<s.length;i++) h=(h*31+s.charCodeAt(i))>>>0; return h; }
+function cover(s){
+  const p=PAL[s.genre]||["#666","#aaa","#222"], h=hsh(s.artist+s.track), id="g"+(h%99999), t=h%5;
+  const c1=p[0],c2=p[1],c3=p[2];
+  let sv=`<svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="${id}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${c1}"/><stop offset="1" stop-color="${c3}"/></linearGradient></defs><rect width="100" height="100" fill="url(#${id})"/>`;
+  if(t===0) sv+=`<circle cx="${28+h%26}" cy="${24+(h>>2)%26}" r="${26+h%14}" fill="${c2}" opacity="0.85"/><circle cx="${72-(h>>4)%26}" cy="${74-(h>>5)%22}" r="${12+h%10}" fill="${c1}" opacity="0.6"/>`;
+  else if(t===1) sv+=`<g transform="rotate(${(h%80)-40} 50 50)"><rect x="-30" y="18" width="160" height="15" fill="${c2}" opacity="0.85"/><rect x="-30" y="46" width="160" height="9" fill="${c1}" opacity="0.6"/><rect x="-30" y="66" width="160" height="6" fill="#fff" opacity="0.22"/></g>`;
+  else if(t===2) sv+=`<g fill="none" stroke="${c2}" stroke-width="5" opacity="0.85"><circle cx="22" cy="78" r="20"/><circle cx="22" cy="78" r="34"/><circle cx="22" cy="78" r="50" stroke="${c1}"/></g>`;
+  else if(t===3) sv+=`<polygon points="0,100 34,${28+h%28} 68,100" fill="${c2}" opacity="0.85"/><polygon points="40,100 72,${44+(h>>2)%26} 100,100" fill="${c1}" opacity="0.7"/><circle cx="${64+h%18}" cy="${22+h%12}" r="9" fill="#fff" opacity="0.7"/>`;
+  else { let d=""; for(let i=0;i<5;i++)for(let j=0;j<5;j++){ const r=2+((h>>(i+j))%5); d+=`<circle cx="${12+i*19}" cy="${12+j*19}" r="${r}" fill="${(i+j)%2?c2:c1}" opacity="0.75"/>`;} sv+=d; }
+  return sv+`</svg>`;
+}
+function artDiv(s, extra=""){ return `<div class="art" style="${extra}">${cover(s)}</div>`; }
+function key(s){ return s.artist+"|"+s.track; }
+
+function showScreen(id){
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  ['home','search','library'].forEach(n=>document.getElementById('nav-'+n).classList.remove('active'));
+  const nm={home:'home',search:'search',newmusic:'search',library:'library'};
+  document.getElementById('nav-'+nm[id]).classList.add('active');
+  document.getElementById(id).scrollTop=0;
+}
+function goNewMusic(g){ CUR_GENRE=g; renderNewMusic(); showScreen('newmusic'); }
+
+function songCard(s, idx, isBreak){
+  const saved=SAVED.has(key(s)), tc=TRUSTCOLOR[s.trust.type];
+  return `<div class="song${isBreak?' injcard':''}">${artDiv(s)}
+    <div class="mid" onclick="play(${idx})" style="cursor:pointer">
+      ${isBreak?'<span class="injtag">✦ BREAK THE LOOP · NEW FOR YOU</span>':''}
+      <div class="tt">${s.artist} — ${s.track} <span class="newpill">NEW TO YOU</span></div>
+      <div class="meta">${s.genre} · ${s.origin} · ${s.len}</div>
+      <div class="story">${s.story}</div>
+      <div class="trust" style="color:${tc}">${TRUSTICON[s.trust.type]} ${s.trust.label}${s.trust.sub?` <span style="color:#777;font-weight:500">· ${s.trust.sub}</span>`:''}</div>
+    </div>
+    <div class="acts">
+      <button class="iconbtn" onclick="toggleSave(${idx},this)">${heartSvg(saved)}</button>
+      <div class="playbtn" onclick="play(${idx})"><svg width="14" height="14" viewBox="0 0 16 16"><path d="M4 2l9 6-9 6z" fill="#000"/></svg></div>
+    </div></div>`;
+}
+function heartSvg(f){ return `<svg width="22" height="22" viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.5 8 2 4 5.5 4 8 4 9 6 12 6s3-2 6.5-2C22 4 23.5 8 21.5 12 19 16.5 12 21 12 21z" fill="${f?'#1DB954':'none'}" stroke="${f?'#1DB954':'#b3b3b3'}" stroke-width="2"/></svg>`; }
+function visibleSongs(){ return LINER_DATA.songs.filter(s=>CUR_GENRE==="All"||s.genre===CUR_GENRE); }
+function loopStrip(){
+  const covers=FAMILIAR.slice(0,6).map(s=>`<div class="lcart">${cover(s)}</div>`).join("");
+  return `<div class="lchead">🔁 You're on repeat</div>
+    <div class="lcsub">These 6 tracks are <b>78% of your listening</b> this month — you've heard them all.</div>
+    <div class="lcrow">${covers}</div>
+    <div class="lcgo">↓ Here's what's new — woven into your taste</div>`;
+}
+function renderNewMusic(){
+  const list=visibleSongs();
+  const lc=document.getElementById('loopctx');
+  if(CUR_GENRE==="All"){ lc.style.display="block"; lc.innerHTML=loopStrip(); } else { lc.style.display="none"; lc.innerHTML=""; }
+  document.getElementById('nm-list').innerHTML=list.map((s,i)=>songCard(s, LINER_DATA.songs.indexOf(s), i===0 && CUR_GENRE==="All")).join("");
+  document.getElementById('nm-filter').textContent=(CUR_GENRE==="All"?"All genres you love":CUR_GENRE)+` · ${list.length} fresh picks`;
+  document.getElementById('nm-sub').textContent="Introduced for your taste · "+LINER_DATA.taste;
+}
+function toggleSave(idx,btn){ const s=LINER_DATA.songs[idx],k=key(s);
+  if(SAVED.has(k)){ SAVED.delete(k); btn.innerHTML=heartSvg(false); } else { SAVED.add(k); btn.innerHTML=heartSvg(true); toast("Saved to Your Library"); }
+  renderLibrary(); }
+function saveAll(){ const list=visibleSongs(); let n=0; list.forEach(s=>{ if(!SAVED.has(key(s))){ SAVED.add(key(s)); n++; }}); renderNewMusic(); renderLibrary(); toast(n>0?`${n} songs saved to Your Library`:"All already saved"); }
+function weirder(){ LINER_DATA.songs.sort(()=>Math.random()-0.5); renderNewMusic(); toast("Going weirder — deeper cuts"); }
+function play(idx){ NOW=LINER_DATA.songs[idx]; playing=true;
+  const m=document.getElementById('mini'); m.classList.add('show'); m.classList.add('playing');
+  document.getElementById('mini-art').innerHTML=cover(NOW);
+  document.getElementById('mini-t').textContent=NOW.artist+" — "+NOW.track;
+  document.getElementById('mini-d').textContent=NOW.genre+" · "+NOW.origin;
+  setPP(true); updateMiniHeart(); runProgress(); }
+function setPP(on){ playing=on; document.getElementById('mini').classList.toggle('playing',on);
+  document.getElementById('mini-pp').innerHTML=on?`<rect x="6" y="5" width="4" height="14" fill="#fff"/><rect x="14" y="5" width="4" height="14" fill="#fff"/>`:`<path d="M5 3l13 9-13 9z" fill="#fff"/>`; }
+function togglePlay(){ setPP(!playing); if(playing) runProgress(); else clearInterval(progTimer); }
+function runProgress(){ clearInterval(progTimer); let w=8; const b=document.getElementById('mini-prog'); b.style.width=w+"%";
+  progTimer=setInterval(()=>{ if(!playing) return; w+=1.2; if(w>=100){w=100;clearInterval(progTimer);} b.style.width=w+"%"; },400); }
+function updateMiniHeart(){ const f=NOW&&SAVED.has(key(NOW));
+  document.getElementById('mini-heart').outerHTML=`<svg id="mini-heart" width="22" height="22" viewBox="0 0 24 24" onclick="toggleHeartMini()"><path d="M12 21s-7-4.5-9.5-9C.5 8 2 4 5.5 4 8 4 9 6 12 6s3-2 6.5-2C22 4 23.5 8 21.5 12 19 16.5 12 21 12 21z" fill="${f?'#1DB954':'none'}" stroke="${f?'#1DB954':'#fff'}" stroke-width="2"/></svg>`; }
+function toggleHeartMini(){ if(!NOW) return; const k=key(NOW); if(SAVED.has(k)) SAVED.delete(k); else { SAVED.add(k); toast("Saved to Your Library"); } updateMiniHeart(); renderNewMusic(); renderLibrary(); }
+function openSheet(){ renderSheet(); document.getElementById('overlay').classList.add('show'); document.getElementById('sheet').classList.add('show'); }
+function closeSheet(){ document.getElementById('overlay').classList.remove('show'); document.getElementById('sheet').classList.remove('show'); }
+function renderSheet(){ const rows=[["All","All genres you love"]].concat(LINER_DATA.genres.map(g=>[g,g]));
+  document.getElementById('sheet-list').innerHTML=rows.map(([g,label])=>{ const n=g==="All"?LINER_DATA.songs.length:LINER_DATA.songs.filter(s=>s.genre===g).length;
+    return `<div class="grow ${CUR_GENRE===g?'sel':''}" onclick="selectGenre('${g}')"><span>${label} <span style="color:#777;font-size:12px">· ${n}</span></span><span class="chk">✓</span></div>`; }).join(""); }
+function selectGenre(g){ CUR_GENRE=g; renderNewMusic(); closeSheet(); toast(g==="All"?"Showing all genres":g+" picks"); }
+function renderLibrary(){ const items=LINER_DATA.songs.filter(s=>SAVED.has(key(s)));
+  document.getElementById('lib-sub').textContent=items.length?`${items.length} saved from Liner Notes`:"Saved from Liner Notes";
+  document.getElementById('lib-list').innerHTML=items.length?items.map(s=>`<div class="lib-item" onclick="play(${LINER_DATA.songs.indexOf(s)})">${artDiv(s)}<div><div style="font-size:14px;font-weight:700">${s.track}</div><div style="font-size:12px;color:#b3b3b3">${s.artist} · ${s.genre}</div></div></div>`).join(""):`<div class="empty">No saved songs yet.<br>Discover something new and tap ♥.</div>`; }
+let toastTimer=null; function toast(m){ const t=document.getElementById('toast'); t.textContent=m; t.classList.add('show'); clearTimeout(toastTimer); toastTimer=setTimeout(()=>t.classList.remove('show'),1700); }
+
+const FAMILIAR=[
+ {artist:"Tame Impala",track:"The Less I Know the Better",genre:"Psych-pop",origin:"",len:"3:36"},
+ {artist:"Mac DeMarco",track:"Chamber of Reflection",genre:"Indie",origin:"",len:"3:50"},
+ {artist:"Glass Animals",track:"Gooey",genre:"Indie",origin:"",len:"4:43"},
+ {artist:"Rex Orange County",track:"Loving Is Easy",genre:"Indie",origin:"",len:"3:26"},
+ {artist:"boy pablo",track:"Everytime",genre:"Indie",origin:"",len:"3:11"},
+ {artist:"Clairo",track:"Bags",genre:"Indie",origin:"",len:"4:21"},
+];
+function openLoop(){ renderPlaylist(); showScreen('playlist'); }
+function famRow(s){ return `<div class="plrow fam"><div class="art" style="width:46px;height:46px;border-radius:5px;flex:0 0 46px">${cover(s)}</div>
+  <div style="flex:1;min-width:0"><div style="font-size:14px;font-weight:600">${s.track}</div><div style="font-size:11.5px;color:#b3b3b3">${s.artist} · ${s.len}</div></div>
+  <svg width="20" height="20" viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.5 8 2 4 5.5 4 8 4 9 6 12 6s3-2 6.5-2C22 4 23.5 8 21.5 12 19 16.5 12 21 12 21z" fill="#1DB954"/></svg></div>`; }
+function renderPlaylist(){
+  const inj=LINER_DATA.songs[0];
+  document.getElementById('pl-art').innerHTML=cover(FAMILIAR[0]);
+  document.getElementById('pl-stat').innerHTML=`<b>You've played these 6 tracks 78% of the time this month.</b> Comfortable — but you've heard them all. So we wove in <b>one new track for this exact vibe</b>, with a reason to try it.`;
+  let html="";
+  FAMILIAR.slice(0,2).forEach(s=>html+=famRow(s));
+  html+=`<div class="song injcard">${artDiv(inj)}
+    <div class="mid" onclick="play(0)" style="cursor:pointer">
+      <span class="injtag">✦ BREAK THE LOOP · NEW FOR YOU</span>
+      <div class="tt">${inj.artist} — ${inj.track}</div>
+      <div class="meta">${inj.genre} · ${inj.origin} · ${inj.len}</div>
+      <div class="story">${inj.story}</div>
+      <div class="trust" style="color:${TRUSTCOLOR[inj.trust.type]}">${TRUSTICON[inj.trust.type]} ${inj.trust.label}</div>
+    </div>
+    <div class="acts"><button class="iconbtn" onclick="toggleSave(0,this)">${heartSvg(SAVED.has(key(inj)))}</button>
+    <div class="playbtn" onclick="play(0)"><svg width="14" height="14" viewBox="0 0 16 16"><path d="M4 2l9 6-9 6z" fill="#000"/></svg></div></div></div>`;
+  FAMILIAR.slice(2).forEach(s=>html+=famRow(s));
+  document.getElementById('pl-list').innerHTML=html;
+}
+function init(){
+  document.getElementById('home-quick').innerHTML=LINER_DATA.songs.slice(0,6).map(s=>`<div class="qcard" onclick="goNewMusic('All')">${artDiv(s)}<span>${s.genre}</span></div>`).join("");
+  document.getElementById('home-row').innerHTML=LINER_DATA.songs.slice(6,12).map(s=>`<div class="tile" onclick="goNewMusic('All')">${artDiv(s,'border-radius:8px;width:144px;height:144px')}<div class="t">${s.track}</div><div class="d">${s.artist}</div></div>`).join("");
+  document.getElementById('search-genres').innerHTML=LINER_DATA.genres.map(g=>{ const c=PAL[g]||["#444","#666","#222"]; const ex=LINER_DATA.songs.find(s=>s.genre===g);
+    return `<div class="gtile" style="background:linear-gradient(135deg,${c[0]},${c[2]})" onclick="goNewMusic('${g}')">${g}<div class="deco">${ex?cover(ex):''}</div></div>`; }).join("");
+  renderNewMusic(); renderLibrary();
+}
+try { init(); } catch(e){ document.getElementById('nm-list').innerHTML="<div style='color:#f55'>Init error: "+e.message+"</div>"; }
+</script>
+</body>
+</html>
