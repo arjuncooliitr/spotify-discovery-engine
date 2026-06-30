@@ -109,27 +109,20 @@
   .toast.show{ opacity:1; transform:translateX(-50%) translateY(0); }
   .caption{ text-align:center; color:#666; font-size:12.5px; max-width:300px; line-height:1.5; }
   .caption b{ color:#1DB954; }
-  .insight{ background:linear-gradient(120deg,#3a1d6e,#7b3fb5); border-radius:14px; padding:15px 16px; margin:4px 0 12px; cursor:pointer; position:relative; overflow:hidden; box-shadow:0 8px 22px rgba(70,20,120,.4); }
-  .insight .k{ font-size:10px; font-weight:800; letter-spacing:1.5px; color:#e9d6ff; }
-  .insight h3{ margin:6px 0 4px; font-size:18px; font-weight:800; }
-  .insight p{ margin:0; font-size:12px; color:#ecdcff; line-height:1.4; max-width:82%; }
-  .insight .cta{ display:inline-flex; align-items:center; gap:6px; margin-top:11px; background:#fff; color:#3a1d6e; font-weight:800; font-size:12.5px; padding:7px 14px; border-radius:20px; }
-  #playlist{ background:linear-gradient(180deg, rgba(123,63,181,.6), rgba(18,18,18,1) 330px); }
-  .plhero{ display:flex; gap:14px; align-items:flex-end; margin:10px 0 8px; }
-  .plhero .bigart{ width:96px; height:96px; border-radius:6px; overflow:hidden; box-shadow:0 10px 24px rgba(0,0,0,.5); }
-  .loopstat{ background:rgba(255,255,255,.08); border-radius:10px; padding:12px 14px; margin:8px 0 16px; font-size:12.5px; color:#e7d9ff; line-height:1.45; }
-  .loopstat b{ color:#fff; }
-  .injcard{ border:1.5px solid var(--green); background:linear-gradient(120deg, rgba(29,185,84,.18), rgba(29,185,84,.04)); }
+  .injcard{ border:1.5px solid var(--green); background:linear-gradient(120deg, rgba(29,185,84,.2), rgba(29,185,84,.04)); box-shadow:0 6px 20px rgba(29,185,84,.16); }
   .injtag{ display:inline-block; background:var(--green); color:#000; font-size:9px; font-weight:800; letter-spacing:.5px; padding:2px 8px; border-radius:10px; margin-bottom:7px; }
-  .plrow{ display:flex; gap:12px; align-items:center; padding:9px 2px; }
-  .plrow.fam{ opacity:.7; }
-  .loopctx{ background:rgba(255,255,255,.05); border-radius:13px; padding:14px; margin:12px 0 4px; }
-  .loopctx .lchead{ font-size:14px; font-weight:800; }
-  .loopctx .lcsub{ font-size:12px; color:var(--mut); margin:4px 0 11px; line-height:1.4; }
-  .loopctx .lcsub b{ color:#fff; }
-  .loopctx .lcrow{ display:flex; gap:7px; }
-  .loopctx .lcart{ width:42px; height:42px; border-radius:5px; overflow:hidden; flex:0 0 42px; opacity:.55; }
-  .loopctx .lcgo{ font-size:12px; font-weight:700; color:var(--green); margin-top:12px; }
+  /* unified loop -> discovery hero (one continuous story) */
+  .nm-eyebrow{ font-size:10.5px; font-weight:800; letter-spacing:2.4px; color:var(--green); text-align:center; margin:18px 0 0; }
+  .loopctx{ text-align:center; padding:6px 6px 0; }
+  .loopstack{ display:flex; justify-content:center; margin:12px 0 14px; }
+  .loopstack .lcover{ width:48px; height:48px; border-radius:10px; overflow:hidden; margin-left:-14px; border:2.5px solid #0d160f; box-shadow:0 6px 14px rgba(0,0,0,.55); }
+  .loopstack .lcover:first-child{ margin-left:0; }
+  .loophead{ font-size:22px; font-weight:800; letter-spacing:-.3px; }
+  .loopsub{ font-size:12.5px; color:var(--mut); margin:8px auto 0; max-width:286px; line-height:1.5; }
+  .loopsub b{ color:#fff; }
+  .loophand{ font-size:12.5px; font-weight:800; color:var(--green); margin:16px auto 0; max-width:300px; line-height:1.4; }
+  .loophand b{ color:#fff; }
+  .loopdiv{ height:1px; background:linear-gradient(90deg,transparent,#2e2e2e 50%,transparent); margin:14px 0 0; }
   svg{ display:block; }
 </style>
 </head>
@@ -149,16 +142,10 @@
           Spotify</span></div>
         <h1 style="margin:6px 0 14px">Good evening</h1>
         <div class="grid2" id="home-quick"></div>
-        <div class="insight" onclick="goNewMusic('All')">
-          <div class="k">✦ LINER NOTES · YOUR LISTENING</div>
-          <h3>You're on repeat</h3>
-          <p id="home-loopstat">6 tracks made up 78% of your listening this month. Time to break out?</p>
-          <span class="cta">Break the loop →</span>
-        </div>
         <div class="hero" onclick="goNewMusic('All')">
           <span class="badge">✦ LINER NOTES</span>
-          <h3>New Music for You</h3>
-          <p>Not just served — introduced. Each pick comes with the story of why you'll love it.</p>
+          <h3>You're on repeat — break out</h3>
+          <p id="home-loopstat">6 tracks are 78% of your month. Open New Music: songs you've never heard, each introduced with the story of why you'll love it.</p>
           <div class="go"><svg width="16" height="16" viewBox="0 0 16 16"><path d="M4 2l9 6-9 6z" fill="#1DB954"/></svg></div>
         </div>
         <h2>Made for you</h2>
@@ -168,20 +155,15 @@
       <div class="screen" id="search">
         <h1>Search</h1>
         <div class="searchbar"><svg width="20" height="20" viewBox="0 0 20 20"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="#121212" stroke-width="2"/><line x1="13" y1="13" x2="18" y2="18" stroke="#121212" stroke-width="2" stroke-linecap="round"/></svg>Artists, songs, or podcasts</div>
-        <div class="hero" style="margin-top:18px" onclick="goNewMusic('All')">
-          <span class="badge">✦ DISCOVERY</span>
-          <h3>New Music for You</h3>
-          <p>Songs you've never heard — each introduced with a reason to press play.</p>
-          <div class="go"><svg width="16" height="16" viewBox="0 0 16 16"><path d="M4 2l9 6-9 6z" fill="#1DB954"/></svg></div>
-        </div>
         <h2>Browse by your taste</h2>
+        <div class="sub" style="margin:-4px 0 12px">Pick a genre to open <b style="color:#fff">New Music</b> for it</div>
         <div class="gtiles" id="search-genres"></div>
       </div>
       <!-- NEW MUSIC -->
       <div class="screen" id="newmusic">
-        <h1 style="margin:14px 0 2px">New Music</h1>
-        <div class="sub" id="nm-sub">Introduced for your taste</div>
+        <div class="nm-eyebrow">✦ LINER NOTES · NEW MUSIC</div>
         <div class="loopctx" id="loopctx"></div>
+        <div class="loopdiv"></div>
         <div class="chips">
           <button class="chip green" onclick="weirder(this)">✦ Weirder</button>
           <button class="chip" onclick="openSheet()">🎚 Different genre</button>
@@ -210,6 +192,7 @@
       <!-- bottom nav -->
       <div class="nav">
         <div class="item active" id="nav-home" onclick="showScreen('home')"><svg width="23" height="23" viewBox="0 0 24 24"><path d="M12 3l9 8h-2.5v9h-5v-6h-3v6h-5v-9H3z" fill="currentColor"/></svg>Home</div>
+        <div class="item" id="nav-newmusic" onclick="goNewMusic('All')"><svg width="23" height="23" viewBox="0 0 24 24"><path d="M12 2l2.3 6.4L21 10.7l-6.7 2.3L12 19l-2.3-5.9L3 10.7l6.7-2.3z" fill="currentColor"/></svg>New Music</div>
         <div class="item" id="nav-search" onclick="showScreen('search')"><svg width="23" height="23" viewBox="0 0 24 24"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="2.2"/><line x1="15" y1="15" x2="21" y2="21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>Search</div>
         <div class="item" id="nav-library" onclick="showScreen('library')"><svg width="23" height="23" viewBox="0 0 24 24"><path d="M4 4h2v16H4zM8 4h2v16H8zM13 4l6 1.5-3.5 14.5-6-1.5z" fill="currentColor"/></svg>Library</div>
       </div>
@@ -218,7 +201,7 @@
     <div class="sheet" id="sheet"><div class="grab"></div><h3>Genres you love</h3><div class="sub" style="margin-bottom:8px">Tap to filter your new music</div><div id="sheet-list"></div></div>
     <div class="toast" id="toast"></div>
   </div>
-  <div class="caption"><b>Spotify · Liner Notes — clickable MVP.</b><br>Tap <b>New Music for You</b> (Home / Search) → play, save, <b>Save all</b>, or <b>Different genre</b>. Album art is procedurally generated; stories are real AI output.</div>
+  <div class="caption"><b>Spotify · Liner Notes — clickable MVP.</b><br>Open the <b>New Music</b> tab → see your loop, then play, save, <b>Save all</b>, or pick a <b>Different genre</b>. Album art is procedurally generated; stories are real AI output.</div>
 </div>
 
 <script>
@@ -496,8 +479,8 @@ function key(s){ return s.artist+"|"+s.track; }
 function showScreen(id){
   document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
-  ['home','search','library'].forEach(n=>document.getElementById('nav-'+n).classList.remove('active'));
-  const nm={home:'home',search:'search',newmusic:'search',library:'library'};
+  ['home','newmusic','search','library'].forEach(n=>document.getElementById('nav-'+n).classList.remove('active'));
+  const nm={home:'home',newmusic:'newmusic',search:'search',library:'library'};
   document.getElementById('nav-'+nm[id]).classList.add('active');
   document.getElementById(id).scrollTop=0;
 }
@@ -521,19 +504,23 @@ function songCard(s, idx, isBreak){
 function heartSvg(f){ return `<svg width="22" height="22" viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.5 8 2 4 5.5 4 8 4 9 6 12 6s3-2 6.5-2C22 4 23.5 8 21.5 12 19 16.5 12 21 12 21z" fill="${f?'#1DB954':'none'}" stroke="${f?'#1DB954':'#b3b3b3'}" stroke-width="2"/></svg>`; }
 function visibleSongs(){ return LINER_DATA.songs.filter(s=>CUR_GENRE==="All"||s.genre===CUR_GENRE); }
 function loopStrip(){
-  const covers=FAMILIAR.slice(0,6).map(s=>`<div class="lcart">${cover(s)}</div>`).join("");
-  return `<div class="lchead">🔁 You're on repeat</div>
-    <div class="lcsub">These 6 tracks are <b>78% of your listening</b> this month — you've heard them all.</div>
-    <div class="lcrow">${covers}</div>
-    <div class="lcgo">↓ Here's what's new — woven into your taste</div>`;
+  const covers=FAMILIAR.slice(0,6).map((s,i)=>`<div class="lcover" style="z-index:${6-i}">${cover(s)}</div>`).join("");
+  return `<div class="loopstack">${covers}</div>
+    <div class="loophead">You're on repeat</div>
+    <div class="loopsub">These <b>6 tracks</b> are <b>78% of your listening</b> this month — you know every word.</div>
+    <div class="loophand">↓ Here are <b>${LINER_DATA.songs.length} ways out</b>, each introduced for your taste</div>`;
 }
 function renderNewMusic(){
   const list=visibleSongs();
   const lc=document.getElementById('loopctx');
-  if(CUR_GENRE==="All"){ lc.style.display="block"; lc.innerHTML=loopStrip(); } else { lc.style.display="none"; lc.innerHTML=""; }
+  if(CUR_GENRE==="All"){
+    lc.innerHTML=loopStrip();
+  } else {
+    lc.innerHTML=`<div class="loophead" style="font-size:20px">New in ${CUR_GENRE}</div>
+      <div class="loopsub">Songs you've never heard — each introduced for your <b>${LINER_DATA.taste}</b> taste.</div>`;
+  }
   document.getElementById('nm-list').innerHTML=list.map((s,i)=>songCard(s, LINER_DATA.songs.indexOf(s), i===0 && CUR_GENRE==="All")).join("");
   document.getElementById('nm-filter').textContent=(CUR_GENRE==="All"?"All genres you love":CUR_GENRE)+` · ${list.length} fresh picks`;
-  document.getElementById('nm-sub').textContent="Introduced for your taste · "+LINER_DATA.taste;
 }
 function toggleSave(idx,btn){ const s=LINER_DATA.songs[idx],k=key(s);
   if(SAVED.has(k)){ SAVED.delete(k); btn.innerHTML=heartSvg(false); } else { SAVED.add(k); btn.innerHTML=heartSvg(true); toast("Saved to Your Library"); }
@@ -573,29 +560,6 @@ const FAMILIAR=[
  {artist:"boy pablo",track:"Everytime",genre:"Indie",origin:"",len:"3:11"},
  {artist:"Clairo",track:"Bags",genre:"Indie",origin:"",len:"4:21"},
 ];
-function openLoop(){ renderPlaylist(); showScreen('playlist'); }
-function famRow(s){ return `<div class="plrow fam"><div class="art" style="width:46px;height:46px;border-radius:5px;flex:0 0 46px">${cover(s)}</div>
-  <div style="flex:1;min-width:0"><div style="font-size:14px;font-weight:600">${s.track}</div><div style="font-size:11.5px;color:#b3b3b3">${s.artist} · ${s.len}</div></div>
-  <svg width="20" height="20" viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.5 8 2 4 5.5 4 8 4 9 6 12 6s3-2 6.5-2C22 4 23.5 8 21.5 12 19 16.5 12 21 12 21z" fill="#1DB954"/></svg></div>`; }
-function renderPlaylist(){
-  const inj=LINER_DATA.songs[0];
-  document.getElementById('pl-art').innerHTML=cover(FAMILIAR[0]);
-  document.getElementById('pl-stat').innerHTML=`<b>You've played these 6 tracks 78% of the time this month.</b> Comfortable — but you've heard them all. So we wove in <b>one new track for this exact vibe</b>, with a reason to try it.`;
-  let html="";
-  FAMILIAR.slice(0,2).forEach(s=>html+=famRow(s));
-  html+=`<div class="song injcard">${artDiv(inj)}
-    <div class="mid" onclick="play(0)" style="cursor:pointer">
-      <span class="injtag">✦ BREAK THE LOOP · NEW FOR YOU</span>
-      <div class="tt">${inj.artist} — ${inj.track}</div>
-      <div class="meta">${inj.genre} · ${inj.origin} · ${inj.len}</div>
-      <div class="story">${inj.story}</div>
-      <div class="trust" style="color:${TRUSTCOLOR[inj.trust.type]}">${TRUSTICON[inj.trust.type]} ${inj.trust.label}</div>
-    </div>
-    <div class="acts"><button class="iconbtn" onclick="toggleSave(0,this)">${heartSvg(SAVED.has(key(inj)))}</button>
-    <div class="playbtn" onclick="play(0)"><svg width="14" height="14" viewBox="0 0 16 16"><path d="M4 2l9 6-9 6z" fill="#000"/></svg></div></div></div>`;
-  FAMILIAR.slice(2).forEach(s=>html+=famRow(s));
-  document.getElementById('pl-list').innerHTML=html;
-}
 function init(){
   document.getElementById('home-quick').innerHTML=LINER_DATA.songs.slice(0,6).map(s=>`<div class="qcard" onclick="goNewMusic('All')">${artDiv(s)}<span>${s.genre}</span></div>`).join("");
   document.getElementById('home-row').innerHTML=LINER_DATA.songs.slice(6,12).map(s=>`<div class="tile" onclick="goNewMusic('All')">${artDiv(s,'border-radius:8px;width:144px;height:144px')}<div class="t">${s.track}</div><div class="d">${s.artist}</div></div>`).join("");
